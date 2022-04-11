@@ -1,0 +1,91 @@
+00:56:07 [INFO] Using mbed TLS based native cipher.
+00:56:07 [INFO] Using zlib based native compressor.
+00:56:07 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:862bb2a:1636
+00:56:07 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:56:07 [INFO] Epoll is working, utilising it!
+00:56:07 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:56:07 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:07 [INFO] Attempting to Jenkins download module cmd_alert v1636
+00:56:09 [INFO] Download complete
+00:56:09 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:09 [INFO] Attempting to Jenkins download module cmd_find v1636
+00:56:10 [INFO] Download complete
+00:56:10 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:10 [INFO] Attempting to Jenkins download module cmd_list v1636
+00:56:10 [INFO] Download complete
+00:56:10 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:10 [INFO] Attempting to Jenkins download module cmd_send v1636
+00:56:11 [INFO] Download complete
+00:56:11 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:11 [INFO] Attempting to Jenkins download module cmd_server v1636
+00:56:12 [INFO] Download complete
+00:56:12 [INFO] Attempting to update plugin from null to ModuleVersion(build=1636, git=862bb2a)
+00:56:12 [INFO] Attempting to Jenkins download module reconnect_yaml v1636
+00:56:13 [INFO] Download complete
+00:56:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [WARNING] Forced host server pvp is not defined
+00:56:13 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+00:56:13 [INFO] Listening on /0.0.0.0:25577
+00:56:32 [INFO] Closing listener [id: 0x9c954d3e, L:/0:0:0:0:0:0:0:0%0:25577]
+00:56:32 [INFO] Closing pending connections
+00:56:32 [INFO] Disconnecting 0 connections
+00:56:32 [INFO] Saving reconnect locations
+00:56:32 [INFO] Disabling plugins
+00:56:32 [INFO] Closing IO threads
+01:17:09 [INFO] Using mbed TLS based native cipher.
+01:17:09 [INFO] Using zlib based native compressor.
+01:17:09 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:862bb2a:1636
+01:17:09 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+01:17:09 [INFO] Epoll is working, utilising it!
+01:17:09 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+01:17:09 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [WARNING] Forced host server pvp is not defined
+01:17:09 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+01:17:09 [INFO] Listening on /0.0.0.0:25565
+01:17:48 [INFO] [/192.168.136.1:60875] <-> InitialHandler has connected
+01:17:50 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:18:03 [INFO] [t2o0n321] <-> ServerConnector [CTFd] has connected
+01:18:03 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:18:16 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:18:16 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd] has disconnected
+01:18:21 [INFO] [/192.168.136.1:60904] <-> InitialHandler has pinged
+01:18:23 [INFO] [/192.168.136.1:60906] <-> InitialHandler has connected
+01:18:23 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:18:28 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:18:28 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:18:34 [INFO] [/192.168.136.1:60916] <-> InitialHandler has pinged
+01:20:34 [INFO] Closing listener [id: 0x0098ce1b, L:/0:0:0:0:0:0:0:0%0:25565]
+01:20:34 [INFO] Closing pending connections
+01:20:34 [INFO] Disconnecting 0 connections
+01:20:35 [INFO] Disabling plugins
+01:20:35 [INFO] Closing IO threads
