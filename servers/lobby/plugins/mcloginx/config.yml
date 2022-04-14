@@ -1,0 +1,10 @@
+name: 'mcloginx'
+
+# authServer url
+authUrl: "http://10.1.1.80:9999/auth"
+
+# jwt key
+jwt_key: "nenenohusbandcollection"
+
+# exp in minutes
+jwt_exp_time: 60

@@ -1,0 +1,14 @@
+# authServer URL
+authServer: "http://10.1.1.80:9999/auth/"
+# JWT key
+jwt_key: "nenenohusbandcollection"
+
+# Team info
+# ------------------ #
+# Format             #
+# ------------------ #
+# teamName:          #
+#   CTFd_Name: "..." #
+# ------------------ #
+team1:
+  CTFd_Name: CTFd1

@@ -1,0 +1,13 @@
+# File structure
+# ----------------------------------- #
+# Account(PlayerName):                #
+#   Team: 'Team Name'                 #
+#   Password: 'password'              #
+# ----------------------------------- #
+
+t2o0n321:
+  Team: team1
+  Password: 1qaz2wsx
+Jack123F1:
+  Team: team2
+  Password: '456852'
