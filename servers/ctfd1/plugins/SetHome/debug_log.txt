@@ -44,3 +44,131 @@ world: world
 Player t2o0n321 teleported to home a. Location: Location{world=CraftWorld{name=world},x=-717.2122330375661,y=22.0,z=530.1868352074002,pitch=0.0,yaw=0.0}
 delhome args: a
 world: world
+Server stopping...
+[13-04-2022 15:29:52] Plugin stopped.
+[13-04-2022 20:06:58] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[13-04-2022 20:06:58] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[13-04-2022 20:06:58] Succesfully started SetHome v1.21.2
+==================================
+config test: MemorySection[path='players.homes.356f9c6b-88e9-48e2-a9e3-5b657d8571e8', root='YamlConfiguration']
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
+Home name: a
+X: -756.5300362172545
+Y: 22.0
+Z: 531.5523179094263
+world: world
+[13-04-2022 20:07:13] Successfully was able to save home to config.
+Player t2o0n321 teleported to home a. Location: Location{world=CraftWorld{name=world},x=-756.5300362172545,y=22.0,z=531.5523179094263,pitch=0.0,yaw=0.0}
+delhome args: a
+world: world
+==================================
+config test: MemorySection[path='players.homes.356f9c6b-88e9-48e2-a9e3-5b657d8571e8', root='YamlConfiguration']
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
+Home name: test
+X: -754.2112744885792
+Y: 22.5
+Z: 513.4965565189788
+world: world
+[13-04-2022 20:07:13] Successfully was able to save home to config.
+Player t2o0n321 teleported to home test. Location: Location{world=CraftWorld{name=world},x=-754.2112744885792,y=22.5,z=513.4965565189788,pitch=0.0,yaw=0.0}
+==================================
+Player ran the command /homes.
+==================================
+config test: MemorySection[path='players.homes.356f9c6b-88e9-48e2-a9e3-5b657d8571e8', root='YamlConfiguration']
+i: 2
+Player has permission homes.2
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
+Home name: a
+X: -758.0979216835852
+Y: 22.0
+Z: 511.35202455770457
+world: world
+[13-04-2022 20:07:13] Successfully was able to save home to config.
+==================================
+Player ran the command /homes.
+==================================
+Player ran the command /homes.
+delhome args: a
+world: world
+==================================
+Player ran the command /homes.
+==================================
+config test: MemorySection[path='players.homes.356f9c6b-88e9-48e2-a9e3-5b657d8571e8', root='YamlConfiguration']
+i: 2
+Player has permission homes.2
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
+Home name: a
+X: -754.012516790419
+Y: 22.5
+Z: 535.1698990215073
+world: world
+[13-04-2022 20:07:13] Successfully was able to save home to config.
+Player t2o0n321 teleported to home a. Location: Location{world=CraftWorld{name=world},x=-754.012516790419,y=22.5,z=535.1698990215073,pitch=0.0,yaw=0.0}
+==================================
+config test: MemorySection[path='players.homes.356f9c6b-88e9-48e2-a9e3-5b657d8571e8', root='YamlConfiguration']
+i: 2
+Player has permission homes.2
+i: 3
+Player has permission homes.3
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
+Home name: b
+X: -755.6277147538455
+Y: 22.5
+Z: 539.7608708149352
+world: world
+[13-04-2022 20:07:13] Successfully was able to save home to config.
+==================================
+Player ran the command /homes.
+==================================
+Player ran the command /homes.
+==================================
+Player ran the command /homes.
+delhome args: a
+world: world
+==================================
+Player ran the command /homes.
+==================================
+Player ran the command /homes.
+Server stopping...
+[13-04-2022 20:06:58] Plugin stopped.
+[18-04-2022 00:33:29] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[18-04-2022 00:33:29] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[18-04-2022 00:33:29] Succesfully started SetHome v1.21.2
+Server stopping...
+[18-04-2022 00:33:29] Plugin stopped.

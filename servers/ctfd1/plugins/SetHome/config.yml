@@ -1,4 +1,14 @@
 log-items: true
 players:
   homes:
-    356f9c6b-88e9-48e2-a9e3-5b657d8571e8: {}
+    356f9c6b-88e9-48e2-a9e3-5b657d8571e8:
+      test:
+        x: -754.2112744885792
+        y: 22.5
+        z: 513.4965565189788
+        world: world
+      b:
+        x: -755.6277147538455
+        y: 22.5
+        z: 539.7608708149352
+        world: world

@@ -2158,3 +2158,1082 @@ expected <block end>, but found '<anchor>'
 18:11:29 [INFO] §f§a[warp] Plugin enabled !
 18:11:29 [INFO] Enabled plugin warp version 1.0.0 by t2o0n321
 18:11:30 [INFO] Listening on /0.0.0.0:25565
+18:21:58 [INFO] [/10.0.0.2:60015] <-> InitialHandler has connected
+18:21:58 [INFO] [/10.0.0.2:60014] <-> InitialHandler has pinged
+18:22:00 [SEVERE] Error authenticating t2o0n321 with minecraft.net
+io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+20:03:07 [INFO] [/10.0.0.2:59171] <-> InitialHandler has pinged
+20:03:07 [INFO] [t2o0n321,/10.0.0.2:59173] <-> InitialHandler has connected
+20:03:13 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:03:24 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:03:25 [WARNING] Error in dispatching command
+java.lang.NullPointerException: info
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:252)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:209)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:191)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:62)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+20:03:37 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:03:37 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:03:56 [INFO] [/10.0.0.2:59209] <-> InitialHandler has pinged
+20:04:34 [INFO] [t2o0n321,/10.0.0.2:59247] <-> InitialHandler has connected
+20:04:34 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:04:44 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:04:44 [WARNING] Error in dispatching command
+java.lang.NullPointerException: info
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:252)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:209)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:191)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:62)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+20:05:53 [INFO] Closing listener [id: 0x98e77212, L:/0:0:0:0:0:0:0:0%0:25565]
+20:05:53 [INFO] Closing pending connections
+20:05:53 [INFO] Disconnecting 1 connections
+20:05:53 [INFO] [t2o0n321] disconnected with: §f[Proxy] Proxy restarting.
+20:05:53 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:05:53 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:05:54 [INFO] Disabling plugins
+20:05:54 [INFO] §f§c[warp] Plugin disabled !
+20:05:54 [INFO] Closing IO threads
+20:06:21 [INFO] Using mbed TLS based native cipher.
+20:06:21 [INFO] Using zlib based native compressor.
+20:06:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:862bb2a:1636
+20:06:21 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+20:06:21 [INFO] Epoll is working, utilising it!
+20:06:21 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:06:21 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Loaded plugin warp version 1.0.0 by t2o0n321
+20:06:21 [WARNING] Forced host server pvp is not defined
+20:06:21 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:06:21 [INFO] §f§a[warp] Plugin enabled !
+20:06:21 [INFO] Enabled plugin warp version 1.0.0 by t2o0n321
+20:06:21 [INFO] Listening on /0.0.0.0:25565
+20:07:40 [INFO] [/10.0.0.2:59379] <-> InitialHandler has connected
+20:07:41 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:08:02 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:08:02 [WARNING] Error in dispatching command
+java.lang.NullPointerException: info
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:252)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:209)
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:191)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:62)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+20:09:10 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:09:10 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:09:29 [INFO] [/10.0.0.2:59458] <-> InitialHandler has pinged
+20:14:03 [INFO] Closing listener [id: 0xbf3717db, L:/0:0:0:0:0:0:0:0%0:25565]
+20:14:03 [INFO] Closing pending connections
+20:14:03 [INFO] Disconnecting 0 connections
+20:14:04 [INFO] Disabling plugins
+20:14:04 [INFO] §f§c[warp] Plugin disabled !
+20:14:04 [INFO] Closing IO threads
+20:14:13 [INFO] Using mbed TLS based native cipher.
+20:14:13 [INFO] Using zlib based native compressor.
+20:14:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:862bb2a:1636
+20:14:13 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+20:14:13 [INFO] Epoll is working, utilising it!
+20:14:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:14:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:13 [INFO] Loaded plugin warp version 1.0.0 by t2o0n321
+20:14:14 [WARNING] Forced host server pvp is not defined
+20:14:14 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:14:14 [INFO] §f§a[warp] Plugin enabled !
+20:14:14 [INFO] Enabled plugin warp version 1.0.0 by t2o0n321
+20:14:14 [INFO] Listening on /0.0.0.0:25565
+20:14:36 [INFO] [/10.0.0.2:61743] <-> InitialHandler has connected
+20:14:36 [INFO] [/10.0.0.2:61744] <-> InitialHandler has pinged
+20:14:37 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:14:46 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:14:47 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+20:14:47 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:15:00 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:15:00 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:15:00 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+20:16:08 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:16:08 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+20:16:08 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:17:37 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:17:37 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+20:17:56 [INFO] [t2o0n321,/10.0.0.2:61905] <-> InitialHandler has connected
+20:17:56 [INFO] [/10.0.0.2:61904] <-> InitialHandler has pinged
+20:17:57 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:18:14 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:18:14 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+20:18:14 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:25:44 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:25:44 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+20:26:03 [INFO] [/10.0.0.2:62246] <-> InitialHandler has pinged
+22:10:49 [INFO] [/10.0.0.2:52391] <-> InitialHandler has pinged
+22:11:04 [INFO] [t2o0n321,/10.0.0.2:52431] <-> InitialHandler has connected
+22:11:07 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+22:12:14 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+22:12:14 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+22:12:14 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+22:16:06 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+22:16:06 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+22:16:25 [INFO] [/10.0.0.2:54346] <-> InitialHandler has pinged
+21:25:07 [INFO] [t2o0n321,/10.0.0.2:64557] <-> InitialHandler has connected
+21:25:07 [INFO] [/10.0.0.2:64558] <-> InitialHandler has pinged
+21:25:09 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+21:25:32 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+21:25:32 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+21:25:32 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+21:26:02 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+21:26:02 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+21:26:02 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+21:27:22 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+21:27:22 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+21:27:22 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+21:31:40 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+21:31:40 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+22:10:19 [INFO] [/10.0.0.2:50271] <-> InitialHandler has pinged
+22:10:19 [INFO] [/10.0.0.2:50273] <-> InitialHandler has pinged
+22:10:25 [INFO] [t2o0n321,/10.0.0.2:50278] <-> InitialHandler has connected
+22:10:27 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+22:11:44 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+22:11:44 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+22:11:44 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+00:23:03 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+00:23:03 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+01:33:07 [INFO] [t2o0n321,/10.0.5.95:56281] <-> InitialHandler has connected
+01:33:08 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:33:45 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+01:33:45 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+01:33:45 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:34:31 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:34:31 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+01:34:31 [INFO] [/10.0.5.95:56354] <-> InitialHandler has pinged
+20:39:25 [INFO] Closing listener [id: 0x8182970a, L:/0:0:0:0:0:0:0:0%0:25565]
+20:39:25 [INFO] Closing pending connections
+20:39:25 [INFO] Disconnecting 0 connections
+20:39:25 [INFO] Disabling plugins
+20:39:25 [INFO] §f§c[warp] Plugin disabled !
+20:39:25 [INFO] Closing IO threads
+20:39:36 [INFO] Using mbed TLS based native cipher.
+20:39:36 [INFO] Using zlib based native compressor.
+20:39:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:862bb2a:1636
+20:39:36 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+20:39:36 [INFO] Epoll is working, utilising it!
+20:39:36 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+20:39:36 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+20:39:36 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+20:39:36 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+20:39:36 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+20:39:36 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:39:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Loaded plugin warp version 1.0.0 by t2o0n321
+20:39:37 [WARNING] Forced host server pvp is not defined
+20:39:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:862bb2a:1636 by SpigotMC
+20:39:37 [INFO] §f§a[warp] Plugin enabled !
+20:39:37 [INFO] Enabled plugin warp version 1.0.0 by t2o0n321
+20:39:37 [INFO] Listening on /0.0.0.0:25565
+20:41:47 [INFO] [/10.1.2.3:52133] <-> InitialHandler has connected
+20:41:47 [INFO] [/10.1.2.3:52135] <-> InitialHandler has pinged
+20:41:49 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:42:19 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+20:42:19 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+20:42:19 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:42:31 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+20:42:31 [WARNING] Error dispatching event PlayerDisconnectEvent(player=t2o0n321) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+20:42:31 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:42:31 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+20:42:37 [INFO] [/10.1.2.3:52177] <-> InitialHandler has pinged
+20:42:49 [INFO] [t2o0n321,/10.1.2.3:52186] <-> InitialHandler has connected
+20:42:49 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+20:43:48 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+20:43:48 [WARNING] Error dispatching event PlayerDisconnectEvent(player=t2o0n321) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+20:43:48 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+20:43:48 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+20:43:54 [INFO] [/10.1.2.3:52326] <-> InitialHandler has pinged
+00:14:39 [INFO] [happy411509,/10.0.0.2:10777] <-> InitialHandler has connected
+00:14:41 [INFO] [happy411509] <-> ServerConnector [lobby] has connected
+00:48:14 [INFO] [Jack123F1,/10.0.0.2:1078] <-> InitialHandler has connected
+00:48:16 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+00:48:19 [INFO] [Jack123F1,/10.0.0.2:6639] <-> InitialHandler has connected
+00:48:20 [INFO] [/10.0.0.2:6640] <-> InitialHandler has pinged
+00:48:20 [INFO] [Jack123F1] disconnected with: §cYou are already connected to this proxy!
+00:48:20 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+00:48:20 [WARNING] Error dispatching event PlayerDisconnectEvent(player=Jack123F1) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+00:48:20 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+00:48:20 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+00:48:20 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+01:10:01 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+01:10:01 [WARNING] Error dispatching event PlayerDisconnectEvent(player=Jack123F1) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:10:01 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+01:10:01 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+01:10:08 [INFO] [/10.0.0.2:7997] <-> InitialHandler has pinged
+01:12:58 [INFO] [Jack123F1,/10.0.0.2:8120] <-> InitialHandler has connected
+01:12:58 [INFO] [/10.0.0.2:8122] <-> InitialHandler has pinged
+01:12:58 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+01:26:27 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+01:26:27 [WARNING] Error dispatching event PlayerDisconnectEvent(player=Jack123F1) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:26:27 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+01:26:27 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+01:26:33 [INFO] [Jack123F1,/10.0.0.2:1504] <-> InitialHandler has connected
+01:26:33 [INFO] [/10.0.0.2:1506] <-> InitialHandler has pinged
+01:26:35 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+01:29:08 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+01:29:08 [WARNING] Error dispatching event PlayerDisconnectEvent(player=Jack123F1) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:29:08 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+01:29:08 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+01:29:15 [INFO] [/10.0.0.2:31933] <-> InitialHandler has pinged
+01:29:16 [INFO] [Jack123F1,/10.0.0.2:31934] <-> InitialHandler has connected
+01:29:23 [INFO] [Jack123F1,/10.0.0.2:31939] <-> InitialHandler has connected
+01:29:42 [INFO] [Jack123F1,/10.0.0.2:31960] <-> InitialHandler has connected
+01:32:58 [INFO] [/10.0.0.2:4736] <-> InitialHandler has pinged
+01:37:01 [INFO] [Jack123F1,/10.0.0.2:4902] <-> InitialHandler has connected
+01:37:03 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/happy411509/rmtoken ...
+01:37:03 [WARNING] Error dispatching event PlayerDisconnectEvent(player=happy411509) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:37:03 [INFO] [happy411509] -> UpstreamBridge has disconnected
+01:37:03 [INFO] [happy411509] <-> DownstreamBridge <-> [lobby] has disconnected
+01:37:03 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+01:37:12 [INFO] [/10.0.0.2:13288] <-> InitialHandler has connected
+01:37:13 [INFO] [happy411509] <-> ServerConnector [lobby] has connected
+01:37:16 [INFO] [/10.0.0.2:13290] <-> InitialHandler has pinged
+01:39:44 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+01:39:44 [INFO] [Jack123F1] <-> ServerConnector [CTFd1] has connected
+01:39:44 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+01:44:36 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+01:44:36 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+01:44:37 [INFO] [Jack123F1] <-> DownstreamBridge <-> [CTFd1] has disconnected
+01:45:17 [INFO] [t2o0n321,/10.0.0.2:61501] <-> InitialHandler has connected
+01:45:17 [INFO] [/10.0.0.2:61502] <-> InitialHandler has pinged
+01:45:19 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:49:06 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+01:49:06 [WARNING] Error dispatching event PlayerDisconnectEvent(player=t2o0n321) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:49:06 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:49:06 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:49:25 [INFO] [/10.0.0.2:61665] <-> InitialHandler has pinged
+01:52:41 [INFO] [t2o0n321,/10.0.0.2:61801] <-> InitialHandler has connected
+01:52:46 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:53:32 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+01:53:32 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+01:53:32 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:53:41 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+01:53:41 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:53:41 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+01:53:43 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/happy411509/rmtoken ...
+01:53:43 [WARNING] Error dispatching event PlayerDisconnectEvent(player=happy411509) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:53:43 [INFO] [happy411509] -> UpstreamBridge has disconnected
+01:53:43 [INFO] [happy411509] <-> DownstreamBridge <-> [lobby] has disconnected
+01:53:47 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+01:53:47 [WARNING] Error dispatching event PlayerDisconnectEvent(player=t2o0n321) to listener com.t2o0n321.warp.events.userLeaveHandler@5049d8b2
+org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:507)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:414)
+	at com.t2o0n321.warp.network.netRequest.get(netRequest.java:35)
+	at com.t2o0n321.warp.events.userLeaveHandler.onPlayerDisconnect(userLeaveHandler.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:64)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:389)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:354)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:241)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:262)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:248)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:831)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:384)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+01:53:47 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:53:47 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:53:56 [INFO] [/10.0.0.2:8040] <-> InitialHandler has pinged
+01:54:05 [INFO] [/10.0.0.2:61858] <-> InitialHandler has pinged
+01:55:21 [INFO] [/10.0.0.2:3156] <-> InitialHandler has pinged
+01:57:51 [INFO] [t2o0n321,/10.0.0.2:62101] <-> InitialHandler has connected
+01:57:52 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+01:58:13 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+01:58:13 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+01:58:13 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+01:58:32 [INFO] [/10.0.0.2:62132] <-> InitialHandler has pinged
+02:00:04 [INFO] [t2o0n321,/10.0.0.2:62218] <-> InitialHandler has connected
+02:00:04 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+02:00:47 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+02:00:47 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+02:00:47 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+02:01:06 [INFO] [/10.0.0.2:62265] <-> InitialHandler has pinged
+02:01:06 [INFO] [t2o0n321,/10.0.0.2:62266] <-> InitialHandler has connected
+02:01:07 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+02:06:09 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+02:06:09 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+02:06:09 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+02:06:28 [INFO] [/10.0.0.2:62565] <-> InitialHandler has pinged
+02:06:28 [INFO] [t2o0n321,/10.0.0.2:62564] <-> InitialHandler has connected
+02:06:29 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+02:12:30 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+02:12:30 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+02:12:30 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+02:12:49 [INFO] [/10.0.0.2:62811] <-> InitialHandler has pinged
+02:13:09 [INFO] [t2o0n321,/10.0.0.2:62830] <-> InitialHandler has connected
+02:13:10 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+02:16:03 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+02:16:03 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+02:16:03 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+03:48:34 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+03:48:34 [WARNING] Error in dispatching command
+org.json.JSONException: JSONObject["token"] not found.
+	at org.json.JSONObject.get(JSONObject.java:580)
+	at org.json.JSONObject.getString(JSONObject.java:867)
+	at com.t2o0n321.warp.utils.auth.JsonWebToken.verify(JsonWebToken.java:31)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:41)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+03:50:00 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+03:50:00 [WARNING] Error in dispatching command
+org.json.JSONException: JSONObject["token"] not found.
+	at org.json.JSONObject.get(JSONObject.java:580)
+	at org.json.JSONObject.getString(JSONObject.java:867)
+	at com.t2o0n321.warp.utils.auth.JsonWebToken.verify(JsonWebToken.java:31)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:41)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+03:50:38 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+03:50:38 [WARNING] Error in dispatching command
+org.json.JSONException: JSONObject["token"] not found.
+	at org.json.JSONObject.get(JSONObject.java:580)
+	at org.json.JSONObject.getString(JSONObject.java:867)
+	at com.t2o0n321.warp.utils.auth.JsonWebToken.verify(JsonWebToken.java:31)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:41)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+03:50:57 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+03:50:57 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+03:50:57 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+03:51:16 [INFO] [Jack123F1,/10.0.0.2:4542] <-> InitialHandler has connected
+03:51:16 [INFO] [/10.0.0.2:4543] <-> InitialHandler has pinged
+03:51:17 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+03:51:45 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+03:51:45 [INFO] [Jack123F1] <-> ServerConnector [CTFd1] has connected
+03:51:46 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+03:56:59 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+03:56:59 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+03:56:59 [INFO] [Jack123F1] <-> DownstreamBridge <-> [CTFd1] has disconnected
+03:58:23 [INFO] [/10.0.0.2:24128] <-> InitialHandler has pinged
+03:58:23 [INFO] [Jack123F1,/10.0.0.2:24129] <-> InitialHandler has connected
+03:58:23 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+03:58:44 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+03:58:44 [INFO] [Jack123F1] <-> ServerConnector [CTFd1] has connected
+03:58:44 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+04:00:37 [INFO] [/10.0.0.2:50314] <-> InitialHandler has pinged
+04:00:37 [INFO] [t2o0n321,/10.0.0.2:50312] <-> InitialHandler has connected
+04:00:39 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+04:00:48 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+04:00:48 [WARNING] Error in dispatching command
+org.json.JSONException: JSONObject["token"] not found.
+	at org.json.JSONObject.get(JSONObject.java:580)
+	at org.json.JSONObject.getString(JSONObject.java:867)
+	at com.t2o0n321.warp.utils.auth.JsonWebToken.verify(JsonWebToken.java:31)
+	at com.t2o0n321.warp.commands.newWarpCmd.execute(newWarpCmd.java:41)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:207)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:157)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:162)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:71)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+04:01:03 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+04:01:03 [INFO] [t2o0n321] <-> ServerConnector [CTFd1] has connected
+04:01:03 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+04:02:46 [INFO] [/10.1.2.3:5686] <-> InitialHandler has pinged
+04:03:19 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1 ...
+04:03:19 [INFO] [Jack123F1] <-> ServerConnector [lobby] has connected
+04:03:19 [INFO] [Jack123F1] <-> DownstreamBridge <-> [CTFd1] has disconnected
+04:03:33 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321 ...
+04:03:33 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+04:03:33 [INFO] [t2o0n321] <-> DownstreamBridge <-> [CTFd1] has disconnected
+04:04:29 [INFO] [t2o0n321] disconnected with: §f§fKicked by an operator
+04:04:29 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+04:04:29 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+04:04:29 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+04:04:35 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/Jack123F1/rmtoken ...
+04:04:35 [INFO] [Jack123F1] -> UpstreamBridge has disconnected
+04:04:35 [INFO] [Jack123F1] <-> DownstreamBridge <-> [lobby] has disconnected
+04:04:50 [INFO] [t2o0n321,/10.0.0.2:50557] <-> InitialHandler has connected
+04:04:51 [INFO] [t2o0n321] <-> ServerConnector [lobby] has connected
+04:07:19 [INFO] §f§8[warp] Requesting http://10.1.1.80:9999/auth/t2o0n321/rmtoken ...
+04:07:19 [INFO] [t2o0n321] -> UpstreamBridge has disconnected
+04:07:19 [INFO] [t2o0n321] <-> DownstreamBridge <-> [lobby] has disconnected
+04:07:38 [INFO] [/10.0.0.2:50651] <-> InitialHandler has pinged
+04:14:25 [INFO] [/10.0.0.2:27526] <-> InitialHandler has pinged
+04:15:33 [INFO] [/10.1.2.3:11122] <-> InitialHandler has pinged
+04:51:10 [INFO] [happy411509,/10.1.2.3:13452] <-> InitialHandler has connected
+04:51:22 [INFO] [happy411509,/10.1.2.3:13460] <-> InitialHandler has connected
+05:04:28 [INFO] Closing listener [id: 0xadfedfe0, L:/0:0:0:0:0:0:0:0%0:25565]
+05:04:28 [INFO] Closing pending connections
+05:04:28 [INFO] Disconnecting 0 connections
+05:04:28 [INFO] Disabling plugins
+05:04:28 [INFO] §f§c[warp] Plugin disabled !
+05:04:28 [INFO] Closing IO threads
