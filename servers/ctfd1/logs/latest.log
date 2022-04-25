@@ -1,255 +1,31 @@
-[00:33:26] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[00:33:26] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[00:33:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:33:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:33:26] [Server thread/INFO]: Debug logging is disabled
-[00:33:26] [Server thread/INFO]: -------- World Settings For [world] --------
-[00:33:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:33:26] [Server thread/INFO]: Mob Spawn Range: 6
-[00:33:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:33:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:33:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:33:26] [Server thread/INFO]: Max TNT Explosions: 100
-[00:33:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:33:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:33:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:33:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:33:26] [Server thread/INFO]: View Distance: 10
-[00:33:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:33:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:33:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:33:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:33:26] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[00:33:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:33:26] [Server thread/INFO]: Mob Spawn Range: 6
-[00:33:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:33:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:33:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:33:26] [Server thread/INFO]: Max TNT Explosions: 100
-[00:33:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:33:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:33:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:33:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:33:26] [Server thread/INFO]: View Distance: 10
-[00:33:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:33:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:33:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:33:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:33:26] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[00:33:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:33:26] [Server thread/INFO]: Mob Spawn Range: 6
-[00:33:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:33:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:33:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:33:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:33:26] [Server thread/INFO]: Max TNT Explosions: 100
-[00:33:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:33:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:33:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:33:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:33:26] [Server thread/INFO]: View Distance: 10
-[00:33:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:33:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:33:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:33:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:33:26] [Server thread/INFO]: [SetHome] Disabling SetHome v1.2
-[00:33:26] [Server thread/INFO]: [SetHome] Stopping plugin 'SetHome'...
-[00:33:26] [Server thread/INFO]: [SetHome] Plugin stopped. Goodbye!
-[00:33:26] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[00:33:27] [Server thread/INFO]: Loaded 7 recipes
-[00:33:28] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[00:33:28] [Server thread/INFO]: Loaded 7 recipes
-[00:33:29] [Server thread/INFO]: [SetHome] Loading SetHome v1.2
-[00:33:29] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[00:33:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
-[00:33:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5b63a019]
-[00:33:30] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[00:33:30] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2520)
-[00:33:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[00:33:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[00:33:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[00:33:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
-[00:33:31] [Server thread/INFO]: WEPIF: Updated config file
-[00:33:31] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[00:33:31] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[00:33:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[00:33:31] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[00:33:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:33:33] [Server thread/INFO]: [WorldEdit] ====================================================
-[00:33:33] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[00:33:33] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[00:33:33] [Server thread/INFO]: [WorldEdit]   
-[00:33:33] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[00:33:33] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[00:33:33] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[00:33:33] [Server thread/INFO]: [WorldEdit]   
-[00:33:33] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[00:33:33] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[00:33:33] [Server thread/INFO]: [WorldEdit]   
-[00:33:33] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[00:33:33] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[00:33:33] [Server thread/INFO]: [WorldEdit]   
-[00:33:33] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[00:33:33] [Server thread/INFO]: [WorldEdit] ====================================================
-[00:33:33] [Server thread/INFO]: [SetHome] Enabling SetHome v1.2
-[00:33:33] [Server thread/INFO]: [SetHome] Successfully loaded commands.
-[00:33:33] [Server thread/INFO]: [SetHome] Plugin SetHome v1.2 version 1.2 loaded.
-[00:33:33] [Server thread/INFO]: [SetHome] SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
-[00:33:33] [Server thread/INFO]: [SetHome] WARNING. Plugin is running on a different version. Some features may not work.
-[00:33:33] [Server thread/INFO]: [SetHome] Bukkit version: 1.16.5-R0.1-SNAPSHOT
-[00:33:33] [Server thread/INFO]: [SetHome] Registered listeners.
-[00:33:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[00:33:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loading region data...
-[00:33:33] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[00:33:33] [Server thread/INFO]: [WorldGuard] Loading region data...
-[00:33:33] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[00:33:34] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2520)
-[00:33:34] [Server thread/INFO]: Creating file: config.yml
-[00:33:34] [Server thread/INFO]: Creating file: saves.yml
-[00:33:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:33:34] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[00:33:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8173ms or 163 ticks behind
-[00:33:34] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[00:33:34] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
-[00:33:34] [Craft Scheduler Thread - 0/INFO]: [Vault] There was an issue attempting to check for the latest version.
-[00:33:34] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
-[01:39:44] [User Authenticator #11/INFO]: UUID of player Jack123F1 is 34266b84-4b5b-4589-bd2e-df8770845c22
-[01:39:44] [Server thread/INFO]: Jack123F1[/10.0.0.2:36719] logged in with entity id 397 at ([world]-741.5, 23.0, 531.5)
-[01:40:11] [Server thread/INFO]: Made Jack123F1 a server operator
-[01:40:26] [Server thread/INFO]: Jack123F1 issued server command: /gamemode creative
-[01:40:26] [Server thread/INFO]: [Jack123F1: Set own game mode to Creative Mode]
-[01:41:09] [Server thread/INFO]: Jack123F1 issued server command: //wand
-[01:44:37] [Server thread/INFO]: Jack123F1 lost connection: Disconnected
-[01:44:37] [Server thread/INFO]: Jack123F1 left the game
-[01:53:32] [User Authenticator #12/INFO]: UUID of player t2o0n321 is 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
-[01:53:32] [Server thread/INFO]: t2o0n321[/10.0.0.2:47861] logged in with entity id 650 at ([world]-723.3656744923992, 22.0, 532.9642038436853)
-[01:53:41] [Server thread/INFO]: t2o0n321 lost connection: Disconnected
-[01:53:41] [Server thread/INFO]: t2o0n321 left the game
-[03:51:45] [User Authenticator #13/INFO]: UUID of player Jack123F1 is 34266b84-4b5b-4589-bd2e-df8770845c22
-[03:51:46] [Server thread/INFO]: Jack123F1[/10.0.0.2:47321] logged in with entity id 651 at ([world]-893.1334686773332, 60.118136561542926, 332.4014455659702)
-[03:52:44] [Server thread/INFO]: Jack123F1 issued server command: /gamemode spectator
-[03:52:44] [Server thread/INFO]: [Jack123F1: Set own game mode to Spectator Mode]
-[03:53:08] [Server thread/INFO]: Jack123F1 issued server command: /gamemode creative
-[03:53:08] [Server thread/INFO]: [Jack123F1: Set own game mode to Creative Mode]
-[03:53:28] [Server thread/INFO]: Jack123F1 issued server command: /gamemode spectator
-[03:53:28] [Server thread/INFO]: [Jack123F1: Set own game mode to Spectator Mode]
-[03:53:41] [Server thread/WARN]: Jack123F1 moved too quickly! -9.638549965581547,0.0,6.96494972675805
-[03:54:38] [Server thread/INFO]: Jack123F1 issued server command: /up 250
-[03:54:50] [Server thread/INFO]: Jack123F1 issued server command: /gamemode creative
-[03:54:50] [Server thread/INFO]: [Jack123F1: Set own game mode to Creative Mode]
-[03:55:58] [Server thread/INFO]: Jack123F1 issued server command: /rg define ctfd g:Participants
-[03:56:03] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[03:56:21] [Server thread/INFO]: Jack123F1 issued server command: /rg flag ctfd passthrough allow
-[03:56:33] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[03:56:37] [Server thread/INFO]: Jack123F1 issued server command: /rg flag ctfd block-break deny
-[03:56:59] [Server thread/INFO]: Jack123F1 lost connection: Disconnected
-[03:56:59] [Server thread/INFO]: Jack123F1 left the game
-[03:57:03] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[03:58:44] [User Authenticator #14/INFO]: UUID of player Jack123F1 is 34266b84-4b5b-4589-bd2e-df8770845c22
-[03:58:44] [Server thread/INFO]: Jack123F1[/10.0.0.2:36623] logged in with entity id 1086 at ([world]-1130.8057341819451, 19.095017779229185, 959.7793997052053)
-[03:58:53] [Server thread/INFO]: Jack123F1 issued server command: /deop t2o0n321
-[03:58:53] [Server thread/INFO]: [Jack123F1: Made t2o0n321 no longer a server operator]
-[04:01:03] [User Authenticator #15/INFO]: UUID of player t2o0n321 is 356f9c6b-88e9-48e2-a9e3-5b657d8571e8
-[04:01:03] [Server thread/INFO]: t2o0n321[/10.0.0.2:35459] logged in with entity id 1089 at ([world]-723.6530058172353, 22.0, 532.8909120705018)
-[04:02:42] [Async Chat Thread - #0/INFO]: <t2o0n321> eo3ji3[m
-[04:02:55] [Server thread/INFO]: Jack123F1 issued server command: /rg flag ctfd block-place deny
-[04:03:03] [Async Chat Thread - #0/INFO]: <t2o0n321> 給我op[m
-[04:03:03] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[04:03:09] [Server thread/INFO]: Jack123F1 issued server command: /op t2o0n321
-[04:03:10] [Server thread/INFO]: [Jack123F1: Made t2o0n321 a server operator]
-[04:03:19] [Server thread/INFO]: Jack123F1 lost connection: Disconnected
-[04:03:19] [Server thread/INFO]: Jack123F1 left the game
-[04:03:33] [Server thread/INFO]: t2o0n321 lost connection: Disconnected
-[04:03:33] [Server thread/INFO]: t2o0n321 left the game
-[05:04:36] [Server thread/INFO]: Stopping the server
-[05:04:36] [Server thread/INFO]: Stopping server
-[05:04:36] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2520)
-[05:04:36] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
-[05:04:36] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[05:04:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
-[05:04:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[05:04:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[05:04:36] [Server thread/INFO]: [SetHome] Disabling SetHome v1.2
-[05:04:36] [Server thread/INFO]: [SetHome] Stopping plugin 'SetHome'...
-[05:04:36] [Server thread/INFO]: [SetHome] Plugin stopped. Goodbye!
-[05:04:36] [Server thread/INFO]: Saving players
-[05:04:37] [Server thread/INFO]: Saving worlds
-[05:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[04:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[10:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[10:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[16:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[16:37:49] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[18:23:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15086ms or 301 ticks behind
+[19:23:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9408ms or 188 ticks behind
+[19:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10228ms or 204 ticks behind
+[22:15:46] [Server thread/INFO]: Stopping the server
+[22:15:46] [Server thread/INFO]: Stopping server
+[22:15:46] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2520)
+[22:15:46] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[22:15:46] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:15:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[22:15:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:15:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:15:48] [Server thread/INFO]: [SetHome] Disabling SetHome v1.2
+[22:15:48] [Server thread/INFO]: [SetHome] Stopping plugin 'SetHome'...
+[22:15:48] [Server thread/INFO]: [SetHome] Plugin stopped. Goodbye!
+[22:15:48] [Server thread/INFO]: Saving players
+[22:15:48] [Server thread/INFO]: Saving worlds
+[22:15:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:15:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:15:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:15:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:15:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:15:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:15:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:15:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:15:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

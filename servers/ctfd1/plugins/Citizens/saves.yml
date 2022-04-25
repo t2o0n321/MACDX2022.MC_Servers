@@ -1,2 +1,217 @@
 # Citizens NPC Storage
 
+
+
+last-created-npc-id: 4
+npc:
+  '0':
+    name: 櫃台小姐
+    uuid: dab6385d-85df-482d-b03f-2aa50a92037e
+    traits:
+      location:
+        bodyYaw: -359.2173
+        world: world
+        x: '-740.4677'
+        y: '22.0'
+        z: '468.7'
+        yaw: '0.7827'
+        pitch: '9.9'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: oHo+G46ieCAFVrJ/j7OjXlxmbGhR4a6rCUA5ssSiQhKqXS9iCvO+DDqNUbcb0n1u+y5dwJoMwPoGmHCsop6sRQ4njANnnOEBbyDz101LhN9GLf23p6yBCSnqPHLHXXb9ndvt9PY48EFcfLApJhh6SMx09iyIGLSLR2jwYlvOyx7yxnkDw7dXfZGTKeQqlnDGHvnDfXG1+8K9pnQ2vMdrBiNxir/ZnPdvmLOksB9QIueNkqG+Mv74xPRygXZPbAxe91qqKUdjO1EkXTJaMUD4MDBuwn0M7iWNVyF/kffQLn+3Tst8JNUQeXXLbw71MrxzKclnQDsx5XXjCBPtsLZP94ycxZqUqAt8gMVCVrTgY9ZFcrcb9ZA+pgDCbQa9qa0NGYrkO14G+VX3uDn3xZJIxFth4pTiiLtCyGGh3qVIh2rfySv5ala1eUNyl+R9H0SAsZ3We0Tm46PTY4278TpBTHkJpqokU4VJALccbMksEPQdf9vmWTEnLeAb4FOU8RLP/1QqT+I45qNuqHQtP/EJ//xwHK94nsqyx5qoVfQknBfTy/UkxT9+kGIRT1zDgML9Qm1ParZ3WhU+HbjMos/x4GYKH22C+OK/l5JgKJ2NxoGBVrzCpMKzR3PCyY2a29S94okNzYGWBZJtr67+m8UfFsXc6NMBB/7leWy4jPWCFXo=
+        skinName: rushia
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MjMzMTYzMiwKICAicHJvZmlsZUlkIiA6ICI0OTBlMTk3OGI0NjA0MWNiYWNiNGI3MWE3Y2I0YjI5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNoaWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxYjQ3ZTQ0ZGQxNmQwYTRmMDU4MTU3ZGE1YTk1MTgxMDViOWFlYWJhZjJkZjczYWU5OTAzMDM5YzZiNzMwNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      type: PLAYER
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 您好，歡迎來到建宏股份有限公司
+          '1': 想必您已經知道了，本公司近期發生了很嚴重的伺服器故障，員工完全無法正常存取資料，根本沒辦法工作
+          '2': 但大家都找不出來問題出在哪裡，事關公司存亡，希望您可以盡快幫我們解決這件事
+          '3': 目前所有員工都在公司中，您可以到各部門向他們確認狀況，應該可以得到很多有用的資訊
+          '4': 建議你先去資訊部，是他們最先發現問題的
+          '5': 我要去開會了，祝您辦案順利
+      speech: chat
+    traitnames: spawned,mounttrait,text,location,inventory,speech,owner,skintrait,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 490e1978-b460-41cb-acb4-b71a7cb4b295
+      cached-skin-uuid-name: rushia
+  '1':
+    metadata:
+      cached-skin-uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      cached-skin-uuid-name: jack123f1
+    name: 展展
+    uuid: 02f25fb0-9467-40e8-b593-74706d8f0c08
+    traits:
+      spawned: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 你好，這裡是資訊部，如你所見大家都忙著處理這個爛攤子
+          '1': 最近我們側錄到一個來自“前”員工的手機發送到外部的封包，§m內容和目的地都被隱藏起來了§r§a，我們懷疑跟這次這件事有所關連
+          '2': 請你調查看看他究竟傳了什麼出去
+      location:
+        bodyYaw: -271.17212
+        world: world
+        x: '-737.7'
+        y: '28.0'
+        z: '472.3447'
+        yaw: '88.8279'
+        pitch: '2.2502'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        signature: XJPICYNg52oT3oxFBTiNZM7KAS6x1A0stqIo3UKcAT34aE6KbGUzVm/X9s059shfjjeH3cKudLJUZMbRLi5baUgm0OubtKfrJzUExTPl9Sm8jHGkBI0sqaDrdZz9rYqE7SyJ4+gFfiBIvKhTlIPFSITbG8yT3X0MpqtOTjqqdSi9D5OpeXLlp0M3gEGmp8wAc/bVmNXL3PJJilbSHJivTAbwDdzyUNIPwabB7M/+tRyvcGnDepBs3/fagBxQYbbxc64zuDPWvXXkcKCfsYCLdb8D2aeOQ/mrSUc3BQE/7jN0tGyru3H5B+S7ekvhe6qqPS4xcOJaW9v6+jI/nZs0DJgNOmYFoOUjObeosbyqR12gzspixmtXwCuLkC3/QwQd/mEEHZKyLvgzqRWyWRa/O91XZsiqRUJfEE4VJ/SOcJzldQXhNcy/flrgcBOMSdOhFw2qx/w7SDKC1WDUrugWD+NB61lP6Ri+agHP2O3aXbVlz8sD6hJ3WnYV78ACg07Z+C74w861m293eiY4Hv1M3eg6JLieR14RE2jLG9AolGaU7E8ePlQAE3q/mmnYxXASsVs4Ok1eYlu4hq5Mpd9B2VRjNXFzWdlpIpMJGu5MQdu5+1pkko36KeFOhL4RDLp6ddtqEvF4oxwcDvLNIDJVLc4Pmc7zfMAYuUoldaJo5mA=
+        skinName: jack123f1
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+    traitnames: spawned,mounttrait,text,location,owner,speech,inventory,skintrait,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
+      cached-skin-uuid-name: test
+    name: 青眼
+    uuid: 3efadbe7-b558-4be8-84cb-52b4e2a0594f
+    traits:
+      spawned: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 這是…Minecraft伺服器的位址?怎麼會有麥塊伺服器架在我們公司裡?
+          '1': 看來所有問題都源自這玩意兒，請你進去查查看裡面在做什麼
+          '2': 伺服器機房在樓上，直接在那裡連就可以了
+          '3': 至於下面這組VPN，我建議你去網路中心那邊尋求幫助比較快
+      location:
+        bodyYaw: 270.3263
+        world: world
+        x: '-750.3'
+        y: '28.0'
+        z: '472.4289'
+        yaw: '-89.6737'
+        pitch: '10.0504'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Faeq/P/1G8ZUEF0s5Z49nn+b9ee9NNrayMm4iveyvfcM9xu3rgrs3GjUv5YxwZOtFuqmxxEi7t1x7WcyAGH8OHPkAK83O+Cb/qr+Qxq6JOtJ/SiyZAFp2XtfdqqYPFZiolckXbSDHUEGdsr7bshUNlgqa0R/IMOmQUYMZRpCBtzmcMR3rCmuKE32vbbCE1t+sCe9WWKXeRVqIigkun5y5Ezz7kdfyXJXWOfG08ZsM+l/Hi03HvU9539K7NzmEk04jOGiKn/iqvK3xnyoAXXAndgmNWjk/LH/K69yTwr1X8BL4+kzUh9c2v41sFvNGjcMayToDnrG1xzBDlZiywNvfARD71upLzWi62ZbycZ46I2jOdl2Fn1TCIiRqpZGwIG1zBj/LrxHcU2NeimxMFds22N6wsA6LWkOMdzUO0IVJ1n0hn5NoU/8kxgNv7D0IYYzIGO5lnXv7cM5dno0JbKFCxewYXMxqscp5d1hiCvAsJIx2GigYxKaqhRYn76PayPFdJnDMCaO6yTon37dRAy4Abg1h/ZUl3sQNEMR+hFIDW0JVGq48AoKS7oUoFmdoHxyaoT1YltR1yOLgFeh3DcaFAVKeTwlh3YV7Z+lZS0gaLkDHQ87eCHwyYy23bXL6pwvRyDUjh1cmIJHAtLQwDRWfEDy4PHXqJ4QK1p42tjmE7s=
+        skinName: test
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
+        updateSkins: false
+      type: PLAYER
+    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid: 18651960-d1aa-4935-af23-2b0e012e113a
+      cached-skin-uuid-name: nicsgames
+    name: 虛空
+    uuid: 6a963fac-e370-4b67-a4d7-6860ee844e59
+    traits:
+      spawned: true
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 原來如此，有人在利用Minecraft的漏洞在干擾公司伺服器，但我們只拿到了IP，沒有port也連不進去。
+          '1': 你應該去查查看log日誌檔，應該可以還原發生了什麼事。
+      location:
+        bodyYaw: -269.82184
+        world: world
+        x: '-737.7'
+        y: '32.0'
+        z: '472.5085'
+        yaw: '90.1782'
+        pitch: '10.9504'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      skintrait:
+        fetchDefaultSkin: true
+        signature: D97DcMeC98f48us1ZIZm1NeJdk7V8OriAk+rtdd7KAapl4LZ+gieQ2GiQ42L8TnNgWSAZ1ucAbpcwvrybC3vBLGFrmrj3h1dowy0ALd+3rtbFg7fkMNYkjcfpyfzkIi6Ngez3kGPG7JKGnKS5yGmtDwFYpCa9y5yQpAWmRfazzldNzCP0faOfdteeqknm7VKe/ETcSw+f3wy/t4q0QFId1D/XMWglysJvsY6nfQB1uEazsk9sVLHRnU/ZwbPHJ3hOOWu7eZQxBD+hp1YqhidbutNV9demLf8cbbAmxUNioEt/+8yELw3yDCzuc8sVl/dKaXGy0+AO+jTRzvZKMu5HQ5qvI+s5rCEfFHbKmk5Uma8AsUkqDx37rCa2q8MfVv9nIgvBIWWTSNMK/gFeuJn1w2Owv3hbB/uLAz6jHlq5CMAPG1ZQKbHeFkxMk3ve5IEmfitR+zwzDUWYz7MveAuS00lJ0VV3sjUiGQMfnyZr4fVUjNPVWbU6P/8Id/z10Z/Ja2KhuUniIPAGEvglChsoDncXGR/mUkOWpBPahX4fZmyHyOn6zSYhx1Gi+Y3QUaOwG3uh66mPciuXcwcu9qpVUfFUqphtJp1WocpH+WOsd/pKTeq8pK7e6wENeBRoqzUEzND/X84Oo7U2e9qKDxK29akXTKeSj2xehcKrGm3qvI=
+        skinName: nicsgames
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NjgxNDAwMCwKICAicHJvZmlsZUlkIiA6ICIxODY1MTk2MGQxYWE0OTM1YWYyMzJiMGUwMTJlMTEzYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWNzR2FtZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDcyNjgzNDExMGFmYmM1Yzc3ZWM4NzllZTg0MjE2ZDg0NTkzYzE1MGNlMWE5YTczYjhhZWFmYzZkN2I4YzQ2ZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: 芋頭
+    uuid: bae79b49-2251-42a5-8fac-19ed55a74022
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -269.50684
+        world: world
+        x: '-737.7'
+        y: '36.0'
+        z: '472.5749'
+        yaw: '90.4932'
+        pitch: '5.1002'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: bJCIhoqTBdvihr9KAPhi0sTsABTcYUN/es/JP0gL0H3wroWADosi8beMu2e975KG7eFuy3f238sBC0YiPftv431i6sUWPTXTlwDmIfusClGLzxRVT1Mr1Iw8QNyyJSLoH2Bz7oQ4JFRap5UnPAgdHyQ7dMHkBxA+Y/LH7w0ZNzf91FbfM/MHR4qs3geYScvQixmzyke+PtRMwNqRC4An+a4JfDbsmoQvwA30Y0NUt7M8i9aAGnN5joREYPtctJHVrwjbpg72MEein+Wx2H7deEc63PQRZjJkfZhbTal5JkVoEpdkwSV7y/TRU0NdEOebIXEZCGiX68+CyF9Vp0vafjGNfgPFTTZjip2B6/5QmRHtpsLGkMHk/Jc7A1DVVbss0lhgwNzX2v/KBcQEbp9Xo/o2TzgM8AxLJ5lMtrU4BcdWQZoW79mCg7+x7WYSacFA2RK33QwW1V+Do5+iIZ3l6QKK1Eu/27Z2akmHGrPbnLIYT9MBtEds8/NsjwhObhCqrzARPIXuvMBhTjUEY1bTHx9TSJH9T7IWQdnnBVUw25AwU0+v8PSWDHWTO/nrwGf6ZO6XDcuXxO5YJh6r5hHnnerQJ48acvnwhdcdFBeKZq6yMOOthIO5blRznaQi2+w/3I8akZiwtSLTMNe40cl1IS6B4GttzrHJCjgiINCSik8=
+        skinName: teacher
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0Nzc1NDczOSwKICAicHJvZmlsZUlkIiA6ICIzNmMyMmIxODMxMDY0YmM1YWNlYWU4ZDQxNmUyNjg5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWFjaGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNjI5MTVjMWI5ZTMzMzhiZmZhODRmY2I2ODVlY2MxZmVmNjM4ZTAzYzQzM2FkZDU1OWJmOWRlYzgzYjk1OCIKICAgIH0KICB9Cn0=
+      type: PLAYER
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 請進，這裡是網路中心
+          '1': 喔?你這是一組VPN，你要用它來連到某個網站是嗎?
+          '2': 很抱歉，要連上這個私人網路，只有VPN位址是不夠的，你還需要他的OVPN設定檔
+          '3': 你沒有嗎?那或許，你可以從之前的線索找找看
+    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 36c22b18-3106-4bc5-acea-e8d416e26894
+      cached-skin-uuid-name: teacher
