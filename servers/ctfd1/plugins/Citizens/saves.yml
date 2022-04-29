@@ -2,7 +2,7 @@
 
 
 
-last-created-npc-id: 4
+last-created-npc-id: 7
 npc:
   '0':
     name: 櫃台小姐
@@ -41,7 +41,7 @@ npc:
           '4': 建議你先去資訊部，是他們最先發現問題的
           '5': 我要去開會了，祝您辦案順利
       speech: chat
-    traitnames: spawned,mounttrait,text,location,inventory,speech,owner,skintrait,scoreboardtrait,type
+    traitnames: skintrait,speech,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -86,7 +86,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: spawned,mounttrait,text,location,owner,speech,inventory,skintrait,scoreboardtrait,type
+    traitnames: skintrait,speech,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -128,7 +128,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
         updateSkins: false
       type: PLAYER
-    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    traitnames: skintrait,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -168,7 +168,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NjgxNDAwMCwKICAicHJvZmlsZUlkIiA6ICIxODY1MTk2MGQxYWE0OTM1YWYyMzJiMGUwMTJlMTEzYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWNzR2FtZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDcyNjgzNDExMGFmYmM1Yzc3ZWM4NzllZTg0MjE2ZDg0NTkzYzE1MGNlMWE5YTczYjhhZWFmYzZkN2I4YzQ2ZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -191,9 +191,9 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-        signature: bJCIhoqTBdvihr9KAPhi0sTsABTcYUN/es/JP0gL0H3wroWADosi8beMu2e975KG7eFuy3f238sBC0YiPftv431i6sUWPTXTlwDmIfusClGLzxRVT1Mr1Iw8QNyyJSLoH2Bz7oQ4JFRap5UnPAgdHyQ7dMHkBxA+Y/LH7w0ZNzf91FbfM/MHR4qs3geYScvQixmzyke+PtRMwNqRC4An+a4JfDbsmoQvwA30Y0NUt7M8i9aAGnN5joREYPtctJHVrwjbpg72MEein+Wx2H7deEc63PQRZjJkfZhbTal5JkVoEpdkwSV7y/TRU0NdEOebIXEZCGiX68+CyF9Vp0vafjGNfgPFTTZjip2B6/5QmRHtpsLGkMHk/Jc7A1DVVbss0lhgwNzX2v/KBcQEbp9Xo/o2TzgM8AxLJ5lMtrU4BcdWQZoW79mCg7+x7WYSacFA2RK33QwW1V+Do5+iIZ3l6QKK1Eu/27Z2akmHGrPbnLIYT9MBtEds8/NsjwhObhCqrzARPIXuvMBhTjUEY1bTHx9TSJH9T7IWQdnnBVUw25AwU0+v8PSWDHWTO/nrwGf6ZO6XDcuXxO5YJh6r5hHnnerQJ48acvnwhdcdFBeKZq6yMOOthIO5blRznaQi2+w/3I8akZiwtSLTMNe40cl1IS6B4GttzrHJCjgiINCSik8=
-        skinName: teacher
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0Nzc1NDczOSwKICAicHJvZmlsZUlkIiA6ICIzNmMyMmIxODMxMDY0YmM1YWNlYWU4ZDQxNmUyNjg5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWFjaGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNjI5MTVjMWI5ZTMzMzhiZmZhODRmY2I2ODVlY2MxZmVmNjM4ZTAzYzQzM2FkZDU1OWJmOWRlYzgzYjk1OCIKICAgIH0KICB9Cn0=
+        signature: WeKi16ZskwTNafywO5QV1ZRMmjmIETYnkQc6XndGifCeKXWEqEMHvGoAklsUlG30kCcSIVtyCyygu2zDesU0gwPpJ2NfmgxUHygNMlK8iLtFBK8uKsipwkuFICyTkA4MfHYQrDH+i18wCzXQA7ZL9nwG6PLm7i7w0u8gzCme+2nShCwC0RbsUfPKP21M2VfP1YSK0GFvq1uhABzSMO3tVWJBP90nJAlo5ZCrm6apKlYl1nX57uQIIFb1JFrZuX9i6lCqeq0OLjnbcLTwOMrh24vNn0qHuhQ2vV6K/CIqEPENOJDjqnV0lZkrAoiCfpu+w2GbT9H7pjCEQseFDBsRWDiLZbPLm1QOEjOFTCxYleGta96JhyqebVpxLq4nqAOp/LpQsElXpAOJTF4QJ+8V+9tvy58GiKwtKeO4mtDUU6yECJuVk0lYvQ0DenmLe0wXx1Bl6OQKgnPW8hGindUcVuDL9rjafVrvAFOr/UAYzLem1CzfXYYnqCURvrFn2e5sXIWwzhixZbqJJbhdJg3codIH5nYhDxMlhtcYPPLHeW593ezpdqP3m2/omrNSaBgjXa1aTa6zsJffDEyXRncOhTo7tA6Rh7N/PVVHJe74eimIL16Y0wtxM+a9WrJwvPKe14QcsQVmLtOpu7kVNgFUTiaaZuFRdOlZbUxDZbr6kZQ=
+        skinName: gaogura
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDg3MjA3ODA5OCwKICAicHJvZmlsZUlkIiA6ICI0MWI5ZjY3ZjM5MzE0MmMxYjcwYTZiNWMxNjI1YzM1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYW9HdXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMzYTVkNDM0OTA2YmNjNWRkYTAyZTg0ZTJjMDllYzcyODQ1OTQwMGIyNjQ2M2VjN2JhYTkyYjM1ZGJhNTAwZGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       type: PLAYER
       text:
         delay: -1
@@ -207,11 +207,128 @@ npc:
           '1': 喔?你這是一組VPN，你要用它來連到某個網站是嗎?
           '2': 很抱歉，要連上這個私人網路，只有VPN位址是不夠的，你還需要他的OVPN設定檔
           '3': 你沒有嗎?那或許，你可以從之前的線索找找看
-    traitnames: spawned,mounttrait,text,location,owner,inventory,skintrait,scoreboardtrait,type
+    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
     metadata:
-      cached-skin-uuid: 36c22b18-3106-4bc5-acea-e8d416e26894
-      cached-skin-uuid-name: teacher
+      cached-skin-uuid: 41b9f67f-3931-42c1-b70a-6b5c1625c352
+      cached-skin-uuid-name: gaogura
+  '6':
+    metadata:
+      cached-skin-uuid: a0e15d32-3e61-4480-8b8e-d75a783b566a
+      cached-skin-uuid-name: helloworld
+    name: HelloWorld
+    uuid: f5b3c0dd-dec0-47ce-9c03-d5edf2709659
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ykSib/T0P3cL38E3sYGNaLX8AiQrLIYc2cgjoubvzddRrljafuALP2HSymgPzwe8u6S4QP29hBPy2XymSv9kic4WbMdpzZrBGw63sVKOMc3vhP7BnyG351VJwpaxhjSQlwl5bULrvnVtQbiLWA6hV3neEAtSMQJSB9+/cKZEPiUVGSbXaV9kgc95ET6AieMDdc6sK3HJrRkxe0EcR6cLlY4HWJcbvAf15bGFyfLtaAzS41FvDhOiJXsAOyUWJOLaNXpqY16UZidanm6rrSx8NqR8hn0mqoMUdUXWg6kz4xCIuadHj0ts+fqAMaQ8dJiAp+PG/TeAklyqcfTcHGhkrblu8UprnuPyuRlRBQ3RIjb+KykAG6qaLQwkt247bDKwo2aJNrTmhm81QbUs5e8boBfEiJRhFizC8Ptk0kHi5sRBOPV6Qiqbo3LaKkHwbqUkkK4mJFtwF6ceZxXJ2IEJK3F7s/bmPKk5BUNBkEpPE0XWbL7wULI+iwyk5ZaYu1A0lJi1RlZKAHrC/p5Lmcju0jiKhNn218PC9P4s6tswfEeSFcVdpi9NGtc2Coevbxiw5saKUDak4Xm1nGcxiT74tB4TnDHh/hrbIQboyJQcSPmbvM9pZVFXpRO12D2mIsTK5XKPr84RFn3Hp0QbiNaIj/vP4UOz9f19/O1o0GBoIB8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDg2NTU0NTAwMiwKICAicHJvZmlsZUlkIiA6ICJhMGUxNWQzMjNlNjE0NDgwOGI4ZWQ3NWE3ODNiNTY2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZWxsb1dvcmxkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjNGY4NjQyZTNiNTU4OTlmYjhjMzIzYjQ4ZDIwNjJlNTU2MWRhZTgzNjJhYWY1OGNmNGJhMmU0MzgxYmMyYTQiCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: -270.39917
+        world: world
+        x: '-737.6386'
+        y: '44.0'
+        z: '472.3611'
+        yaw: '89.6008'
+        pitch: '1.9504'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 我跟你說，我前陣子想到一個超~級聰明的方法把免責條款藏進廣告裡面，只要用§clsb§r§a把文字放進圖片每個像素裡面，就可以在不影響美觀的前提下設計廣告了!
+          '1': 但是!經理居然跟我說這樣做沒有人看得懂，叫我別再亂了，明明是他們太笨吧。
+          '2': 如果是你的話肯定看得出來的，對吧?
+      spawned: true
+      speech: chat
+    traitnames: skintrait,speech,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid: 8597ea12-c1e2-4779-8b69-9dd5790eb1a9
+      cached-skin-uuid-name: pollo
+    name: Pollo
+    uuid: aae4e99d-fe1a-4d1f-8c27-7d79f2b9a747
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: PL2/teRU6MyIYl2S5nQDD1TUY8F9rBuQ2CCSutplQNrm9NaKLQJEQdVCvv+wu37sLopspSMtaKUdrlONAQFSHFDM95yxYswv1d1jr+3iVkJxrBEOuneCSlu7w1NOnyccEQQOF7Wsuw/Iyk5yvdByKjxBp2dkAEW+/jCzOlaJZCsEw8oHQM+UgqhrC2ZV3pPzHHD2A9hSHjY8npU9VfjEhkVTkmPf9eQf7hZCWPnCW5XR7Aq2CO0tNiNhagjZs9/cHL8nvu9Z/75dXN4C/0AwbG6sqZegJRfCHxR65JKb36yUvP0HiZ2epAMAmjqmQVL/raYvKatEU135dIoXuidQspyy2RE0eMa7g1qpc6ulz2GVgHM3NZUZUzQJOuAHlda4+jDuamWIdkXWbm6gAY8g70La2xDWYRJ4F0JAp897RDNH38XjsvNgfUrsjhPMs1NKSGqvotN2Ii6tGhCJo237EUIUQUHC/KSdAtBfROq5ngws1QUGgFI6fzYuzhnCG9KahWTVd8MmtY+826kqbwonv8R9YW6Iwdf17kQwNzEW5zVNx93u2WGUspP4wJGllJCEl/E8VjadQf9iCu92WIwt2ibA4UGN1xwJK2ojlet0aaxVsPM8XCqIpFg0WArIUBbMzJp/p7ZwmM0eL45+EDaNPPHdxvXBdy0iPPqCLiFCVCU=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDg2NTI2ODc3NiwKICAicHJvZmlsZUlkIiA6ICI4NTk3ZWExMmMxZTI0Nzc5OGI2OTlkZDU3OTBlYjFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb2xsbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmMyMDA5YWRhYzE0NGVkYzg0OWNmNWMxNjM3MGI2YzU3NTU1NzViODUzMWU1NmZhZTc0ZjM2ZjM4MTk4YzZhIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -270.99713
+        world: world
+        x: '-737.7'
+        y: '40.0'
+        z: '472.4199'
+        yaw: '89.0029'
+        pitch: '2.8501'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 嘿，我等你很久了(悄聲)
+          '1': 偷偷告訴你一件事，當時公司電腦出問題後，我就私下請人幫忙修復硬碟資料，裡面全都是我寶貝產品設計圖啊。
+          '2': 你猜怎麼著，裡面居然有一個我完全沒見過的語音檔，而且還被反轉加密過了!怎麼看都很可疑對吧?但我實在不知道怎麼破解他。
+          '3': 這個音檔就給你吧，你應該知道該怎麼做吧?
+      spawned: true
+    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: 吟遊詩人
+    uuid: fa88444c-07be-4e1f-a89c-0daf89a39a48
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: -268.44855
+        world: world
+        x: '-737.7'
+        y: '48.0'
+        z: '472.6764'
+        yaw: '91.5515'
+        pitch: '6.6002'
+      owner:
+        uuid: 34266b84-4b5b-4589-bd2e-df8770845c22
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 啊…好想要最新出的RTX 3090 ti啊..，可是有夠貴的啦，零用錢根本就不夠嘛
+          '1': 聽說這台販賣機出bug了，有個方法可以讓錢越花越多喔，你要不要來試試看?
+          '2': 你說為什麼販賣機會賣顯卡?我怎麼知道
+      spawned: true
+    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

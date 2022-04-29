@@ -249,3 +249,57 @@ Player ran the command /homes.
 Player ran the command /homes.
 Server stopping...
 [21-04-2022 04:37:00] Plugin stopped.
+[24-04-2022 22:20:24] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[24-04-2022 22:20:24] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[24-04-2022 22:20:24] Succesfully started SetHome v1.21.2
+Server stopping...
+[24-04-2022 22:20:24] Plugin stopped.
+[24-04-2022 22:29:33] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[24-04-2022 22:29:33] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[24-04-2022 22:29:33] Succesfully started SetHome v1.21.2
+==================================
+config test: null
+canSetHome: true
+Player is attempting to set a home. Checking whether the home exists...
+Does the config contain the same name as what the player submitted: true
+Player set a home.
+Player UUID: b74160f5-c805-4f36-b104-5f077553a438
+Home name: spawn
+X: -726.6065835551253
+Y: 22.0
+Z: 532.2148657441093
+world: world
+[24-04-2022 22:29:53] Successfully was able to save home to config.
+Player alan1120218 teleported to home spawn. Location: Location{world=CraftWorld{name=world},x=-726.6065835551253,y=22.0,z=532.2148657441093,pitch=0.0,yaw=0.0}
+Server stopping...
+[24-04-2022 22:29:33] Plugin stopped.
+[25-04-2022 05:44:29] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[25-04-2022 05:44:29] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[25-04-2022 05:44:29] Succesfully started SetHome v1.21.2
+Player alan1120218 teleported to home spawn. Location: Location{world=CraftWorld{name=world},x=-726.6065835551253,y=22.0,z=532.2148657441093,pitch=0.0,yaw=0.0}
+Server stopping...
+[25-04-2022 05:44:29] Plugin stopped.

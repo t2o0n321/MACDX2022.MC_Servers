@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="modules">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bungee/modules/cmd_server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bungee/modules/cmd_find.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bungee/modules/cmd_send.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bungee/modules/cmd_alert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bungee/modules/cmd_list.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bungee/modules/reconnect_yaml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

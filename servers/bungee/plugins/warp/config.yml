@@ -12,3 +12,23 @@ jwt_key: "nenenohusbandcollection"
 # ------------------ #
 team1:
   CTFd_Name: CTFd1
+AAROC_MC_CTFD_1:
+  CTFd_Name: AAROC_MC_CTFD_1
+AFATS_MC_CTFD_2:
+  CTFd_Name: AFATS_MC_CTFD_2
+CAFA1_MC_CTFD_3:
+  CTFd_Name: CAFA1_MC_CTFD_3
+CAFA2_MC_CTFD_4:
+  CTFd_Name: CAFA2_MC_CTFD_4
+CCIT1_MC_CTFD_5:
+  CTFd_Name: CCIT1_MC_CTFD_5
+CCIT2_MC_CTFD_6:
+  CTFd_Name: CCIT2_MC_CTFD_6
+CMA_MC_CTFD_7:
+  CTFd_Name: CMA_MC_CTFD_7
+CNA_MC_CTFD_8:
+  CTFd_Name: CNA_MC_CTFD_8
+CPU_MC_CTFD_9:
+  CTFd_Name: CPU_MC_CTFD_9
+MCNDU_MC_CTFD_10:
+  CTFd_Name: MCNDU_MC_CTFD_10

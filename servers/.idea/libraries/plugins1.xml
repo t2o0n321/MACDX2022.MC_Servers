@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="plugins1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ctfd1/plugins/worldedit-bukkit-7.2.5-dist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ctfd1/plugins/Citizens-2.0.29-b2520.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ctfd1/plugins/SetHome+v1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ctfd1/plugins/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ctfd1/plugins/worldguard-bukkit-7.0.5-dist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

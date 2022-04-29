@@ -1,30 +1,25 @@
-[05:40:07] [Craft Scheduler Thread - 14/INFO]: [Vault] Checking for Updates ... 
-[05:40:07] [Craft Scheduler Thread - 14/INFO]: [Vault] No new version available
-[11:40:07] [Craft Scheduler Thread - 15/INFO]: [Vault] Checking for Updates ... 
-[11:40:07] [Craft Scheduler Thread - 15/INFO]: [Vault] No new version available
-[17:40:07] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
-[17:40:07] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
-[18:23:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14542ms or 290 ticks behind
-[19:23:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8960ms or 179 ticks behind
-[19:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10435ms or 208 ticks behind
-[22:15:41] [Server thread/INFO]: Stopping the server
-[22:15:41] [Server thread/INFO]: Stopping server
-[22:15:41] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2520)
-[22:15:41] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
-[22:15:41] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[22:15:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
-[22:15:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:15:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[22:15:41] [Server thread/INFO]: [mcloginx] Disabling mcloginx v2.0.0
-[22:15:41] [Server thread/INFO]: [0;31;1m[mcloginx] Disabled ![m
-[22:15:41] [Server thread/INFO]: Saving players
-[22:15:41] [Server thread/INFO]: Saving worlds
-[22:15:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:15:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:15:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:15:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:03:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14388ms or 287 ticks behind
+[03:43:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14757ms or 295 ticks behind
+[04:00:02] [Craft Scheduler Thread - 11/INFO]: [Vault] Checking for Updates ... 
+[04:00:02] [Craft Scheduler Thread - 11/INFO]: [Vault] No new version available
+[05:18:14] [Server thread/INFO]: Stopping the server
+[05:18:14] [Server thread/INFO]: Stopping server
+[05:18:14] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2520)
+[05:18:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[05:18:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[05:18:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[05:18:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:18:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:18:14] [Server thread/INFO]: [mcloginx] Disabling mcloginx v2.0.0
+[05:18:14] [Server thread/INFO]: [0;31;1m[mcloginx] Disabled ![m
+[05:18:14] [Server thread/INFO]: Saving players
+[05:18:14] [Server thread/INFO]: Saving worlds
+[05:18:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:18:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:18:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:18:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
