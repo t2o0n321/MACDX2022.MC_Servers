@@ -2,10 +2,10 @@
 
 
 
-last-created-npc-id: 7
+last-created-npc-id: 29
 npc:
   '0':
-    name: 櫃台小姐
+    name: Counter Lady
     uuid: dab6385d-85df-482d-b03f-2aa50a92037e
     traits:
       location:
@@ -34,14 +34,14 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 您好，歡迎來到建宏股份有限公司
+          '0': Hello and welcome to Microhard.
           '1': 想必您已經知道了，本公司近期發生了很嚴重的伺服器故障，員工完全無法正常存取資料，根本沒辦法工作
           '2': 但大家都找不出來問題出在哪裡，事關公司存亡，希望您可以盡快幫我們解決這件事
           '3': 目前所有員工都在公司中，您可以到各部門向他們確認狀況，應該可以得到很多有用的資訊
           '4': 建議你先去資訊部，是他們最先發現問題的
           '5': 我要去開會了，祝您辦案順利
       speech: chat
-    traitnames: skintrait,speech,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -66,8 +66,9 @@ npc:
         talkitem: default
         text:
           '0': 你好，這裡是資訊部，如你所見大家都忙著處理這個爛攤子
-          '1': 最近我們側錄到一個來自“前”員工的手機發送到外部的封包，§m內容和目的地都被隱藏起來了§r§a，我們懷疑跟這次這件事有所關連
+          '1': 最近我們側錄到一個來自“前”員工的手機發送到外部的封包，§m裡面好像有一封廣告信§r§a，我們懷疑跟這次這件事有所關連
           '2': 請你調查看看他究竟傳了什麼出去
+          '3': 檔案密碼:3kf4Yj3pi%EIMOwAdC%C
       location:
         bodyYaw: -271.17212
         world: world
@@ -86,7 +87,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: skintrait,speech,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -128,7 +129,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
         updateSkins: false
       type: PLAYER
-    traitnames: skintrait,text,location,spawned,scoreboardtrait,mounttrait,inventory,owner,type
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -150,7 +151,7 @@ npc:
         talkitem: default
         text:
           '0': 原來如此，有人在利用Minecraft的漏洞在干擾公司伺服器，但我們只拿到了IP，沒有port也連不進去。
-          '1': 你應該去查查看log日誌檔，應該可以還原發生了什麼事。
+          '1': 封包好像藏有多個檔案?可以查查看
       location:
         bodyYaw: -269.82184
         world: world
@@ -168,7 +169,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NjgxNDAwMCwKICAicHJvZmlsZUlkIiA6ICIxODY1MTk2MGQxYWE0OTM1YWYyMzJiMGUwMTJlMTEzYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWNzR2FtZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDcyNjgzNDExMGFmYmM1Yzc3ZWM4NzllZTg0MjE2ZDg0NTkzYzE1MGNlMWE5YTczYjhhZWFmYzZkN2I4YzQ2ZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -207,7 +209,7 @@ npc:
           '1': 喔?你這是一組VPN，你要用它來連到某個網站是嗎?
           '2': 很抱歉，要連上這個私人網路，只有VPN位址是不夠的，你還需要他的OVPN設定檔
           '3': 你沒有嗎?那或許，你可以從之前的線索找找看
-    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -249,26 +251,28 @@ npc:
           '0': 我跟你說，我前陣子想到一個超~級聰明的方法把免責條款藏進廣告裡面，只要用§clsb§r§a把文字放進圖片每個像素裡面，就可以在不影響美觀的前提下設計廣告了!
           '1': 但是!經理居然跟我說這樣做沒有人看得懂，叫我別再亂了，明明是他們太笨吧。
           '2': 如果是你的話肯定看得出來的，對吧?
+          '3': 提示:要用kali使用它內建的工具
       spawned: true
       speech: chat
-    traitnames: skintrait,speech,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '5':
     metadata:
-      cached-skin-uuid: 8597ea12-c1e2-4779-8b69-9dd5790eb1a9
-      cached-skin-uuid-name: pollo
+      cached-skin-uuid: 84eeec31-92e0-4315-abaf-e19be0bb7462
+      cached-skin-uuid-name: crossmapper
     name: Pollo
     uuid: aae4e99d-fe1a-4d1f-8c27-7d79f2b9a747
     traits:
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: PL2/teRU6MyIYl2S5nQDD1TUY8F9rBuQ2CCSutplQNrm9NaKLQJEQdVCvv+wu37sLopspSMtaKUdrlONAQFSHFDM95yxYswv1d1jr+3iVkJxrBEOuneCSlu7w1NOnyccEQQOF7Wsuw/Iyk5yvdByKjxBp2dkAEW+/jCzOlaJZCsEw8oHQM+UgqhrC2ZV3pPzHHD2A9hSHjY8npU9VfjEhkVTkmPf9eQf7hZCWPnCW5XR7Aq2CO0tNiNhagjZs9/cHL8nvu9Z/75dXN4C/0AwbG6sqZegJRfCHxR65JKb36yUvP0HiZ2epAMAmjqmQVL/raYvKatEU135dIoXuidQspyy2RE0eMa7g1qpc6ulz2GVgHM3NZUZUzQJOuAHlda4+jDuamWIdkXWbm6gAY8g70La2xDWYRJ4F0JAp897RDNH38XjsvNgfUrsjhPMs1NKSGqvotN2Ii6tGhCJo237EUIUQUHC/KSdAtBfROq5ngws1QUGgFI6fzYuzhnCG9KahWTVd8MmtY+826kqbwonv8R9YW6Iwdf17kQwNzEW5zVNx93u2WGUspP4wJGllJCEl/E8VjadQf9iCu92WIwt2ibA4UGN1xwJK2ojlet0aaxVsPM8XCqIpFg0WArIUBbMzJp/p7ZwmM0eL45+EDaNPPHdxvXBdy0iPPqCLiFCVCU=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDg2NTI2ODc3NiwKICAicHJvZmlsZUlkIiA6ICI4NTk3ZWExMmMxZTI0Nzc5OGI2OTlkZDU3OTBlYjFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb2xsbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmMyMDA5YWRhYzE0NGVkYzg0OWNmNWMxNjM3MGI2YzU3NTU1NzViODUzMWU1NmZhZTc0ZjM2ZjM4MTk4YzZhIgogICAgfQogIH0KfQ==
+        signature: oaVMRyoObYJYMrns29j5u/OK0Wd65SCy5hAtJd6oaFPXfNKxjXyARNurkO2EsjjBJeqTagXC0MldcoPrRIzA5wCiH5cPYiveAG4NWrVLcC9nMWk3KizxJB18kYONsyTZwqMRyBm54CkkjFhWTEY6MtkE0yg2P7osjwpR8vbaoCXJ7/8ApjX6GuMSmAtFAeF60ydojB5I2R7F+qWV1OiJCw0He67Yfl4k+FhZSoNLUmWEjFx5f9/krkOSp92rPd4YvnhFPmhT6lp/IDXI7hVUal22kWxj4dMIlHxZUph2diUWQDhsAqmZFAEn4960t6QgO4moL8Sg8jXp726S1u24ueAE8dbtxF+cBHX7jT9NjF8/iUuO7FQRAiu1G+uumww5QUjpuYQYToUcl7MxPQugCMd+52/7aIc0iTbo+Lyyq9TPvktV1WNOBeJKxoswcozMflstCo+XrYiUMrpAwrJHJnM7LwpY5Hfx0z3llXq+VzLXiS4zZh+68InxXe/8z/XXwOIcbG737N4wwpC7J+v4NLKyb9s3p2IdmEPGaqsIDqX1zRZbElxAy6hBZEQCvV0W1JXQNChSihsIF8W4HLFa++BFfXLOEpIoUzDs72gYppfMwtnN64SnDiOR6DueKX+yR5Np4JGNNH+ZVGz3lqbahcIx+dR4Om68+Af0xgJhqf0=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc3OTUyNSwKICAicHJvZmlsZUlkIiA6ICI4NGVlZWMzMTkyZTA0MzE1YWJhZmUxOWJlMGJiNzQ2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjcm9zc21hcHBlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTg4MzQxZDc3ZDk3YjM1MjAxNjNhY2UwZmQxMzk0ZTgxOTYyNzJhNWQ5YTAyYzhlYzA3ZDBhNjFlNDliZmYzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
         updateSkins: false
+        skinName: crossmapper
       location:
         bodyYaw: -270.99713
         world: world
@@ -292,7 +296,8 @@ npc:
           '2': 你猜怎麼著，裡面居然有一個我完全沒見過的語音檔，而且還被反轉加密過了!怎麼看都很可疑對吧?但我實在不知道怎麼破解他。
           '3': 這個音檔就給你吧，你應該知道該怎麼做吧?
       spawned: true
-    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -305,6 +310,9 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
+        signature: XEQQSYdxGzvraoovZ6H6IuVCeIJW9hZ2exYQPuupdgDhU0qxFJTB5WJTcligUJUlPddqmSJJGN7cW9B5AyWLIFGrtfwR5BPtgJ22cymfS6ZD3ClADGoYziof6glf5jgeW/lMR5ygtOyct/1ZHtszklNCsrn0BZ4xHH1z/Ju15UjV/Yj3f/ip77vdgMGn09VdEGa7yUxuyebJ15l/RL9ynATjEpr0ZfrlVICuzO7DesDFb5G9lj4PMghDEDTsAyf6g9DZQs0KsaGDdZGDHLwnmAI5DwZu/lxTexatVb83IbAfjyiGw8QK2bUyZNp2zSmbdqZQ5W+1KQzXLK2Luc9ei7HKXMtlSNkWfVYMYXecYYSLrn4Upl3ZTV3UqHYfXMs2nX0vZs7FZ00YmCjPVET7az4TbkoqZVtxKkvIIUGSbI+HvSJ63Kbvwy7eg/8myv0Lj2q0HPXQJwq6cB25gEVU7WvsDiRTSWN07+mm5TzaeXu9qSOOX1ZiOlz8zp9EqnsOjWq1zVK3wBSLjXC7zfD1w4XgHpVjALJpP6pZy5HoVpuxseBkadtyyuw9rDjC3q+wib4rHIXJSu4xBsITrzrA3Te/VNrZN4jDnTJWJeqZ1jf6wW8VF2NjJ9LUJBIVkn8JiqR31qJrDiMmhTV8oVGIbEaHADbU3a4ZfNunRyDi2qA=
+        skinName: argon_xp
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU0MDAxNjI0NCwKICAicHJvZmlsZUlkIiA6ICI3N2YwMmQzZmYxNjk0MjY3YTJjMjhiZDhmMGU2N2I0MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmdvbl94cCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODgzN2YxODcwNTEyNTlmZDU2YmFiNDNjOGM5NWI4MzcxY2MyYzJiZDZkNjEzZDhjNGYxYjVkNjk5YjcwMDMiCiAgICB9CiAgfQp9
       location:
         bodyYaw: -268.44855
         world: world
@@ -326,8 +334,858 @@ npc:
           '0': 啊…好想要最新出的RTX 3090 ti啊..，可是有夠貴的啦，零用錢根本就不夠嘛
           '1': 聽說這台販賣機出bug了，有個方法可以讓錢越花越多喔，你要不要來試試看?
           '2': 你說為什麼販賣機會賣顯卡?我怎麼知道
+          '3': flag好貴，阿姨我不想努力了!!有沒有辦法花錢卻讓錢變多啊
       spawned: true
-    traitnames: skintrait,text,location,scoreboardtrait,spawned,mounttrait,inventory,owner,type
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 77f02d3f-f169-4267-a2c2-8bd8f0e67b40
+      cached-skin-uuid-name: argon_xp
+  '8':
+    name: 海馬賴皮
+    uuid: 813f8fce-6afd-4a46-a1d5-f889da32df25
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 糟糕!我們的AD伺服器遭到攻擊了!
+          '1': 聰明如你肯定可以幫我找出犯人吧
+          '2': 這裡是有關AD伺服器的一些事件log檔
+          '3': 從中找出犯人的蛛絲馬跡吧!
+          '4': 跟登入有關的資訊可以從security的部分找找看
+          '5': 後門可能是用下載的指令來種的
+      type: PLAYER
+      location:
+        bodyYaw: -267.7351
+        world: world
+        x: '-730.7'
+        y: '28.0'
+        z: '472.4801'
+        yaw: '92.2649'
+        pitch: '21.2999'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: xkatv
+        signature: bq3Oiu9chA0mEFnlhnvKJwHdwQdFRRsjF4VFIPibZYiGB24wfFi1t+BBX+vLln9f64Y9f3KJVtpYTXkLlHIikovKD+tMf7XxEw5PiNt7oH/amwj9zv6M2I5XCW78mvoy5MguKoKoKkZPv5emqbO4AtDrzuEw4VPNpfAC1njSmGnO3tZyQwztcmwpi+rxLKB0XZ6MxKECKIUH7yR9aNqezSFcBM3fITHOPfZqQrHaNRm9Ij0qfzfo/lHdB12wMX3ohtxhDb1iVsZNl9KFp2L5yEceuL9fpa6SkgxDgSVUKikunG95TcLIDBDB03ubHkbqKRdfqJfhNk1riunF/QnXUePeA9UHcSqo0+eO4UKhBIF3WzukfNH4LRe/BwHzQ8zVRZgzVqPEkzX9kbyfYosb+FRnD7fJsochnFkjWe5KuxrnktW8/dI4lCPzP9iMb2PpqwlRByB4Qd45MoftXS3O+TJEt0LkeTc0RdmTx1R7pj+1zM27wlhlTh3szwrTn89Gr+89eFQ6lN+Vt6ib31N080A54yHP4dQn0aMQuo17aTxatIZSuk4a/b2JaAxf/WYBsbyJ1D6aAtPYfgHkWbqnoh7EOFLqKj3R8lW6aP9iyZRjSaQFVOBe/5a17JSYRcgOExG2wp+A8/WrA9yrtGSrmZAAXIb3+C8y6IKyagbzKOs=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: be6a2538-7310-4b17-8ff5-40448c376850
+      cached-skin-uuid-name: xkatv
+  '9':
+    name: 朋朋
+    uuid: be38724f-6248-47b4-b252-89177dab042f
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 這是可以讓客戶留言的留言板
+          '1': 你可以自由地在上面更改暱稱、留言
+          '2': 管理員會定時來登入看看所有人的留言
+          '3': 看看管理員介面可能會有所收穫
+          '4': 用cookie可以看帳號與密碼
+      type: PLAYER
+      location:
+        bodyYaw: -270.58594
+        world: world
+        x: '-737.7'
+        y: '52.0'
+        z: '472.4204'
+        yaw: '89.4141'
+        pitch: '10.8001'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: wtfgun
+        signature: uYR+HPcxdZr1Nsl6KpHhmoMzOkKvdEJp2/SHjoOZtvZaeGU6dR7dGIZIU27LNLhuK1eeH0xgRXiPuPs38rTU2scL78kgvD+bSCpafuVcMMPKRxi1zZVkyY6NB4w5y75xNiJMbnqvoX21apa4V9OfKQMPu4nxUnQf3DTgMnSAF+xatSZPp+OnABqflJIyFxO/h8TtPaAwiYyAS7O/6tn6QhSsV2LSGdrzzHeTRJyBMWpehNqQBbLh4bqiRpUUdt5lacfqy9NhFSVblzsOldI9fqHevJML9ij0f9GXKHxyo8/hfNoV/0xVhW3112sr8PL5n/HzESTUltTZRaJVbNthCU2NbfOGju7mIqgtc1hRWcBfgzubuxmX8pDVkinibvYBRyq2fKC2mrYUKeUpPuKWddxBP4LEQCwipk0mD758sqURpmy+EWeNKGZFy8Ub/NwpMquwp8Ca1niCKkOgKgbNkwBKwrZGlkJXIjw1Oz3W+6/QGYEWhdwnWLR/ORPkjTvGtpi8wNbYBVP6EDGQdp7GwZOeHQLeDuxEbAVJUUU4B/HOpLFM1+rmolP47QVPXc5e87s1fUN59MaiYLEg10CEVzAMnWCflPgtRPQ9khM0ZQ4xR+FZ/IN4kuyMxJzdtdSehULr2NOvJTzE2ejYUD9oY6NvoI24/32BN2AIegePOnw=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTU4NCwKICAicHJvZmlsZUlkIiA6ICJkYzI4M2QyZmIzZTk0YzFkOWE3YjA5NGFmM2U3Njk4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3dGZndW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlMGUzZDdiMGNiNzM5OWQ0NjczZDY1MGQ1ZWYzZGE0YWRmNjgyNjlhNGI0YTdhMjE4OGVkOGIxZTIwZGRlNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: dc283d2f-b3e9-4c1d-9a7b-094af3e7698a
+      cached-skin-uuid-name: wtfgun
+  '10':
+    name: 傑哥
+    uuid: 7aee3c4e-256e-4f16-b656-8ae9da87786d
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 真麻煩，我這邊查到了本公司有兩台主機中了勒索病毒
+          '1': 麻煩你幫我處理一下
+          '2': 這邊有這兩台的IP、port及連進去的帳號密碼
+          '3': 麻煩你用SSH連進去之後，從檔案中解出密碼來
+          '4': 要注意的是，因為駭客的設定，要先解出第一台的檔案，才能用破解出來的東西，繼續破解第二台
+          '5': 'Bnadit1: 10.1.3.39:19313 Password: X25QvvIf6t'
+          '6': 'Bandit2: 10.1.3.39:16234 Password:???'
+          '7': 可能用到指令(grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd,
+            mkdir, cp, mv)
+          '8': Bandit1跟Rot13有關，Bandit2裡的副檔名並不是正確的
+      type: PLAYER
+      location:
+        bodyYaw: 271.21857
+        world: world
+        x: '-750.3'
+        y: '28.0'
+        z: '456.4317'
+        yaw: '-88.7814'
+        pitch: '6.75'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: BJCzpGdOfsnuxMxwFh1zvMCngOzzWCL8PWaNf6QooeS73qB7ot24GPpzlijMiirRG0pQs1ciwPPHVYCs+/5sLl+A/u+HGoqPbjCoAUuDyauH+ulnMJl7HyX66MaSK4b96FX8zoIyWTTTVGrLsNlW2p7vsb72Li70mBmdNhW5m1c3pdB8K4dZf4fw/OPR0W2ZQn7LkiXRb06UCzPZ1EckHWMm/Ve1weQ2Kxj3GqfyziJ6e1E30NKf/pAky7+9BV6Z6Q6vcUu38YFO6YJSmD+1pZDZkg+z4AxYo+JS5rmN8gjZALIWlGnn84hhwjat2/rb2ZWDZTy3OsNrNtlndN88Au7eqD1HegZtbpgExiDrbNj9OmvikVebbwp9ru3MqzMVTTEMv9UDM0iSzJLI8Z5MLGbZEVAnAaYDuddN51UOAuvvFo10XLRYIXCXKtfz+kG2sNEa7VaxGGGkObg4nQmEa+OYPEWX2QLu30LDxQ2rhpSwPtUGKsZCcOFtUzS4f91R3e9c4OHBYA4p7ddzKyK8IQeeTHoVxF9i8ll1hMOothGD2uO+64myxcoE2t6+REtnnCuvg+QLz/P4oFQCBuUmvJE3WkEhoWO+uVibcV/ZrAAQ2eE8pORKYAr+Vw+9QSnSFZesVHh+e8qY9/PJlcAW54N9xtfEgKbnB8ZWJRfOuQU=
+        skinName: inadixyt
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTUxODk0MCwKICAicHJvZmlsZUlkIiA6ICI3NjNkNGI1MDdlNTU0YWIzOTA3MTZlNjU2ZmY0ZjIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbmFkaXhZVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NjM3ZGYwYWQzN2Q5NzcwNmE5N2JkZjVmNWI4YjFiZmNiZGRhOTNjMGMwMGIzZTA2ODQxMjEzZjJhNWM2NTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      spawned: true
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 763d4b50-7e55-4ab3-9071-6e656ff4f21d
+      cached-skin-uuid-name: inadixyt
+  '12':
+    name: easy RSA
+    uuid: 94235a0b-3948-4ee5-b726-59aa283265e2
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 有一則訊息使用了兩組的RSA金鑰進行加密，公鑰及密文都在文件中
+          '1': 你能夠將明文解出來嗎
+          '2': 雖然質數有那麼多個，但是搞不好可以拿到一樣的質數
+      type: PLAYER
+      location:
+        bodyYaw: -269.0741
+        world: world
+        x: '-730.7'
+        y: '36.0'
+        z: '472.4594'
+        yaw: '90.9259'
+        pitch: '40.4999'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: bq3Oiu9chA0mEFnlhnvKJwHdwQdFRRsjF4VFIPibZYiGB24wfFi1t+BBX+vLln9f64Y9f3KJVtpYTXkLlHIikovKD+tMf7XxEw5PiNt7oH/amwj9zv6M2I5XCW78mvoy5MguKoKoKkZPv5emqbO4AtDrzuEw4VPNpfAC1njSmGnO3tZyQwztcmwpi+rxLKB0XZ6MxKECKIUH7yR9aNqezSFcBM3fITHOPfZqQrHaNRm9Ij0qfzfo/lHdB12wMX3ohtxhDb1iVsZNl9KFp2L5yEceuL9fpa6SkgxDgSVUKikunG95TcLIDBDB03ubHkbqKRdfqJfhNk1riunF/QnXUePeA9UHcSqo0+eO4UKhBIF3WzukfNH4LRe/BwHzQ8zVRZgzVqPEkzX9kbyfYosb+FRnD7fJsochnFkjWe5KuxrnktW8/dI4lCPzP9iMb2PpqwlRByB4Qd45MoftXS3O+TJEt0LkeTc0RdmTx1R7pj+1zM27wlhlTh3szwrTn89Gr+89eFQ6lN+Vt6ib31N080A54yHP4dQn0aMQuo17aTxatIZSuk4a/b2JaAxf/WYBsbyJ1D6aAtPYfgHkWbqnoh7EOFLqKj3R8lW6aP9iyZRjSaQFVOBe/5a17JSYRcgOExG2wp+A8/WrA9yrtGSrmZAAXIb3+C8y6IKyagbzKOs=
+        skinName: xkatv
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: be6a2538-7310-4b17-8ff5-40448c376850
+      cached-skin-uuid-name: xkatv
+  '11':
+    name: earthworm
+    uuid: 9b3297ea-f0a8-4b6f-b23c-2513cdcab69d
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Huhh,you look like a cat that swallowed a canary
+          '1': IP:10.1.3.41
+      type: PLAYER
+      location:
+        bodyYaw: -89.81958
+        world: world
+        x: '-749.3'
+        y: '36.0'
+        z: '472.4778'
+        yaw: '-89.8196'
+        pitch: '16.2'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: bent
+        signature: ZRHpyEQ6oXfJlAAQEar00nsUMX4V071hT9zxZp2MHfFZJYNhJQixqk9X8FYHyMxgCO9wFaUTCTZ87DqAhG9+RKttWz7jaBBq9AzOvL5pAe8B5ZdSIXgjx3xgoP17mWQgSFPXOln+3xejU3QwuO8afan2C/65cOgLkROoDbRKk5ZQsxOrX+JAZbU/t5yIvtIFeLSVjqYSZLX5NXc+ywV5RqLIRvao5xWuX7lXSC8G/8uv+q0cRFEdgTqMAMf0KJNN3mUYUYdIw/Zva0eTKekwdXJyrLBTK01BtW7yJMSBG990PLxrYPFG9sGMUIsV5thrKnxAvXU6LU+6bzLOJD8nvxmr7pFPMt1elH+4Cuhu1ROlgr8U+d4Ptumtjp1JKopafSSIH/ej+Y3BVG9whIJZlXEJqNBIEe42Svnlv2zcjFZTtHtooytqtjLJaFkxXcmTYku2cAyPSd2iH8gaks7ET5SZZG+i/wvKua8B6tbYtX9YvERkfesaqwHWMFDGJRTqss86shXtAfIKYAbTvqN0/o1eCT7Cmuud2IttZ78L/GCxHQWg+6CnCyUlWe5hBmzmECnbES1xthPLRJ3NBk/puXypqnospSEvGIz78SZDya0KyRBHNLsiHbOLDo+47m2ObuV8BoBJlNfw1ClL2ENWCBLmnWJ9YMTjz20yseN6KkU=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTk2MTE5MiwKICAicHJvZmlsZUlkIiA6ICIwYzVkYmQ2ZWQ1ZDM0ZDRkODBkMWRjNDRhNGRlZTVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkNWRhZDQ3MTlmNzI0MDdmZGNmNjlmODg2YWU3M2RlOWNjMDUwMzc3OWVmMGM4MmVhMDdlNWJjYjY5NzgyNmIiCiAgICB9CiAgfQp9
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 0c5dbd6e-d5d3-4d4d-80d1-dc44a4dee5c3
+      cached-skin-uuid-name: bent
+  '13':
+    name: Strange Language
+    uuid: e606a194-b4db-4ce1-ba53-e6fcd784aa8e
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 擷取到了一則奇怪的訊息，這個訊息好像是某一種語言
+          '1': 但是好像沒有人懂這種語言，你能夠把它翻譯成英文嗎?
+          '2': 雖然質數有那麼多個，但是搞不好可以拿到一樣的質數
+      type: PLAYER
+      location:
+        bodyYaw: -272.9745
+        world: world
+        x: '-730.7'
+        y: '28.0'
+        z: '456.4621'
+        yaw: '87.0255'
+        pitch: '31.3499'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: bbvh
+        signature: r+YtvEJ0xcegvX8+9fU7lVkn5Epm9bHjzq2WsioWeFnc3q3Bx51AN0O+gpyrumTnAbH69bJ/vniWeBBWVS7oG0639FFdHmlmx2sK9lW1I/3oW8IaK2i8LirLQgT/qIZEh5yut9q2rRk8oxiMHlphn9GF4lvz1C3QV9k/MD3YWO2PxRyXXTsHTWCaL0dAvXBhtfHEodk0pVOee7TTxdhq6AJoPjdlZDQpGCq4gNbbRCBX3dpmVv/q6GGaEEwyJoErs0H6hncBuOrro8zADbJd2F0Lw9bF+zs0xqFRywjD8HSax6XPNtxjTp+s7VLQjjE42gF8nwDcv1IUJPRXYFIPmRjjNF4INs7vclwVJIMu3krJB39/DJM3i59CzHX/xLImJejbudth0u7o3hnsoaYVtDzKv5IwqvyvbagYwNWKvZ+O7Kya/q7i8YOytP4zOhtdSDMoXQ3kmTrBZrit9fs5KMcGyO5I1gL/tTFAK6Ly66a4DOBNiEQVfEB4d1nS/wNJOk1l0516nEma9nvUvbOy4nL8VZS/kdP4TgovwGQ27vDthg3kAE0CdbWZEvE+VtLRLwrKWHlt0tN69V8dirw6peiDvk9RgwGCo45oovZyGy0fn1c8CQTPbbWlWMzNcl1J56vGsPtShWyUS0af6S5lofiB+0C/sZVHMbS6WvWZ8JQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTYwMjk0OCwKICAicHJvZmlsZUlkIiA6ICI4NGY0MWExNzVkMzg0ZGYyYmM2YjUxMGEzZWE2YzE3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYnZoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhODcyOWQzNjkyM2Q2NWM5ZjkzNzdhZTU0YTg2MWFmOWI4OGU3ZmFkOTA4NjcxODliYTg5NDdiMzBlNjA1ZjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 84f41a17-5d38-4df2-bc6b-510a3ea6c176
+      cached-skin-uuid-name: bbvh
+  '14':
+    name: Simon
+    uuid: b660470a-53e8-4654-8923-67b1558ff6e1
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Someone lost his phone ,and all thing is locked by Smartlock app. Please
+            find the secret in this phone.
+          '1': Hint：In my conference powerpoint, I already told you how to do.
+      type: PLAYER
+      location:
+        bodyYaw: -271.6269
+        world: world
+        x: '-730.6349'
+        y: '36.0'
+        z: '456.3141'
+        yaw: '88.3731'
+        pitch: '3.4498'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: KZkShrau/7jKYBkqRrrvZBejGLTeLcLpK7zzEsIA6Dtp9bNc6fEQk42Szf7TwpucIaeibn+WBrSJD7spV66QC4AC3d/bmobSn/7MWJOP7AdGjjlDEcx6MgVzskLW/4Wu++QzolGex8fQJkNUdAD3L4jelOsQsZEqRTPVGL5R5C2nc8mfqYrYXKrnAVmPUAWsZFFYmMdueZSA5FMSrqLrKvuLI/yE4GT7LlMn7fTvtwn1sw0XetOoxPm8CUdaYAQ0i/+VAVQKAuISfp2h0WkKM63C7vqPJlc0rzG0UWX00jPKe15m58kWYl38lWkI6brsPTBiNLV3Cab5uPax5gSUWiacSmY65yOvSWHOnhW/fcaytpcWfHWuehoMZ9tD9S2YnHogMUpCSPW9W0LVvlMAifZXbAK7xTIx0d2pRtpeDwQkPQe7VLNP82mTD74CJ9Vk2F6I246Uqfy8lSxxOmxhzP38pPxGw9B8oAtxHvfoQQoSl7aAJmxBn5sTSvrjwkrCBoY1Qc2f5oY8Oz+NAwV4LbVZA8jAWRXmU3QFcVJYEcN5uS+wGFNQDH73+/ZlKuTM8EeIZ8oSslYp6tNWAiJsRdHwjb3FUTSjvbl8jDMFV5X0MUXZqF77wTtU3oMQ8RFxW0y2k8cz3NwGVQQmoHKO2/JZMRtmp4XbBy+ag0qdP/U=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxNDczNiwKICAicHJvZmlsZUlkIiA6ICJmM2M0ZGZiOTFjN2I0MGFjODFmZDQ2MjUzODUzODUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaW1vbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2ViYThhZWU0ZmQxMTUxMmI3ZTFhMjc5YTE0YWM2NDhlNDQzNDgxYjlmMzcxMzZhNzEwMThkMzg3Mjk0Y2YzIgogICAgfQogIH0KfQ==
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: f3c4dfb9-1c7b-40ac-81fd-462538538523
+      cached-skin-uuid-name: simon
+  '16':
+    metadata:
+      cached-skin-uuid: fb71c0fc-6dba-4a18-a397-f2cce59f28d7
+      cached-skin-uuid-name: sam
+    name: Sam
+    uuid: 897b94e4-4559-42f9-8d97-ee776e3b6f0b
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 恭喜你取得VPN帳密囉!嘗試進入內網掃掃看網段裡還有沒有甚麼機器可以打
+          '1': hint1:他有開smbㄟ，查查看win7 smb exploit
+          '2': hint2:ms17-010
+      type: PLAYER
+      location:
+        bodyYaw: -91.9259
+        world: world
+        x: '-750.3'
+        y: '36.0'
+        z: '456.5858'
+        yaw: '-91.9259'
+        pitch: '0.5999'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        signature: h3U755JZubD2E/9LNbMyX0yxf8Ab6UKo9pMNT/GMsd0XCPLSw6Oe+h96/IDObc8smhM7FJLhR2Ibxb1yGERZMiDwkl5FkEQxPNJ+qTDdTkADRnQTCcZF15Os4gyqe5fRadMBJ2eH+5MPFmapFfg+j9yJMQaReFF2RM4jYFAKGwLQtivaR+Fmr3ZMFcFkXKPeqX2Lm5HnM+IrdskJQT1aGIj0WhDoeJBAFDnPbA6bReEuX37W0Xe9J8rb5LfcIXL4rbf/T8Rep5t9hW70RNceWgDZZFotPc0LV5dlBg1XoE1YgDrjB7JrTn0rCmeOd2xzcTsHd/fzhgCqthGCGcNjkJeCi7HW3aJ6jZAtuS28/G55j8A002nTtRwW/18RwG0QZ2a4C9UgDav1BuwIiiSvjQ1kZfTeuT9jCK3C/40B62L9gMHceLFALUhJ/+HabjAEqT1IbgyThOsv5jDvOu8xPPtwrQaQGeOjE53Qf3SzPBLQcj8gruciQoXuFbRhzDMXVHtF5NtN6emEVEj43Y4khruyDFYsNGBBdyCfU4zqtjT09brUHgXf2Zo0/RtR1onmSmP+kzx5xEfuJ2pmYabiLa6lAZfGq1OHT9j5Cm2oqZe4+lQrMUXpKtn3qTE4QApovgC+kieeENIr0Nh9ur82JI1sEY3FZscgJr5E/TG6DzM=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5MzgxOTY4NiwKICAicHJvZmlsZUlkIiA6ICJmYjcxYzBmYzZkYmE0YTE4YTM5N2YyY2NlNTlmMjhkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1MmVhMWZjNTkwZmQ2ZmM3OGQ3ZGEyOWJlMTIyZTZiM2RhZWVjZjc3MzhkNGYyMjVhZmQ1OWNjMGZkYTI3YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      cached-skin-uuid: 3cff694b-f10e-4c3b-a3ff-c614260e2d47
+      cached-skin-uuid-name: wxzm
+    name: SnowFish
+    uuid: 45582906-6182-48c3-ba41-80bbabcfcada
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': The information leak out of here because of overflowing
+          '1': Oh no, the milk is overflowing all over the floor, like ......
+      type: PLAYER
+      location:
+        bodyYaw: 3.1705382
+        world: world
+        x: '-730.5098'
+        y: '28.0'
+        z: '461.7'
+        yaw: '3.1705'
+        pitch: '11.5499'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        signature: uL2S/nXXUlHjEBYdJwggXtqN/Rq0GmY4B+pFQsqUplQipku0B90wdcTXIliSvowY95/Q+1iTCjY4uOkyHdtGL6ESHHFhqjL7dw93hQ7CCOgTPV/6gz67nf4i+nF3pLDFaJuOBjFwXWZ9XRNpNCCI/y/F+hiagp26PH7mpJn9dcKr9/icRp5KGS7t/4SKySK2gQJEldzgYfNsXyAq13J/QZfnSo+6oodm80TxylgOQwueNx0WXvpZceBvsxlYqO8jJOnF4+2Tfg4fjx9ZbGCGL2NoEEA+e1QcAcuvMkg2c7/1jtubk6Dk8riq/K8sS6oLEO2qpAriIDtX2lj5faSS6/hA+qBun3sHY2Wt0Qy9RzfjYGH49kASJ5OMF9YZ+jZPqaimcTXgm46GVZrUe+R8mg3EbGjQ2ttSCFhf+0EbAjouLrE4nydq2TgOGea6ebcP9oNmxUeaQ2I2oziUPjc4EkhGtiLRmQxipRfgC2U/ojqOSJKygcBgjHAVvyNMBU2Hhh8HsBxJbeZwQnwMNamM7SEt+scCGIRqLgrUK+Z4pcYmluHoqL79+SswX+w2IQcdPpDbOOhIjPVucjXZFJbr9Z6UqeKNoscINrL5ATcaV4WajoxifT/JU7GosxmJuG+TXWjp4FsHpvKd1kTUvhPOh4wSZFHV/UTCttUQtLr2Fvw=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTU3NTc5NSwKICAicHJvZmlsZUlkIiA6ICIzY2ZmNjk0YmYxMGU0YzNiYTNmZmM2MTQyNjBlMmQ0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3eHptIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NlZDA0OTE1NDk4MmMyZjI5ZjY2ZTc5YjA5OWE2NzdiY2U5ODI2YWI3MTk2ZGJhZmE4MGI1ODdlZDc5ZDE2YmIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: wxzm
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    name: BB
+    uuid: 6a4c6755-0051-48fc-a870-ac8531c0fb90
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': It looks like a login web page but not really use to login
+          '1': Hint:robot.txt
+      type: PLAYER
+      location:
+        bodyYaw: -0.2734375
+        world: world
+        x: '-740.4155'
+        y: '36.0'
+        z: '454.7'
+        yaw: '-0.2734'
+        pitch: '2.6999'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: pd0QQx0Wrzgu5dx1/xzQOlyIQGZiJMmZd6RqVTvhleo7w+6niitC5IcvWX0llYPfu6Nw3Ec4OEe5yLaPfJUrmu1urTyiVHEkQUc0baCKf9PBhrStsuL6kYKzijd4+Fk3+S4V19nD3ZdjrWaT8kWJdLvqeIfUOhO1BROHgku+UJACC7ab/jHE7zn7EwEhrIzikutQE3cU/kSUfbT/2cByLfZw1ri22l6VT/8I3UlKJW3QyLk61E5WsphE9Svqq9054WuEp9YEMJ4r7J2GT7zUMJnlSg5tBYAM4oFOphcbkxYTM/a6CgRTIeCrIksoyI/NAz3MSnIKNEG8zfFgir0/LbyV+/6HJfsY4izYcQml+rPY2pPZ8forWDUhlc0AeXP7ryZ/LgjiJ3WMakUKzZfANv2S00VwQf4y/I4UkBX9sVCz9TgJSEONldaO9+1KVKDcfD46Xy04gU8JfOB7SKDR+JMwK50dHoLMwy8EvXvyTUFVYIFAZ9wKErh7MFNlzGC50ZOwnygSSN7FNjZwJX8eYNgMje+pe4vCWXkzd/r87KU3FKSLmXixocj3xfVQ4FE8NhcJoi6oh3Vk9qxAuDmxe1aDVgEeSnskmHaIWkgii/LWclVAiOsupZeD83MiDKaOYU/c4JyVEDDw4TnhYchcWl+97PtNy5P4bjP+rkc/wHA=
+        skinName: 2b2tpolice
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4Mjc4NCwKICAicHJvZmlsZUlkIiA6ICI3Y2ZjYzkwMTY5NzM0ZTNjODFjOGFmN2RiOGE1YmRhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyYjJ0cG9saWNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk5ZjJlZDZhMDNhOTU4ZWY3NmM1YzFjOTM3M2Y5YWQ2MTg2NmY3MzkxZDM0MTU1NTlhOTQ3YmIyODA1NDU4MzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 7cfcc901-6973-4e3c-81c8-af7db8a5bda2
+      cached-skin-uuid-name: 2b2tpolice
+  '18':
+    name: Cat
+    uuid: 22d2157e-f657-4cbf-afa3-e7e9b5835412
+    traits:
+      type: CAT
+      location:
+        bodyYaw: 89.95169
+        world: world
+        x: '-741.6443'
+        y: '36.0'
+        z: '461.4992'
+        yaw: '89.9558'
+        pitch: '0.0'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      spawned: true
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '-735.0'
+                y: '36.0'
+                z: '461.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '-747.0'
+                y: '36.0'
+                z: '461.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '-747.0'
+                y: '36.0'
+                z: '467.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '-735.0'
+                y: '36.0'
+                z: '467.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: world
+                x: '-735.0'
+                y: '36.0'
+                z: '461.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      age:
+        age: 0
+        locked: true
+    traitnames: waypoints,owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    metadata:
+      flyable: true
+    name: Bee
+    uuid: 09b6f8a8-eaf5-400f-8854-d428fb600fd6
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Hint:Wait __wakeup()?How can I exec this function?
+      type: BEE
+      speech: chat
+      location:
+        bodyYaw: 180.03558
+        world: world
+        x: '-744.7'
+        y: '22.0625'
+        z: '465.7'
+        yaw: '-179.9644'
+        pitch: '0.0'
+      gravity:
+        enabled: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      spawned: true
+      age:
+        age: 0
+        locked: true
+    traitnames: text,speech,owner,type,mounttrait,gravity,location,age,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      flyable: true
+    name: Bat
+    uuid: 53027e13-17f8-412b-9f65-2eb8d702b2e1
+    traits:
+      type: BAT
+      location:
+        bodyYaw: 109.53654
+        world: world
+        x: '-730.3'
+        y: '22.0625'
+        z: '462.7'
+        yaw: '109.5365'
+        pitch: '0.0'
+      gravity:
+        enabled: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      spawned: true
+    traitnames: owner,type,mounttrait,gravity,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: Fox
+    uuid: b6529445-b82b-4bc3-adb9-65ddedda7e13
+    traits:
+      type: FOX
+      location:
+        bodyYaw: -272.66315
+        world: world
+        x: '-733.2562'
+        y: '22.5'
+        z: '471.2618'
+        yaw: '87.3369'
+        pitch: '0.0'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      spawned: true
+      age:
+        age: 0
+        locked: true
+    traitnames: owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: Chicken
+    uuid: f5f30874-3a43-4bef-94ff-d1ce269d7bc5
+    traits:
+      type: CHICKEN
+      location:
+        bodyYaw: -130.46545
+        world: world
+        x: '-744.7'
+        y: '36.0'
+        z: '475.7'
+        yaw: '-130.4655'
+        pitch: '0.0'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      spawned: true
+      age:
+        age: 0
+        locked: true
+    traitnames: owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    metadata:
+      cached-skin-uuid: db7a0c6f-9c5d-4791-aaf8-95b3c2f1f04c
+      cached-skin-uuid-name: han
+    name: Han
+    uuid: 6c7cd085-e25f-4b8e-b64e-a72686d3c766
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 這是一個常見的留言板
+          '1': 可以試著創建自己的record
+          '2': 試著點選public和沒有public 看看有沒有不同。
+          '3': 他可能是因為lodash 版本問題所造成 flag 有外洩得可能
+      type: PLAYER
+      speech: chat
+      location:
+        bodyYaw: -2.0643737
+        world: world
+        x: '-730.6643'
+        y: '36.0'
+        z: '461.6996'
+        yaw: '-2.0644'
+        pitch: '12.1509'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        signature: nZc8/jQGirW5w+hKQz5l88QHgR3OtiDNFzF9eqk79kW3RuF3e1cqDlZDZ4lFgUz3RIRMZfHJf/0ynEqZuTy9NmDdLCKc2eaWdcaT7UwRI9oAZk9CzSK1lMi5NzsTG60hREQ8rRXkMA8AvcgjcA91D7o0r1LkPHsA18fIb8EvnoOfRhWeNfUmZo1DYI8Mw9dpFQrcP8f4WnS1FdmRD+ngMP+vdopZQMcIo+9ZPpCBwIUO0dRWamdQ+GuoMyQFVYsP+4hc+0mJo8WmEoE2T5rBg2pGMHOfiO5BaWV9jLGWq4areW3KG4XpNRg8Nx8jfMFgGBnfoPyn2xfpeHGTGBwBii3h+VHLHvP4VcO60u3WbEbnhqHJYYnFMt5R71F9ctgzJvZ621k7poqiUdEOGxfGDYnyCJOu+fVdnLmy3RJ5qavHRAb+tLM9wvp0SQKFW9IeU71uk12G8P1KEZKkqNA/kCVOy0RkkNPdWxr050lOufuaV/fVtlilF7kN6op7U+GNkkX2AiXVGx7m27yTsMrG1QAvdF4wi/EmkOuS5i20WXwM68N+r4VHZEl1pxxp53aG9oRT1dwOmjJX4MAGssQmxtwlEBE0nVD1d6roUI9Et6WyaUpbicMic54aGhtVzJhaWuvPgUrlvVFp92JW6856OCQZsScRME/nV1Ra3cJgWNY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUwMzAwMTM0MSwKICAicHJvZmlsZUlkIiA6ICJkYjdhMGM2ZjljNWQ0NzkxYWFmODk1YjNjMmYxZjA0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ1NWJmNjUzNjgwZmIwZGZkOGMzZTlkNzAwYjlhOTIyNjFlZWVjNGFjMTAwZTU5M2RiNzBjZWEyODE2YmMxZiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    name: Rommel
+    uuid: 391f9c13-1f32-4748-9b5e-c7a5b7f72017
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 我知道你想拿到這份資料，但是你得先做個簡單的智力測驗，我可不是在刁難你
+          '1': 偷偷告訴你這是lcsqs，是一種很麻煩的演算法，你得知道他有多長
+          '2': lcsqs是lcs的一種變形，查查論文吧，請問lcsqs有多長呢
+      type: PLAYER
+      location:
+        bodyYaw: -181.62549
+        world: world
+        x: '-740.256'
+        y: '60.0'
+        z: '474.3'
+        yaw: '178.3745'
+        pitch: '11.7006'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: monkeleader
+        signature: B4AbenWSu6pl+xiyQiWF1RjhgK4J5lFMtX+nkkapnsWtG3NNlRrd9J6lbcX7yyrJ5uLOwIsrzX6VJZGY+XgUos52Our9Y0gtvm6IdC/sooQzm4zFfntEqDJZ8zmgVHMhmi2lZM0Zv88wa5SkQcfihV8k4U4tx9stmydPCo6J8cHapdEwQDOOXDVcxj2jHtEmrzfJAosJz1wFe6u4I4Sy0GWD5kMzollrsYlOJ+dQBunn6ERPyQXvTnOVzMJJkUiQko3cwUP57Y3CzncEfcqnLYGppcnzj21nz4JCxs68u2QOXr1f5j9yqk4b/ANp3NVDUrLIZK8Zqcd/YJLkgEwdkjRXB2esr8QvVpzNkejnozhPpLxXBy6YInycCwJKAAlp4ZEFovbA23BLuQbsdVDxZM8y5ed2QEB27TiZRR9QzJ5M5fT99uCyxL9IxI4YwdzJaTLFxZ2yv4qqH2RfBuICX9gbqkyVktH34dmKrPpSMEk5VWmEZmInGmKj0wlu6iZ0t2aErUqFZcF5dzzotxAVTjmWWjYrf03u0m0a7D00AYA4mDdKn37Bf9FIIyrSfG7QCeeeB4txBL0gUl+Jps86YJKaMhvuG4Argn0mL49Gqp4WuCKhT/aKNbLB0PEQuCFHloGIdhoEijiOjqCPeM67D/OloiHN1iqEgiTKV31yq0U=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MzIzMCwKICAicHJvZmlsZUlkIiA6ICIwYjllOWNjNzY2ZTk0ZDMxODNjODZlMTNkNzUzZjY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb25rZUxlYWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzUxYTUyM2YwMzVhN2I2MDk5YzhmNzdkNmZmNjI3MjllZGQwNDgzZmJlNzgxN2EzMzM5NzE4N2RjODRlOWEzIgogICAgfQogIH0KfQ==
+      spawned: true
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 0b9e9cc7-66e9-4d31-83c8-6e13d753f675
+      cached-skin-uuid-name: monkeleader
+  '25':
+    name: Jeus
+    uuid: d8b1e7bd-8825-47a2-8fc7-3c39dad91e36
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 你怎麼把這麼重要的資料丟到碎紙機裡，這是flag的照片呀！
+          '1': 還好每一張碎片都有編號，拼好之後拿來給我
+          '2': 破碎的flag就像心碎的愛情，要按照編號拼會原來的位置喔
+      type: PLAYER
+      location:
+        bodyYaw: -179.22632
+        world: world
+        x: '-740.6555'
+        y: '56.0'
+        z: '474.3'
+        yaw: '-179.2263'
+        pitch: '5.4007'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: hummer72rus
+        signature: nkqjEYOuWsKD+xA+JAts6xOJRL2Zmn/h1UClwHF13weUcvI5KdllSg74oeKnWW6bDO7JZEq4xsCR9k6bVzl0u+q6wBLUzh/WoaeIbKD/dS8E9xq5eQzuI01iLnXra4stlIQhuKin6tE6RmNhT7yd0bj0ylQ0a/rv53aB6UCLOQs0q8FUWARVvRDnhJRbMWwDiBDvVQwBmh3U29TJMTIu+hAMwQbycQLTdjOp/ROM5XVr57BHb04pQZV9bRdMx+stWwuA2Jr17RGXblVUQhFvvOtXF6TN1RjDUfCfOgDI5XY8T3GBVqnzORxRnJym6NMDYC9UNnNFPRO5Y86fXKdv697d40dWBfIkjiccN8pqSjiWhlIYOhCoDBPAj8Fgnbn3B/+LaKMyzQ/SzqEDpU1Bb/YZ466XO6iS+bKUAWDuk604Y/VN6GNeyiqZKKDfG1iSXhlZQ/MkVTSikpzWDQqwVEG70M9zs4PP/wZ/cX9p2eLJvMUfcH85aPXOZKu3ThEEy5jm7B7yfgE3VDno0r/Vj/9a1utevwTjdrNbd2s8hzqQlCFzgaDCOcW7WH5bGItDqGFjJpTAmILfP8HLuA5j79FM5OJEraQ2mFMHnGsxawNI4C6T93IONxReYZIZAMQI+EDDy1eWLTCN8Kdt8wZii2+injCrLcSWlXwaN5bj5Ig=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MDM0NSwKICAicHJvZmlsZUlkIiA6ICI3ZDIxYjUyMDVlZmE0YTdiYWU2ODg4Nzk4NjVhODAxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJodW1tZXI3MnJ1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYWUzN2Y0YzAwYzZiNjUzZDkxODM3MmNlYjc0ZTk0OGVmZjI2OWZhZjM4MzZkMDBhNWM1YzU4ZmJhMjZjMWIzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 7d21b520-5efa-4a7b-ae68-8879865a801a
+      cached-skin-uuid-name: hummer72rus
+  '27':
+    name: Romance
+    uuid: a083a9c1-f4c0-4cdf-ada4-3e200e666fe3
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': I don't have a password to login this document,it seems I need to try
+            something to bypass the login program.
+          '1': hmm,its owner took a little precaution, maybe some symbol was forbidden,we
+            should try other syntax.
+      type: PLAYER
+      location:
+        bodyYaw: -179.66553
+        world: world
+        x: '-750.5934'
+        y: '36.0'
+        z: '467.3'
+        yaw: '-179.6655'
+        pitch: '1.0505'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: jelly_gun
+        signature: bypiYPRTcsX90tx/UZfLe5Xza4bDBIZpTggbizISq6voVzm6xMfPZofJvPErXBPVW09NBa2akq3fZzHrf61Bfwqx+s2RlTbwD5fPhS1UASLMfel4p0KGIEwIYylrkKwcBEK4BPIxrqv6WpkLE0UFhCryQHbAvHwFYGPeOfW0lXQ0OykwRF3HzrlwP3f+BT4A35m9J9uDxjqh39EUNl4E7EgzbzEMwnP4UxcF4gvBUV8gtKlBpXZCR6NW8uOSZflyVkM5F0KgvskWpzE/sT2RfOV2Kuq7WFoEpYcUGCzzAsO8iyzms71IaJufkHMNZjGp8NQytY0Zyz68kSnGp3ImlFZAjY6BeIIqv42Mxb7LwSmjPoKNU7HyMzDNdLbmtTvASe7RkE/gOYX1eU3UnT2tioLaIIA6yDma3gE6jOZ9ogzEInm69SXdOWaWCWxiQJnkF+0hUtOuZj8rrsN6Fxkqij7B86peffy7eD9mO3RlRTorW9BMXYUNW7wdbN/2d6H99A/UPWzin8fxEVtdPoRAMCgGg87ftxI0mEguao6KdpaA95h9HEgVyb9XXxmRl3K9VGcqbzB1P0n0POU358pspkXht5ZxyEGATwhGHE+/gEh8X062ryDvd8P1ejBolma4qvr1W2TIn23LY9ebFlpjAxhAqAcwIr08QxKdgI+EwJo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTM1OCwKICAicHJvZmlsZUlkIiA6ICJhOGFmN2FlMDUyNTk0ZTRlOTBkNjY1MTFmNTgxZWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseV9HdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4OTBjZGYzNDQxYTdiYWU3ZTk3MjNmMzk4OTYxNGE1ZWIzYmE0MTNjZjUwMGQzYWMzMGNlY2VkZmFhZjk3YSIKICAgIH0KICB9Cn0=
+      spawned: true
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: a8af7ae0-5259-4e4e-90d6-6511f581ebff
+      cached-skin-uuid-name: jelly_gun
+  '28':
+    name: Hank
+    uuid: 61afd034-17ba-48ee-87f9-b8fce340dfd5
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': This is Spy Family slot machine.
+          '1': 777(All pictures are same) 48763 times, you will get important thing.
+          '2': Hint：Patch or Decode, choose one.
+      type: PLAYER
+      location:
+        bodyYaw: -92.33276
+        world: world
+        x: '-750.3'
+        y: '60.0'
+        z: '472.5497'
+        yaw: '-92.3328'
+        pitch: '23.7003'
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: OL/9CLw2Jfu7TGlSw6tHFACHqQ9Qr2Fij7z9VDMbyOZtPZW1s5xF4oAs7v6Zq6VGddDi9MIERTSlemHw4CYJ+4uF22gCoX2HAl9tuaCGvBc12Ll9Ycj4h5QkEJb/Catf+hZPd8dn59zIDmDKq4Qr3CMgqJlBqAFDdGlylBEfFe3GkWZOigy+rZxiGA7Z/oV1f6laSqU8VrSWjwdRG0T+oquWyUoJju91tp9w9T8IUb1SnPm1+LLSAJvZVnRkrGwa+XjJUxbkQUsmiveZM3hgYOQMkVtFCqa0ODYE+Vow16wQ+PtnnRd+vmaVBP7GOb/gaeEX14eHH6qcAGHUc6t8cYBgAiG2ej35bq6QeLLSMp9U/sQR2zzEK6riL2QGq4LQb8P1ujm/Bn0ZjxbAG+qad91iDMnWKZgsQByEfXHyo/JaJZZeZZgX5xIaMgUdl8qv5QFHzObn3wGPP9Y9tKwU0IEOp3tu9Enw8FWxOpUBBifVisKWmIvqJTHwkzGgVqDOr73+KR7mknB2LbEGrter6/sfmQH2rZLU5Gyh3bz4P4apnCsoCOBemlHAJ6sym+c95Xpc8BWYH34nyGYKQQpcGzIkqo7AABFWESE37AK4Uq4/Codh//6pDjSqFw9sOyMI91ONR9ccjJzSnM+uhUvKfkKQrRt/KhmEG3n4q+qxkJA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4NDgxMSwKICAicHJvZmlsZUlkIiA6ICJmMGYyZTMwOWFiYzQ0OTc5YjE4ZWYxMTE4YmQ5MjE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW5rIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlNDgxY2FjNDc0MDQxNzg1MDVlYmU5ZjdlY2Y3NTZlMTRkZGI3MjE2MTUxYzRlMmNhNDk3MjViMzQ0YTUxODYiCiAgICB9CiAgfQp9
+      spawned: true
+    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: f0f2e309-abc4-4979-b18e-f1118bd9214a
+      cached-skin-uuid-name: hank
+  '29':
+    name: Whale
+    uuid: b5d40993-ad4d-481b-b1c5-14a5e843e20e
+    traits:
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': We’ve got the information. There seems to be something hidden in the
+            phone. However, what we got was just a image of the system. Find the secret
+            and deep into.
+          '1': Hint：It seems to be a file and the network connection information was
+            hidden in it.
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 268.27344
+        world: world
+        x: '-750.3'
+        y: '32.0'
+        z: '472.5811'
+        yaw: '-91.7266'
+        pitch: '15.0004'
+      spawned: true
+      speech: chat
+    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

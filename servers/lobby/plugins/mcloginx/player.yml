@@ -5,12 +5,54 @@
 #   Password: 'password'              #
 # ----------------------------------- #
 
+# MACDX2022 staff
 t2o0n321:
-  Team: AAROC_MC_CTFD_1
-  Password: 1qaz2wsx
+  Team: team1
+  Password: 121a3071429A@
 Jack123F1:
   Team: team1
-  Password: 1qaz2wsx
+  Password: 121a3071429A@
 alan1120218:
   Team: team1
-  Password: 1qaz2wsx
+  Password: 121a3071429A@
+
+# MACDX2022 participants
+ccitistc1:
+  Team: AAROC_MC_CTFD_1
+  Password: zXSjBjRhPa6a6mXs
+ccitistc2:
+  Team: AFATS_MC_CTFD_2
+  Password: JY9MPwVRV34CkQ2v
+ccitistc3:
+  Team: CAFA1_MC_CTFD_3
+  Password: gX3CQGW5zgUEhbwV
+ccitistc4:
+  Team: CAFA2_MC_CTFD_4
+  Password: KLVBJrYsQYaQH4fK
+ccitistc5:
+  Team: CCIT1_MC_CTFD_5
+  Password: ba9DHuxXbtDEQDqp
+ccitistc6:
+  Team: CCIT2_MC_CTFD_6
+  Password: EvvHy3gYwTWhLb5z
+ccitistc7:
+  Team: CMA_MC_CTFD_7
+  Password: jHE7FbFzUdbFWmJC
+ccitistc8:
+  Team: CNA_MC_CTFD_8
+  Password: zphaGbDZY8JZ5Saw
+ccitistc9:
+  Team: CPU_MC_CTFD_9
+  Password: aKeyLG5dtJPcy7CG
+ccitistc10:
+  Team: MCNDU_MC_CTFD_10
+  Password: jnHvLKH9aCS7ADKp
+ccitistc11:
+  Team: F1_MC_CTFD_11
+  Password: 52TdnUwsfpSNexHs
+ccitistc12:
+  Team: F2_MC_CTFD_12
+  Password: 9JLDhLgH6NE5b5H5
+ccitistc13:
+  Team: F3_MC_CTFD_13
+  Password: vP5CDMcA9qnqbVhU

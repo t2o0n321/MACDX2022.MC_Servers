@@ -303,3 +303,168 @@ Registered listeners.
 Player alan1120218 teleported to home spawn. Location: Location{world=CraftWorld{name=world},x=-726.6065835551253,y=22.0,z=532.2148657441093,pitch=0.0,yaw=0.0}
 Server stopping...
 [25-04-2022 05:44:29] Plugin stopped.
+[29-04-2022 05:22:33] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[29-04-2022 05:22:33] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[29-04-2022 05:22:33] Succesfully started SetHome v1.21.2
+Server stopping...
+[29-04-2022 05:22:33] Plugin stopped.
+[29-04-2022 05:46:09] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[29-04-2022 05:46:09] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[29-04-2022 05:46:09] Succesfully started SetHome v1.21.2
+Server stopping...
+[29-04-2022 05:46:09] Plugin stopped.
+[29-04-2022 06:16:59] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[29-04-2022 06:16:59] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[29-04-2022 06:16:59] Succesfully started SetHome v1.21.2
+Server stopping...
+[29-04-2022 06:16:59] Plugin stopped.
+[30-04-2022 01:04:56] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[30-04-2022 01:04:56] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[30-04-2022 01:04:56] Succesfully started SetHome v1.21.2
+[02-05-2022 23:38:42] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[02-05-2022 23:38:42] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[02-05-2022 23:38:42] Succesfully started SetHome v1.21.2
+Server stopping...
+[02-05-2022 23:38:42] Plugin stopped.
+[03-05-2022 00:08:25] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 00:08:25] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 00:08:25] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 00:08:25] Plugin stopped.
+[03-05-2022 04:49:00] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 04:49:00] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 04:49:00] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 04:49:00] Plugin stopped.
+[03-05-2022 04:57:53] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 04:57:53] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 04:57:53] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 04:57:53] Plugin stopped.
+[03-05-2022 05:03:50] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 05:03:50] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 05:03:50] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 05:03:50] Plugin stopped.
+[03-05-2022 05:06:52] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 05:06:52] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 05:06:52] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 05:06:52] Plugin stopped.
+[03-05-2022 05:20:33] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 05:20:33] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 05:20:33] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 05:20:33] Plugin stopped.
+[03-05-2022 05:25:19] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 05:25:19] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 05:25:19] Succesfully started SetHome v1.21.2
+Server stopping...
+[03-05-2022 05:25:19] Plugin stopped.
+[03-05-2022 05:26:52] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[03-05-2022 05:26:52] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[03-05-2022 05:26:52] Succesfully started SetHome v1.21.2
