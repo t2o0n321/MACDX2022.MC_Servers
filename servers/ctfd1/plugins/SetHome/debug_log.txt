@@ -468,3 +468,14 @@ WARNING. Plugin is running on a different version. Some features may not work.
 Bukkit version: 1.16.5-R0.1-SNAPSHOT
 Registered listeners.
 [03-05-2022 05:26:52] Succesfully started SetHome v1.21.2
+[05-05-2022 08:17:37] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[05-05-2022 08:17:37] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[05-05-2022 08:17:37] Succesfully started SetHome v1.21.2

@@ -2,7 +2,7 @@
 
 
 
-last-created-npc-id: 29
+last-created-npc-id: 30
 npc:
   '0':
     name: Counter Lady
@@ -35,13 +35,19 @@ npc:
         talkitem: default
         text:
           '0': Hello and welcome to Microhard.
-          '1': 想必您已經知道了，本公司近期發生了很嚴重的伺服器故障，員工完全無法正常存取資料，根本沒辦法工作
-          '2': 但大家都找不出來問題出在哪裡，事關公司存亡，希望您可以盡快幫我們解決這件事
-          '3': 目前所有員工都在公司中，您可以到各部門向他們確認狀況，應該可以得到很多有用的資訊
-          '4': 建議你先去資訊部，是他們最先發現問題的
-          '5': 我要去開會了，祝您辦案順利
+          '1': As you must already know, the company has recently experienced a serious
+            server failure, and employees are completely unable to access data normally
+            and cannot work at all.
+          '2': But everyone can't find out where the problem is, it is related to
+            the survival of the company, I hope you can help us solve this matter
+            as soon as possible.
+          '3': All employees are currently in the company, you can go to each department
+            to confirm the situation with them, you should get a lot of useful information.
+          '4': I suggest you go to the information department first, they are the
+            first to find the problem.
+          '5': I'm going to a meeting, I wish you a smooth case.
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -65,10 +71,13 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 你好，這裡是資訊部，如你所見大家都忙著處理這個爛攤子
-          '1': 最近我們側錄到一個來自“前”員工的手機發送到外部的封包，§m裡面好像有一封廣告信§r§a，我們懷疑跟這次這件事有所關連
-          '2': 請你調查看看他究竟傳了什麼出去
-          '3': 檔案密碼:3kf4Yj3pi%EIMOwAdC%C
+          '0': Hello, this is the information department, as you can see everyone
+            is busy with this mess.
+          '1': We recently recorded a packet sent from a "former" employee's mobile
+            phone to the outside,§mwhich seems to contain an advertising letter§r§a,
+            which we suspect has something to do with this incident.
+          '2': Please investigate to see what he's spreading.
+          '3': File password:3kf4Yj3pi%EIMOwAdC%C
       location:
         bodyYaw: -271.17212
         world: world
@@ -87,7 +96,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -108,10 +117,13 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 這是…Minecraft伺服器的位址?怎麼會有麥塊伺服器架在我們公司裡?
-          '1': 看來所有問題都源自這玩意兒，請你進去查查看裡面在做什麼
-          '2': 伺服器機房在樓上，直接在那裡連就可以了
-          '3': 至於下面這組VPN，我建議你去網路中心那邊尋求幫助比較快
+          '0': This is... the address of the Minecraft server? How come there is a
+            mic server in our company?
+          '1': It seems that all the problems stem from this thing, please go in and
+            see what's going on inside.
+          '2': The server room is upstairs, you can connect directly there.
+          '3': As for the following group of VPNs, I suggest you go to the network
+            center for help faster.
       location:
         bodyYaw: 270.3263
         world: world
@@ -129,7 +141,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
         updateSkins: false
       type: PLAYER
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -150,8 +162,10 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 原來如此，有人在利用Minecraft的漏洞在干擾公司伺服器，但我們只拿到了IP，沒有port也連不進去。
-          '1': 封包好像藏有多個檔案?可以查查看
+          '0': Although I already have an IP, what is missing to connect to the server.
+          '1': 'The following information is also missing from the investigation report:'
+          '2': 'server version:'
+          '3': 'error: can''t run program'
       location:
         bodyYaw: -269.82184
         world: world
@@ -170,7 +184,7 @@ npc:
         updateSkins: false
       type: PLAYER
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -205,11 +219,13 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 請進，這裡是網路中心
-          '1': 喔?你這是一組VPN，你要用它來連到某個網站是嗎?
-          '2': 很抱歉，要連上這個私人網路，只有VPN位址是不夠的，你還需要他的OVPN設定檔
-          '3': 你沒有嗎?那或許，你可以從之前的線索找找看
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+          '0': Please come in, this is the network center.
+          '1': Oh? You're a set of VPNs, are you going to use it to connect to a certain
+            website?
+          '2': Sorry, to connect to this private network, a VPN address is not enough,
+            you also need his OVPN profile.
+          '3': Don't you? Then maybe, you can look it up from the previous clues.
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -248,13 +264,17 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 我跟你說，我前陣子想到一個超~級聰明的方法把免責條款藏進廣告裡面，只要用§clsb§r§a把文字放進圖片每個像素裡面，就可以在不影響美觀的前提下設計廣告了!
-          '1': 但是!經理居然跟我說這樣做沒有人看得懂，叫我別再亂了，明明是他們太笨吧。
-          '2': 如果是你的話肯定看得出來的，對吧?
-          '3': 提示:要用kali使用它內建的工具
+          '0': Let me tell you, I thought of a super clever way to hide the disclaimer
+            in the advertisement a while ago. As long as you use §clsb§r§a to put
+            the text into each pixel of the picture, you can design the advertisement
+            without affecting the aesthetics!
+          '1': But! The manager actually told me that no one could understand this,
+            and told me to stop messing around, obviously they were too stupid.
+          '2': If it's yours, you can tell, right?
+          '3': Hint:Use kali with its built-in tools.
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -291,13 +311,17 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 嘿，我等你很久了(悄聲)
-          '1': 偷偷告訴你一件事，當時公司電腦出問題後，我就私下請人幫忙修復硬碟資料，裡面全都是我寶貝產品設計圖啊。
-          '2': 你猜怎麼著，裡面居然有一個我完全沒見過的語音檔，而且還被反轉加密過了!怎麼看都很可疑對吧?但我實在不知道怎麼破解他。
-          '3': 這個音檔就給你吧，你應該知道該怎麼做吧?
+          '0': Hey, I've been waiting for you for a long time (whispering).
+          '1': Let me tell you something secretly, after the company's computer had
+            a problem, I privately asked someone to help repair the hard disk data,
+            which were all my precious product design drawings.
+          '2': Guess what, there is a voice file I have never seen before, and it
+            has been reverse encrypted! It looks suspicious, right? But I really don't
+            know how to crack it.
+          '3': I'll give you this sound file, you should know how to do it, right?
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -331,13 +355,17 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 啊…好想要最新出的RTX 3090 ti啊..，可是有夠貴的啦，零用錢根本就不夠嘛
-          '1': 聽說這台販賣機出bug了，有個方法可以讓錢越花越多喔，你要不要來試試看?
-          '2': 你說為什麼販賣機會賣顯卡?我怎麼知道
-          '3': flag好貴，阿姨我不想努力了!!有沒有辦法花錢卻讓錢變多啊
+          '0': Ah... I really want the latest RTX 3090 ti.., but it's expensive enough,
+            and the pocket money is not enough.
+          '1': I heard that there is a bug in this vending machine. There is a way
+            to make more money. Would you like to try it?
+          '2': Why do you say the vending opportunity sells graphics cards? How do
+            I know.
+          '3': The flag is so expensive, auntie, I don’t want to work hard!! Is there
+            any way to spend money but make more money?
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -357,12 +385,12 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 糟糕!我們的AD伺服器遭到攻擊了!
-          '1': 聰明如你肯定可以幫我找出犯人吧
-          '2': 這裡是有關AD伺服器的一些事件log檔
-          '3': 從中找出犯人的蛛絲馬跡吧!
-          '4': 跟登入有關的資訊可以從security的部分找找看
-          '5': 後門可能是用下載的指令來種的
+          '0': Oops! Our AD servers are under attack!
+          '1': As smart as you are, you can definitely help me find the culprit.
+          '2': Here are some event log files about AD server.
+          '3': Find out the clues of the culprit!
+          '4': Information related to login can be found in the security section.
+          '5': Backdoors may be seeded with downloaded instructions.
       type: PLAYER
       location:
         bodyYaw: -267.7351
@@ -381,7 +409,7 @@ npc:
         signature: bq3Oiu9chA0mEFnlhnvKJwHdwQdFRRsjF4VFIPibZYiGB24wfFi1t+BBX+vLln9f64Y9f3KJVtpYTXkLlHIikovKD+tMf7XxEw5PiNt7oH/amwj9zv6M2I5XCW78mvoy5MguKoKoKkZPv5emqbO4AtDrzuEw4VPNpfAC1njSmGnO3tZyQwztcmwpi+rxLKB0XZ6MxKECKIUH7yR9aNqezSFcBM3fITHOPfZqQrHaNRm9Ij0qfzfo/lHdB12wMX3ohtxhDb1iVsZNl9KFp2L5yEceuL9fpa6SkgxDgSVUKikunG95TcLIDBDB03ubHkbqKRdfqJfhNk1riunF/QnXUePeA9UHcSqo0+eO4UKhBIF3WzukfNH4LRe/BwHzQ8zVRZgzVqPEkzX9kbyfYosb+FRnD7fJsochnFkjWe5KuxrnktW8/dI4lCPzP9iMb2PpqwlRByB4Qd45MoftXS3O+TJEt0LkeTc0RdmTx1R7pj+1zM27wlhlTh3szwrTn89Gr+89eFQ6lN+Vt6ib31N080A54yHP4dQn0aMQuo17aTxatIZSuk4a/b2JaAxf/WYBsbyJ1D6aAtPYfgHkWbqnoh7EOFLqKj3R8lW6aP9iyZRjSaQFVOBe/5a17JSYRcgOExG2wp+A8/WrA9yrtGSrmZAAXIb3+C8y6IKyagbzKOs=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -401,11 +429,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 這是可以讓客戶留言的留言板
-          '1': 你可以自由地在上面更改暱稱、留言
-          '2': 管理員會定時來登入看看所有人的留言
-          '3': 看看管理員介面可能會有所收穫
-          '4': 用cookie可以看帳號與密碼
+          '0': This is a message board where customers can leave messages.
+          '1': You can freely change your nickname and leave a message on it.
+          '2': The administrator will log in regularly to see everyone's messages.
+          '3': Look at the admin interface might be rewarding.
+          '4': Use cookie to see account and password.
       type: PLAYER
       location:
         bodyYaw: -270.58594
@@ -424,7 +452,7 @@ npc:
         signature: uYR+HPcxdZr1Nsl6KpHhmoMzOkKvdEJp2/SHjoOZtvZaeGU6dR7dGIZIU27LNLhuK1eeH0xgRXiPuPs38rTU2scL78kgvD+bSCpafuVcMMPKRxi1zZVkyY6NB4w5y75xNiJMbnqvoX21apa4V9OfKQMPu4nxUnQf3DTgMnSAF+xatSZPp+OnABqflJIyFxO/h8TtPaAwiYyAS7O/6tn6QhSsV2LSGdrzzHeTRJyBMWpehNqQBbLh4bqiRpUUdt5lacfqy9NhFSVblzsOldI9fqHevJML9ij0f9GXKHxyo8/hfNoV/0xVhW3112sr8PL5n/HzESTUltTZRaJVbNthCU2NbfOGju7mIqgtc1hRWcBfgzubuxmX8pDVkinibvYBRyq2fKC2mrYUKeUpPuKWddxBP4LEQCwipk0mD758sqURpmy+EWeNKGZFy8Ub/NwpMquwp8Ca1niCKkOgKgbNkwBKwrZGlkJXIjw1Oz3W+6/QGYEWhdwnWLR/ORPkjTvGtpi8wNbYBVP6EDGQdp7GwZOeHQLeDuxEbAVJUUU4B/HOpLFM1+rmolP47QVPXc5e87s1fUN59MaiYLEg10CEVzAMnWCflPgtRPQ9khM0ZQ4xR+FZ/IN4kuyMxJzdtdSehULr2NOvJTzE2ejYUD9oY6NvoI24/32BN2AIegePOnw=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTU4NCwKICAicHJvZmlsZUlkIiA6ICJkYzI4M2QyZmIzZTk0YzFkOWE3YjA5NGFmM2U3Njk4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3dGZndW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlMGUzZDdiMGNiNzM5OWQ0NjczZDY1MGQ1ZWYzZGE0YWRmNjgyNjlhNGI0YTdhMjE4OGVkOGIxZTIwZGRlNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -444,16 +472,20 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 真麻煩，我這邊查到了本公司有兩台主機中了勒索病毒
-          '1': 麻煩你幫我處理一下
-          '2': 這邊有這兩台的IP、port及連進去的帳號密碼
-          '3': 麻煩你用SSH連進去之後，從檔案中解出密碼來
-          '4': 要注意的是，因為駭客的設定，要先解出第一台的檔案，才能用破解出來的東西，繼續破解第二台
-          '5': 'Bnadit1: 10.1.3.39:19313 Password: X25QvvIf6t'
+          '0': It's really troublesome, I found out that the company has two hosts
+            with ransomware virus.
+          '1': Please deal with it.
+          '2': Here are the IP, port and account password of the two machines.
+          '3': Here are the IP, port and account password of the two machines.
+          '4': It should be noted that, because of the hacker's settings, you must
+            first decipher the files of the first unit before you can use the deciphered
+            things to continue to decipher the second unit.
+          '5': 'Bnadit1: 10.1.3.39:19313 Password: X25QvvIf6t User:root'
           '6': 'Bandit2: 10.1.3.39:16234 Password:???'
-          '7': 可能用到指令(grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd,
-            mkdir, cp, mv)
-          '8': Bandit1跟Rot13有關，Bandit2裡的副檔名並不是正確的
+          '7': Commands may be used(grep, sort, uniq, strings, base64, tr, tar, gzip,
+            bzip2, xxd, mkdir, cp, mv)
+          '8': Bandit1 is related to Rot13, the file extension in Bandit2 is not correct.
+          '9': URL:§nhttps://micdex.org/challenges#Bandit1-3
       type: PLAYER
       location:
         bodyYaw: 271.21857
@@ -473,7 +505,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTUxODk0MCwKICAicHJvZmlsZUlkIiA6ICI3NjNkNGI1MDdlNTU0YWIzOTA3MTZlNjU2ZmY0ZjIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbmFkaXhZVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NjM3ZGYwYWQzN2Q5NzcwNmE5N2JkZjVmNWI4YjFiZmNiZGRhOTNjMGMwMGIzZTA2ODQxMjEzZjJhNWM2NTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -493,9 +525,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 有一則訊息使用了兩組的RSA金鑰進行加密，公鑰及密文都在文件中
-          '1': 你能夠將明文解出來嗎
-          '2': 雖然質數有那麼多個，但是搞不好可以拿到一樣的質數
+          '0': There is a message encrypted with two sets of RSA keys, both the public
+            key and the ciphertext are in the file.
+          '1': Can you solve the plaintext?
+          '2': Although there are so many prime numbers, it might be possible to get
+            the same prime numbers.
       type: PLAYER
       location:
         bodyYaw: -269.0741
@@ -514,7 +548,7 @@ npc:
         skinName: xkatv
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -554,7 +588,7 @@ npc:
         signature: ZRHpyEQ6oXfJlAAQEar00nsUMX4V071hT9zxZp2MHfFZJYNhJQixqk9X8FYHyMxgCO9wFaUTCTZ87DqAhG9+RKttWz7jaBBq9AzOvL5pAe8B5ZdSIXgjx3xgoP17mWQgSFPXOln+3xejU3QwuO8afan2C/65cOgLkROoDbRKk5ZQsxOrX+JAZbU/t5yIvtIFeLSVjqYSZLX5NXc+ywV5RqLIRvao5xWuX7lXSC8G/8uv+q0cRFEdgTqMAMf0KJNN3mUYUYdIw/Zva0eTKekwdXJyrLBTK01BtW7yJMSBG990PLxrYPFG9sGMUIsV5thrKnxAvXU6LU+6bzLOJD8nvxmr7pFPMt1elH+4Cuhu1ROlgr8U+d4Ptumtjp1JKopafSSIH/ej+Y3BVG9whIJZlXEJqNBIEe42Svnlv2zcjFZTtHtooytqtjLJaFkxXcmTYku2cAyPSd2iH8gaks7ET5SZZG+i/wvKua8B6tbYtX9YvERkfesaqwHWMFDGJRTqss86shXtAfIKYAbTvqN0/o1eCT7Cmuud2IttZ78L/GCxHQWg+6CnCyUlWe5hBmzmECnbES1xthPLRJ3NBk/puXypqnospSEvGIz78SZDya0KyRBHNLsiHbOLDo+47m2ObuV8BoBJlNfw1ClL2ENWCBLmnWJ9YMTjz20yseN6KkU=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTk2MTE5MiwKICAicHJvZmlsZUlkIiA6ICIwYzVkYmQ2ZWQ1ZDM0ZDRkODBkMWRjNDRhNGRlZTVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkNWRhZDQ3MTlmNzI0MDdmZGNmNjlmODg2YWU3M2RlOWNjMDUwMzc3OWVmMGM4MmVhMDdlNWJjYjY5NzgyNmIiCiAgICB9CiAgfQp9
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -574,9 +608,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 擷取到了一則奇怪的訊息，這個訊息好像是某一種語言
-          '1': 但是好像沒有人懂這種語言，你能夠把它翻譯成英文嗎?
-          '2': 雖然質數有那麼多個，但是搞不好可以拿到一樣的質數
+          '0': There is a message encrypted with two sets of RSA keys, both the public
+            key and the ciphertext are in the file.
+          '1': Can you solve the plaintext?
+          '2': Although there are so many prime numbers, it might be possible to get
+            the same prime numbers.
       type: PLAYER
       location:
         bodyYaw: -272.9745
@@ -595,7 +631,7 @@ npc:
         signature: r+YtvEJ0xcegvX8+9fU7lVkn5Epm9bHjzq2WsioWeFnc3q3Bx51AN0O+gpyrumTnAbH69bJ/vniWeBBWVS7oG0639FFdHmlmx2sK9lW1I/3oW8IaK2i8LirLQgT/qIZEh5yut9q2rRk8oxiMHlphn9GF4lvz1C3QV9k/MD3YWO2PxRyXXTsHTWCaL0dAvXBhtfHEodk0pVOee7TTxdhq6AJoPjdlZDQpGCq4gNbbRCBX3dpmVv/q6GGaEEwyJoErs0H6hncBuOrro8zADbJd2F0Lw9bF+zs0xqFRywjD8HSax6XPNtxjTp+s7VLQjjE42gF8nwDcv1IUJPRXYFIPmRjjNF4INs7vclwVJIMu3krJB39/DJM3i59CzHX/xLImJejbudth0u7o3hnsoaYVtDzKv5IwqvyvbagYwNWKvZ+O7Kya/q7i8YOytP4zOhtdSDMoXQ3kmTrBZrit9fs5KMcGyO5I1gL/tTFAK6Ly66a4DOBNiEQVfEB4d1nS/wNJOk1l0516nEma9nvUvbOy4nL8VZS/kdP4TgovwGQ27vDthg3kAE0CdbWZEvE+VtLRLwrKWHlt0tN69V8dirw6peiDvk9RgwGCo45oovZyGy0fn1c8CQTPbbWlWMzNcl1J56vGsPtShWyUS0af6S5lofiB+0C/sZVHMbS6WvWZ8JQ=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTYwMjk0OCwKICAicHJvZmlsZUlkIiA6ICI4NGY0MWExNzVkMzg0ZGYyYmM2YjUxMGEzZWE2YzE3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYnZoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhODcyOWQzNjkyM2Q2NWM5ZjkzNzdhZTU0YTg2MWFmOWI4OGU3ZmFkOTA4NjcxODliYTg5NDdiMzBlNjA1ZjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -635,7 +671,8 @@ npc:
         signature: KZkShrau/7jKYBkqRrrvZBejGLTeLcLpK7zzEsIA6Dtp9bNc6fEQk42Szf7TwpucIaeibn+WBrSJD7spV66QC4AC3d/bmobSn/7MWJOP7AdGjjlDEcx6MgVzskLW/4Wu++QzolGex8fQJkNUdAD3L4jelOsQsZEqRTPVGL5R5C2nc8mfqYrYXKrnAVmPUAWsZFFYmMdueZSA5FMSrqLrKvuLI/yE4GT7LlMn7fTvtwn1sw0XetOoxPm8CUdaYAQ0i/+VAVQKAuISfp2h0WkKM63C7vqPJlc0rzG0UWX00jPKe15m58kWYl38lWkI6brsPTBiNLV3Cab5uPax5gSUWiacSmY65yOvSWHOnhW/fcaytpcWfHWuehoMZ9tD9S2YnHogMUpCSPW9W0LVvlMAifZXbAK7xTIx0d2pRtpeDwQkPQe7VLNP82mTD74CJ9Vk2F6I246Uqfy8lSxxOmxhzP38pPxGw9B8oAtxHvfoQQoSl7aAJmxBn5sTSvrjwkrCBoY1Qc2f5oY8Oz+NAwV4LbVZA8jAWRXmU3QFcVJYEcN5uS+wGFNQDH73+/ZlKuTM8EeIZ8oSslYp6tNWAiJsRdHwjb3FUTSjvbl8jDMFV5X0MUXZqF77wTtU3oMQ8RFxW0y2k8cz3NwGVQQmoHKO2/JZMRtmp4XbBy+ag0qdP/U=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxNDczNiwKICAicHJvZmlsZUlkIiA6ICJmM2M0ZGZiOTFjN2I0MGFjODFmZDQ2MjUzODUzODUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaW1vbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2ViYThhZWU0ZmQxMTUxMmI3ZTFhMjc5YTE0YWM2NDhlNDQzNDgxYjlmMzcxMzZhNzEwMThkMzg3Mjk0Y2YzIgogICAgfQogIH0KfQ==
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+      speech: chat
+    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -658,9 +695,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 恭喜你取得VPN帳密囉!嘗試進入內網掃掃看網段裡還有沒有甚麼機器可以打
-          '1': hint1:他有開smbㄟ，查查看win7 smb exploit
-          '2': hint2:ms17-010
+          '0': Congratulations, you have obtained the VPN account secret! Try to enter
+            the intranet and scan to see if there are any machines in the network
+            segment that can be called.
+          '1': Hint1:I “wanna cry”
+          '2': Hint2:he has smb open, check win7 smb exploit.
       type: PLAYER
       location:
         bodyYaw: -91.9259
@@ -678,7 +717,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5MzgxOTY4NiwKICAicHJvZmlsZUlkIiA6ICJmYjcxYzBmYzZkYmE0YTE4YTM5N2YyY2NlNTlmMjhkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1MmVhMWZjNTkwZmQ2ZmM3OGQ3ZGEyOWJlMTIyZTZiM2RhZWVjZjc3MzhkNGYyMjVhZmQ1OWNjMGZkYTI3YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
         updateSkins: false
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+      speech: chat
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -718,7 +758,7 @@ npc:
         updateSkins: false
         skinName: wxzm
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -755,7 +795,7 @@ npc:
         skinName: 2b2tpolice
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4Mjc4NCwKICAicHJvZmlsZUlkIiA6ICI3Y2ZjYzkwMTY5NzM0ZTNjODFjOGFmN2RiOGE1YmRhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyYjJ0cG9saWNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk5ZjJlZDZhMDNhOTU4ZWY3NmM1YzFjOTM3M2Y5YWQ2MTg2NmY3MzkxZDM0MTU1NTlhOTQ3YmIyODA1NDU4MzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -769,12 +809,12 @@ npc:
     traits:
       type: CAT
       location:
-        bodyYaw: 89.95169
+        bodyYaw: 89.792694
         world: world
-        x: '-741.6443'
+        x: '-738.3417'
         y: '36.0'
-        z: '461.4992'
-        yaw: '89.9558'
+        z: '461.4954'
+        yaw: '89.3881'
         pitch: '0.0'
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
@@ -828,7 +868,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: waypoints,owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    traitnames: owner,type,waypoints,age,spawned,mounttrait,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -866,7 +906,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: text,speech,owner,type,mounttrait,gravity,location,age,spawned,scoreboardtrait
+    traitnames: owner,type,spawned,age,gravity,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -891,7 +931,7 @@ npc:
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
       spawned: true
-    traitnames: owner,type,mounttrait,gravity,location,spawned,scoreboardtrait
+    traitnames: owner,type,gravity,spawned,mounttrait,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -915,7 +955,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    traitnames: owner,type,age,spawned,mounttrait,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -939,7 +979,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,mounttrait,location,age,spawned,scoreboardtrait
+    traitnames: owner,type,age,spawned,mounttrait,location,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -959,10 +999,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 這是一個常見的留言板
-          '1': 可以試著創建自己的record
-          '2': 試著點選public和沒有public 看看有沒有不同。
-          '3': 他可能是因為lodash 版本問題所造成 flag 有外洩得可能
+          '0': This is a common message board.
+          '1': You can try to create your own record.
+          '2': Try clicking public and no public to see if there is a difference.
+          '3': He may have leaked the flag because of the lodash version problem.
+          '4': Must use the Chrome browser.
       type: PLAYER
       speech: chat
       location:
@@ -981,7 +1022,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUwMzAwMTM0MSwKICAicHJvZmlsZUlkIiA6ICJkYjdhMGM2ZjljNWQ0NzkxYWFmODk1YjNjMmYxZjA0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ1NWJmNjUzNjgwZmIwZGZkOGMzZTlkNzAwYjlhOTIyNjFlZWVjNGFjMTAwZTU5M2RiNzBjZWEyODE2YmMxZiIKICAgIH0KICB9Cn0=
         updateSkins: false
       spawned: true
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -998,9 +1039,11 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 我知道你想拿到這份資料，但是你得先做個簡單的智力測驗，我可不是在刁難你
-          '1': 偷偷告訴你這是lcsqs，是一種很麻煩的演算法，你得知道他有多長
-          '2': lcsqs是lcs的一種變形，查查論文吧，請問lcsqs有多長呢
+          '0': I know you want this information, but you have to take a simple intelligence
+            test first, I'm not trying to make things difficult for you.
+          '1': Secretly tell you that this is lcsqs, it is a very troublesome algorithm,
+            you have to know how long it is.
+          '2': lcsqs is a variant of lcs, check the paper, how long is lcsqs?
       type: PLAYER
       location:
         bodyYaw: -181.62549
@@ -1020,7 +1063,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MzIzMCwKICAicHJvZmlsZUlkIiA6ICIwYjllOWNjNzY2ZTk0ZDMxODNjODZlMTNkNzUzZjY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb25rZUxlYWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzUxYTUyM2YwMzVhN2I2MDk5YzhmNzdkNmZmNjI3MjllZGQwNDgzZmJlNzgxN2EzMzM5NzE4N2RjODRlOWEzIgogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1040,9 +1083,12 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': 你怎麼把這麼重要的資料丟到碎紙機裡，這是flag的照片呀！
-          '1': 還好每一張碎片都有編號，拼好之後拿來給我
-          '2': 破碎的flag就像心碎的愛情，要按照編號拼會原來的位置喔
+          '0': How did you throw such important information into the shredder, this
+            is a photo of flag!
+          '1': Fortunately, each piece has a number, and after it is assembled, bring
+            it to me.
+          '2': A broken flag is like a broken heart, you have to spell the original
+            position according to the number.
       type: PLAYER
       location:
         bodyYaw: -179.22632
@@ -1061,7 +1107,7 @@ npc:
         signature: nkqjEYOuWsKD+xA+JAts6xOJRL2Zmn/h1UClwHF13weUcvI5KdllSg74oeKnWW6bDO7JZEq4xsCR9k6bVzl0u+q6wBLUzh/WoaeIbKD/dS8E9xq5eQzuI01iLnXra4stlIQhuKin6tE6RmNhT7yd0bj0ylQ0a/rv53aB6UCLOQs0q8FUWARVvRDnhJRbMWwDiBDvVQwBmh3U29TJMTIu+hAMwQbycQLTdjOp/ROM5XVr57BHb04pQZV9bRdMx+stWwuA2Jr17RGXblVUQhFvvOtXF6TN1RjDUfCfOgDI5XY8T3GBVqnzORxRnJym6NMDYC9UNnNFPRO5Y86fXKdv697d40dWBfIkjiccN8pqSjiWhlIYOhCoDBPAj8Fgnbn3B/+LaKMyzQ/SzqEDpU1Bb/YZ466XO6iS+bKUAWDuk604Y/VN6GNeyiqZKKDfG1iSXhlZQ/MkVTSikpzWDQqwVEG70M9zs4PP/wZ/cX9p2eLJvMUfcH85aPXOZKu3ThEEy5jm7B7yfgE3VDno0r/Vj/9a1utevwTjdrNbd2s8hzqQlCFzgaDCOcW7WH5bGItDqGFjJpTAmILfP8HLuA5j79FM5OJEraQ2mFMHnGsxawNI4C6T93IONxReYZIZAMQI+EDDy1eWLTCN8Kdt8wZii2+injCrLcSWlXwaN5bj5Ig=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MDM0NSwKICAicHJvZmlsZUlkIiA6ICI3ZDIxYjUyMDVlZmE0YTdiYWU2ODg4Nzk4NjVhODAxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJodW1tZXI3MnJ1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYWUzN2Y0YzAwYzZiNjUzZDkxODM3MmNlYjc0ZTk0OGVmZjI2OWZhZjM4MzZkMDBhNWM1YzU4ZmJhMjZjMWIzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1104,7 +1150,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTM1OCwKICAicHJvZmlsZUlkIiA6ICJhOGFmN2FlMDUyNTk0ZTRlOTBkNjY1MTFmNTgxZWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseV9HdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4OTBjZGYzNDQxYTdiYWU3ZTk3MjNmMzk4OTYxNGE1ZWIzYmE0MTNjZjUwMGQzYWMzMGNlY2VkZmFhZjk3YSIKICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1144,7 +1190,7 @@ npc:
         signature: OL/9CLw2Jfu7TGlSw6tHFACHqQ9Qr2Fij7z9VDMbyOZtPZW1s5xF4oAs7v6Zq6VGddDi9MIERTSlemHw4CYJ+4uF22gCoX2HAl9tuaCGvBc12Ll9Ycj4h5QkEJb/Catf+hZPd8dn59zIDmDKq4Qr3CMgqJlBqAFDdGlylBEfFe3GkWZOigy+rZxiGA7Z/oV1f6laSqU8VrSWjwdRG0T+oquWyUoJju91tp9w9T8IUb1SnPm1+LLSAJvZVnRkrGwa+XjJUxbkQUsmiveZM3hgYOQMkVtFCqa0ODYE+Vow16wQ+PtnnRd+vmaVBP7GOb/gaeEX14eHH6qcAGHUc6t8cYBgAiG2ej35bq6QeLLSMp9U/sQR2zzEK6riL2QGq4LQb8P1ujm/Bn0ZjxbAG+qad91iDMnWKZgsQByEfXHyo/JaJZZeZZgX5xIaMgUdl8qv5QFHzObn3wGPP9Y9tKwU0IEOp3tu9Enw8FWxOpUBBifVisKWmIvqJTHwkzGgVqDOr73+KR7mknB2LbEGrter6/sfmQH2rZLU5Gyh3bz4P4apnCsoCOBemlHAJ6sym+c95Xpc8BWYH34nyGYKQQpcGzIkqo7AABFWESE37AK4Uq4/Codh//6pDjSqFw9sOyMI91ONR9ccjJzSnM+uhUvKfkKQrRt/KhmEG3n4q+qxkJA=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4NDgxMSwKICAicHJvZmlsZUlkIiA6ICJmMGYyZTMwOWFiYzQ0OTc5YjE4ZWYxMTE4YmQ5MjE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW5rIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlNDgxY2FjNDc0MDQxNzg1MDVlYmU5ZjdlY2Y3NTZlMTRkZGI3MjE2MTUxYzRlMmNhNDk3MjViMzQ0YTUxODYiCiAgICB9CiAgfQp9
       spawned: true
-    traitnames: text,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1175,6 +1221,8 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
+        signature: uY4jd+jO1Eqz55gV3jdO1wBY2BBXBKwnuZe/QMCrb7t3BrGiZNkv3vu8SlrxE8S/q7aeb/opMlBl9Rohjio5tbnJM8p5ZekaWRPyMU4IIEFOno3B7FUOGE8Fjhzi16lD/P3q0O4VWR/TH/4UxR5Y29eAUOJW3VEPk4VSBgPtJRSu37XBipsQg0v48lDbBeQE1A8Dvpwvzfov1pNWxdPbHII4BP7Cyvy1zbq+ofqNm09VWOxbRFxY9S8ipbBrr4Bu9qmCqi2uYP8YMbEwcoYkOiJ1UxvsUmPHUEVt1lBE0zaRR6ulpdwlwETbhLOEu///Z+GwLdrKuyh1miFzwsNzYpUxYZni5zPhyvjmCrStW6hzwRwhao899iSEDnK89MIhHF55CcNilqZlGeQuDylRKOmz5Xri4+4LzR1tWK46Zbxp2YUDKtqQatR6kWgsZ4Uwx5De1fD3hBO8mwueOen3VXL+Pm7JRNeP13S7fbllML8rOtWP8hilttbJYXIHE6sJytnaZNBp9eE89+nbhuNbtyoYb+tv10yHSzgX78P6ZtJu2+fBqDu+fRRnA6M4N3f6QlpZl2jB5C+XrDBlpMUbu2bW75qn8pHJwg8vx/xw0OzEc2x7aBvCiUbCg9EjCsyb/CllOmf3YNKevoEQjAmr5/TAELkQQ/ww7a+WkQgehe4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU4NTgyMDczMywKICAicHJvZmlsZUlkIiA6ICIwNTYzOTAxNDIxNjY0ZjgzOTUyZjVmMmExNmI5ZGNhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaGFsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzMwNzExMzk5Y2NkYTk1NWEzYjY2NjhlNTRjMWU1MzM0ZjJhMTQxZmI4MTUzMTU4ZGM5YjI4NGNmNGY2MGE2IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
       location:
         bodyYaw: 268.27344
         world: world
@@ -1185,7 +1233,51 @@ npc:
         pitch: '15.0004'
       spawned: true
       speech: chat
-    traitnames: text,speech,inventory,owner,type,mounttrait,skintrait,location,spawned,scoreboardtrait
+    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 05639014-2166-4f83-952f-5f2a16b9dcaa
+      cached-skin-uuid-name: whale
+  '30':
+    metadata:
+      cached-skin-uuid: 006dc85a-4d2f-481d-94ed-2d52b0702ef9
+      cached-skin-uuid-name: tim
+    name: Tim
+    uuid: 128946be-12df-4480-afa0-b6784d14d2db
+    traits:
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: J5BLWA115JKiRkr+c4uV9pMwa97wNebQFYk4KWDii5T0TwBBG54sq1mpg6ctOvnDsSSeW4oKZqb4QKJfZuON79y4Ulb62EDGo1aZrFRKB5iOBnKHBoaX+kJeMFbL40FchGxRxus4Kmk+aWY/CfRKE9VyESTLM5qXLUMHZfABp4BUNSndDLroDd65VpZFvSFLevHA65htt8iISQ646psGArY7cCsIazP5bkX+M2+jDVtEH5Q0H7lyJ2/w55Ipcupdy/DQBqtTtyAWmYdhp+XOk+LP84+RBGGXXocKdZ2/+ISfhHviBmSMq/K6wgVjxqNk9lsCodNtyWWUjiuAUiMzJtakNbZBUGBBausbnhfBrPrzhbsFdCH9HPtKs4wRPPxT7VAqMutYwLK3X1xEf1rrNwr0sQKSWSGeNvKjpI6OvqwpZ1TTLQr5HQswaJem60DlYYx3Y2Z2aRbbirhTSM3qHA56kGNms9MliDaC9Yo7XtYOrTBolJ+sAbezpqyafj294/AlZMDQeFdb68sF1UICDWZpmCK80QqsDG+wcENFDI71gjnRH3CZ5QST4cWap5pREf/a2hPMHxI2w5tNu/SxpWKOdKArxoaqJ8Q8bDjmWk/6n15JBQ/VNeCJHqyLu52Vss7zOVa8EIBc7UNcFoTo+B4B93Iw3/2XL75CK2PrJF8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTc2OTMyNTIxMiwKICAicHJvZmlsZUlkIiA6ICIwMDZkYzg1YTRkMmY0ODFkOTRlZDJkNTJiMDcwMmVmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFmZjMzOTlhYTgxZDZiZGY4MTU3NzQxYTI1YzJjZDMzZTNhOTA2NWQ1NDYyMmNhOWM4ZTZiNzk1MTA0YTQ4NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+      location:
+        bodyYaw: -91.55859
+        world: world
+        x: '-750.3'
+        y: '56.0'
+        z: '472.6094'
+        yaw: '-91.5586'
+        pitch: '14.3998'
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': Find out how the other one is playing, maybe searching for the win7
+            machine will help you
+          '1': 'Hint1: look for win7, it seems to be hidden.'
+          '2': Hint2:pash the hash
+    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

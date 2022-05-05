@@ -24,3 +24,348 @@
 
 
 
+last-created-npc-id: 10
+npc:
+  '0':
+    name: Pufferfish
+    uuid: 72bf1b10-164a-4b17-9c63-ef622ba3f514
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -11.400064
+        world: world
+        x: '-107.3433'
+        y: '121.2246'
+        z: '248.3'
+        yaw: '-11.4001'
+        pitch: '0.0'
+      speech: chat
+      type: PUFFERFISH
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 1. What are the CIA in information security?
+    traitnames: location,owner,text,spawned,mounttrait,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      flyable: true
+    name: Bat
+    uuid: b99e4117-8ab5-4d01-b9b7-56bca4b92041
+    traits:
+      spawned: true
+      gravity:
+        enabled: true
+      location:
+        bodyYaw: 91.65146
+        world: world
+        x: '-105.3'
+        y: '136.5'
+        z: '249.6748'
+        yaw: '91.6515'
+        pitch: '0.0'
+      speech: chat
+      type: BAT
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 2. The full name of DDoS.
+    traitnames: location,text,owner,gravity,spawned,mounttrait,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: Rabbit
+    uuid: 8f701e85-3f3e-4545-85a6-681613d996ab
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: 211.04391
+        world: world
+        x: '-124.4275'
+        y: '129.0'
+        z: '206.7231'
+        yaw: '-146.6977'
+        pitch: '0.0'
+      type: RABBIT
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 3. What is called an attack using the lazy personality of human nature
+            to try other different login interfaces with a set of passwords?
+      speech: chat
+    traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: Cat
+    uuid: 3ee1a392-f49d-4c8e-b791-ffbd64ebb6b3
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: -93.448135
+        world: world
+        x: '-122.6788'
+        y: '124.0'
+        z: '296.7'
+        yaw: '-93.4481'
+        pitch: '0.0'
+      type: CAT
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 4. Laws of Computer Crimes.
+    traitnames: location,text,owner,spawned,mounttrait,age,type,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      flyable: true
+    name: Bee
+    uuid: 1920e4d2-9ffc-4df6-85ce-ccf6da04a0f3
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      gravity:
+        enabled: true
+      location:
+        bodyYaw: -0.14727783
+        world: world
+        x: '-105.7'
+        y: '126.0'
+        z: '262.2179'
+        yaw: '-0.1473'
+        pitch: '0.0'
+      type: BEE
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 5. OSI model layer from high to low.
+    traitnames: location,owner,text,gravity,spawned,mounttrait,age,type,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      flyable: true
+    name: Parrot
+    uuid: 4e508a8b-7ab7-4086-88cd-35d409dfc0b2
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      gravity:
+        enabled: true
+      location:
+        bodyYaw: -2.3970642
+        world: world
+        x: '-98.7'
+        y: '124.0'
+        z: '273.3'
+        yaw: '-2.3971'
+        pitch: '0.0'
+      type: PARROT
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 7. An attack against a database that truncates a string by special
+            characters is called ?
+    traitnames: location,owner,text,gravity,spawned,mounttrait,age,type,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Fox
+    uuid: 3d437b8c-490d-4d68-8b56-f355902f6537
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: -93.597374
+        world: world
+        x: '-126.7'
+        y: '124.0'
+        z: '248.4413'
+        yaw: '-93.5974'
+        pitch: '0.0'
+      speech: chat
+      type: FOX
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 6. Wifi protocol's name.
+    traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: Wolf
+    uuid: aed26dc5-3cf1-4da3-ac75-13b29571284a
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      location:
+        bodyYaw: -352.9486
+        world: world
+        x: '-140.3'
+        y: '121.0'
+        z: '282.3175'
+        yaw: '7.0514'
+        pitch: '0.0'
+      type: WOLF
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 8. What is HTTPS port number?
+      speech: chat
+    traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: Shulker
+    uuid: 43bb48a6-1d51-4d53-820d-d027683b145e
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -4.1983643
+        world: world
+        x: '-140.7'
+        y: '143.0'
+        z: '299.3'
+        yaw: '-4.1984'
+        pitch: '10.2003'
+      speech: chat
+      type: SHULKER
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 9. What is the 321 principle of backup?
+    traitnames: location,owner,text,spawned,mounttrait,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      flyable: true
+    name: Phantom
+    uuid: 202fd708-5975-4499-a209-2d83f121376d
+    traits:
+      spawned: true
+      gravity:
+        enabled: true
+      location:
+        bodyYaw: -2.5457153
+        world: world
+        x: '-138.5853'
+        y: '160.0'
+        z: '301.3'
+        yaw: '-2.5457'
+        pitch: '5.7002'
+      type: PHANTOM
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 10. What is the mask for Class C?
+      speech: chat
+    traitnames: location,owner,text,gravity,spawned,mounttrait,type,scoreboardtrait,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

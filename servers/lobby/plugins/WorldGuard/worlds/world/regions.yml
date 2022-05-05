@@ -14,7 +14,7 @@ regions:
         min: {x: -177, y: 79, z: 123}
         max: {x: 19, y: 255, z: 393}
         members: {}
-        flags: {block-break: deny, passthrough: allow, block-place: deny}
+        flags: {passthrough: allow, block-break: deny, chest-access: allow, block-place: deny}
         owners:
             groups: [participants]
         type: cuboid
