@@ -494,3 +494,16 @@ Registered listeners.
 [07-05-2022 22:06:13] Succesfully started SetHome v1.21.2
 Server stopping...
 [07-05-2022 22:06:13] Plugin stopped.
+[10-05-2022 08:21:17] Server starting.
+Copying defaults from config.yml...
+Saving config.yml...
+[10-05-2022 08:21:17] Succesfully loaded config.yml.
+Loaded commands.
+Loaded plugin SetHome v1.2 version 1.2.
+SetHome v1.2's native version is 1.16 and is running on server version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5).
+WARNING. Plugin is running on a different version. Some features may not work.
+Bukkit version: 1.16.5-R0.1-SNAPSHOT
+Registered listeners.
+[10-05-2022 08:21:17] Succesfully started SetHome v1.21.2
+Server stopping...
+[10-05-2022 08:21:17] Plugin stopped.
