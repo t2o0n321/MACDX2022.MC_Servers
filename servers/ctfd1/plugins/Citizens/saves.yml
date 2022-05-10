@@ -2,7 +2,7 @@
 
 
 
-last-created-npc-id: 30
+last-created-npc-id: 52
 npc:
   '0':
     name: Counter Lady
@@ -47,7 +47,7 @@ npc:
             first to find the problem.
           '5': I'm going to a meeting, I wish you a smooth case.
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -77,7 +77,8 @@ npc:
             phone to the outside,§mwhich seems to contain an advertising letter§r§a,
             which we suspect has something to do with this incident.
           '2': Please investigate to see what he's spreading.
-          '3': File password:3kf4Yj3pi%EIMOwAdC%C
+          '3': 'File password: 3kf4Yj3pi%EIMOwAdC%C'
+          '4': 'URL: &nhttps://micdex.org/challenges#The%20Mail-2'
       location:
         bodyYaw: -271.17212
         world: world
@@ -96,7 +97,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,7 +142,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
         updateSkins: false
       type: PLAYER
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -166,6 +167,7 @@ npc:
           '1': 'The following information is also missing from the investigation report:'
           '2': 'server version:'
           '3': 'error: can''t run program'
+          '4': 'URL: &nhttps://micdex.org/challenges#Java%20Event-39'
       location:
         bodyYaw: -269.82184
         world: world
@@ -184,7 +186,7 @@ npc:
         updateSkins: false
       type: PLAYER
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -225,7 +227,8 @@ npc:
           '2': Sorry, to connect to this private network, a VPN address is not enough,
             you also need his OVPN profile.
           '3': Don't you? Then maybe, you can look it up from the previous clues.
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -265,16 +268,17 @@ npc:
         talkitem: default
         text:
           '0': Let me tell you, I thought of a super clever way to hide the disclaimer
-            in the advertisement a while ago. As long as you use §clsb§r§a to put
-            the text into each pixel of the picture, you can design the advertisement
+            in the advertisement a while ago. As long as you use §cSteganography§r§a
+            to put the text into each pixel of the picture, you can design the advertisement
             without affecting the aesthetics!
           '1': But! The manager actually told me that no one could understand this,
             and told me to stop messing around, obviously they were too stupid.
           '2': If it's yours, you can tell, right?
-          '3': Hint:Use kali with its built-in tools.
+          '3': 'Hint: Use kali with its built-in tools.'
+          '4': 'URL: &nhttps://micdex.org/challenges#Stego-13'
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -319,9 +323,12 @@ npc:
             has been reverse encrypted! It looks suspicious, right? But I really don't
             know how to crack it.
           '3': I'll give you this sound file, you should know how to do it, right?
+          '4': guest:password
+          '5': 'IP: 10.1.3.43'
+          '6': 'URL: &nhttps://micdex.org/challenges#Audio%20Reverse-17'
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -363,9 +370,10 @@ npc:
             I know.
           '3': The flag is so expensive, auntie, I don’t want to work hard!! Is there
             any way to spend money but make more money?
+          '4': 'URL: &nhttps://micdex.org/challenges#Java%20Interger%20overflow-16'
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -391,6 +399,7 @@ npc:
           '3': Find out the clues of the culprit!
           '4': Information related to login can be found in the security section.
           '5': Backdoors may be seeded with downloaded instructions.
+          '6': 'URL: &nhttps://micdex.org/challenges#AD%20Event-5'
       type: PLAYER
       location:
         bodyYaw: -267.7351
@@ -409,7 +418,8 @@ npc:
         signature: bq3Oiu9chA0mEFnlhnvKJwHdwQdFRRsjF4VFIPibZYiGB24wfFi1t+BBX+vLln9f64Y9f3KJVtpYTXkLlHIikovKD+tMf7XxEw5PiNt7oH/amwj9zv6M2I5XCW78mvoy5MguKoKoKkZPv5emqbO4AtDrzuEw4VPNpfAC1njSmGnO3tZyQwztcmwpi+rxLKB0XZ6MxKECKIUH7yR9aNqezSFcBM3fITHOPfZqQrHaNRm9Ij0qfzfo/lHdB12wMX3ohtxhDb1iVsZNl9KFp2L5yEceuL9fpa6SkgxDgSVUKikunG95TcLIDBDB03ubHkbqKRdfqJfhNk1riunF/QnXUePeA9UHcSqo0+eO4UKhBIF3WzukfNH4LRe/BwHzQ8zVRZgzVqPEkzX9kbyfYosb+FRnD7fJsochnFkjWe5KuxrnktW8/dI4lCPzP9iMb2PpqwlRByB4Qd45MoftXS3O+TJEt0LkeTc0RdmTx1R7pj+1zM27wlhlTh3szwrTn89Gr+89eFQ6lN+Vt6ib31N080A54yHP4dQn0aMQuo17aTxatIZSuk4a/b2JaAxf/WYBsbyJ1D6aAtPYfgHkWbqnoh7EOFLqKj3R8lW6aP9iyZRjSaQFVOBe/5a17JSYRcgOExG2wp+A8/WrA9yrtGSrmZAAXIb3+C8y6IKyagbzKOs=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -434,6 +444,9 @@ npc:
           '2': The administrator will log in regularly to see everyone's messages.
           '3': Look at the admin interface might be rewarding.
           '4': Use cookie to see account and password.
+          '5': 'Hint: &nhttps://webhook.site/'
+          '6': 'IP: 10.1.3.37,Port: 3000'
+          '7': 'URL: &nhttps://micdex.org/challenges#Cross%20The%20Street-15'
       type: PLAYER
       location:
         bodyYaw: -270.58594
@@ -452,7 +465,8 @@ npc:
         signature: uYR+HPcxdZr1Nsl6KpHhmoMzOkKvdEJp2/SHjoOZtvZaeGU6dR7dGIZIU27LNLhuK1eeH0xgRXiPuPs38rTU2scL78kgvD+bSCpafuVcMMPKRxi1zZVkyY6NB4w5y75xNiJMbnqvoX21apa4V9OfKQMPu4nxUnQf3DTgMnSAF+xatSZPp+OnABqflJIyFxO/h8TtPaAwiYyAS7O/6tn6QhSsV2LSGdrzzHeTRJyBMWpehNqQBbLh4bqiRpUUdt5lacfqy9NhFSVblzsOldI9fqHevJML9ij0f9GXKHxyo8/hfNoV/0xVhW3112sr8PL5n/HzESTUltTZRaJVbNthCU2NbfOGju7mIqgtc1hRWcBfgzubuxmX8pDVkinibvYBRyq2fKC2mrYUKeUpPuKWddxBP4LEQCwipk0mD758sqURpmy+EWeNKGZFy8Ub/NwpMquwp8Ca1niCKkOgKgbNkwBKwrZGlkJXIjw1Oz3W+6/QGYEWhdwnWLR/ORPkjTvGtpi8wNbYBVP6EDGQdp7GwZOeHQLeDuxEbAVJUUU4B/HOpLFM1+rmolP47QVPXc5e87s1fUN59MaiYLEg10CEVzAMnWCflPgtRPQ9khM0ZQ4xR+FZ/IN4kuyMxJzdtdSehULr2NOvJTzE2ejYUD9oY6NvoI24/32BN2AIegePOnw=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTU4NCwKICAicHJvZmlsZUlkIiA6ICJkYzI4M2QyZmIzZTk0YzFkOWE3YjA5NGFmM2U3Njk4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3dGZndW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlMGUzZDdiMGNiNzM5OWQ0NjczZDY1MGQ1ZWYzZGE0YWRmNjgyNjlhNGI0YTdhMjE4OGVkOGIxZTIwZGRlNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       spawned: true
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -476,16 +490,16 @@ npc:
             with ransomware virus.
           '1': Please deal with it.
           '2': Here are the IP, port and account password of the two machines.
-          '3': Here are the IP, port and account password of the two machines.
+          '3': Please use SSH to connect to it and extract the password from the file.
           '4': It should be noted that, because of the hacker's settings, you must
             first decipher the files of the first unit before you can use the deciphered
             things to continue to decipher the second unit.
-          '5': 'Bnadit1: 10.1.3.39:19313 Password: X25QvvIf6t User:root'
-          '6': 'Bandit2: 10.1.3.39:16234 Password:???'
+          '5': 'Bnadit1: root@10.1.3.39:19313 Password: X25QvvIf6t'
+          '6': 'Bandit2: root@10.1.3.39:16234 Password:???'
           '7': Commands may be used(grep, sort, uniq, strings, base64, tr, tar, gzip,
             bzip2, xxd, mkdir, cp, mv)
           '8': Bandit1 is related to Rot13, the file extension in Bandit2 is not correct.
-          '9': URL:§nhttps://micdex.org/challenges#Bandit1-3
+          '9': 'URL: §nhttps://micdex.org/challenges#Bandit1-3'
       type: PLAYER
       location:
         bodyYaw: 271.21857
@@ -505,7 +519,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTUxODk0MCwKICAicHJvZmlsZUlkIiA6ICI3NjNkNGI1MDdlNTU0YWIzOTA3MTZlNjU2ZmY0ZjIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbmFkaXhZVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NjM3ZGYwYWQzN2Q5NzcwNmE5N2JkZjVmNWI4YjFiZmNiZGRhOTNjMGMwMGIzZTA2ODQxMjEzZjJhNWM2NTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -530,6 +544,7 @@ npc:
           '1': Can you solve the plaintext?
           '2': Although there are so many prime numbers, it might be possible to get
             the same prime numbers.
+          '3': 'URL: &nhttps://micdex.org/challenges#easy%20RSA-8'
       type: PLAYER
       location:
         bodyYaw: -269.0741
@@ -548,7 +563,8 @@ npc:
         skinName: xkatv
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -570,6 +586,7 @@ npc:
         text:
           '0': Huhh,you look like a cat that swallowed a canary
           '1': IP:10.1.3.41
+          '2': 'URL: &nhttps://micdex.org/challenges#Canary-43'
       type: PLAYER
       location:
         bodyYaw: -89.81958
@@ -588,7 +605,8 @@ npc:
         signature: ZRHpyEQ6oXfJlAAQEar00nsUMX4V071hT9zxZp2MHfFZJYNhJQixqk9X8FYHyMxgCO9wFaUTCTZ87DqAhG9+RKttWz7jaBBq9AzOvL5pAe8B5ZdSIXgjx3xgoP17mWQgSFPXOln+3xejU3QwuO8afan2C/65cOgLkROoDbRKk5ZQsxOrX+JAZbU/t5yIvtIFeLSVjqYSZLX5NXc+ywV5RqLIRvao5xWuX7lXSC8G/8uv+q0cRFEdgTqMAMf0KJNN3mUYUYdIw/Zva0eTKekwdXJyrLBTK01BtW7yJMSBG990PLxrYPFG9sGMUIsV5thrKnxAvXU6LU+6bzLOJD8nvxmr7pFPMt1elH+4Cuhu1ROlgr8U+d4Ptumtjp1JKopafSSIH/ej+Y3BVG9whIJZlXEJqNBIEe42Svnlv2zcjFZTtHtooytqtjLJaFkxXcmTYku2cAyPSd2iH8gaks7ET5SZZG+i/wvKua8B6tbYtX9YvERkfesaqwHWMFDGJRTqss86shXtAfIKYAbTvqN0/o1eCT7Cmuud2IttZ78L/GCxHQWg+6CnCyUlWe5hBmzmECnbES1xthPLRJ3NBk/puXypqnospSEvGIz78SZDya0KyRBHNLsiHbOLDo+47m2ObuV8BoBJlNfw1ClL2ENWCBLmnWJ9YMTjz20yseN6KkU=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTk2MTE5MiwKICAicHJvZmlsZUlkIiA6ICIwYzVkYmQ2ZWQ1ZDM0ZDRkODBkMWRjNDRhNGRlZTVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkNWRhZDQ3MTlmNzI0MDdmZGNmNjlmODg2YWU3M2RlOWNjMDUwMzc3OWVmMGM4MmVhMDdlNWJjYjY5NzgyNmIiCiAgICB9CiAgfQp9
       spawned: true
-    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -608,11 +626,10 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': There is a message encrypted with two sets of RSA keys, both the public
-            key and the ciphertext are in the file.
-          '1': Can you solve the plaintext?
-          '2': Although there are so many prime numbers, it might be possible to get
-            the same prime numbers.
+          '0': A strange message was captured, which appears to be in a certain language.
+          '1': But no one seems to understand this language, can you solve the plaintext?
+          '2': I heard it's a script called Cherokee.
+          '3': 'URL: &nhttps://micdex.org/challenges#Strange%20Language-7'
       type: PLAYER
       location:
         bodyYaw: -272.9745
@@ -631,7 +648,8 @@ npc:
         signature: r+YtvEJ0xcegvX8+9fU7lVkn5Epm9bHjzq2WsioWeFnc3q3Bx51AN0O+gpyrumTnAbH69bJ/vniWeBBWVS7oG0639FFdHmlmx2sK9lW1I/3oW8IaK2i8LirLQgT/qIZEh5yut9q2rRk8oxiMHlphn9GF4lvz1C3QV9k/MD3YWO2PxRyXXTsHTWCaL0dAvXBhtfHEodk0pVOee7TTxdhq6AJoPjdlZDQpGCq4gNbbRCBX3dpmVv/q6GGaEEwyJoErs0H6hncBuOrro8zADbJd2F0Lw9bF+zs0xqFRywjD8HSax6XPNtxjTp+s7VLQjjE42gF8nwDcv1IUJPRXYFIPmRjjNF4INs7vclwVJIMu3krJB39/DJM3i59CzHX/xLImJejbudth0u7o3hnsoaYVtDzKv5IwqvyvbagYwNWKvZ+O7Kya/q7i8YOytP4zOhtdSDMoXQ3kmTrBZrit9fs5KMcGyO5I1gL/tTFAK6Ly66a4DOBNiEQVfEB4d1nS/wNJOk1l0516nEma9nvUvbOy4nL8VZS/kdP4TgovwGQ27vDthg3kAE0CdbWZEvE+VtLRLwrKWHlt0tN69V8dirw6peiDvk9RgwGCo45oovZyGy0fn1c8CQTPbbWlWMzNcl1J56vGsPtShWyUS0af6S5lofiB+0C/sZVHMbS6WvWZ8JQ=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTYwMjk0OCwKICAicHJvZmlsZUlkIiA6ICI4NGY0MWExNzVkMzg0ZGYyYmM2YjUxMGEzZWE2YzE3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYnZoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhODcyOWQzNjkyM2Q2NWM5ZjkzNzdhZTU0YTg2MWFmOWI4OGU3ZmFkOTA4NjcxODliYTg5NDdiMzBlNjA1ZjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -654,6 +672,7 @@ npc:
           '0': Someone lost his phone ,and all thing is locked by Smartlock app. Please
             find the secret in this phone.
           '1': Hint：In my conference powerpoint, I already told you how to do.
+          '2': 'URL: &nhttps://micdex.org/challenges#Stupid%20Lock-19'
       type: PLAYER
       location:
         bodyYaw: -271.6269
@@ -672,7 +691,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxNDczNiwKICAicHJvZmlsZUlkIiA6ICJmM2M0ZGZiOTFjN2I0MGFjODFmZDQ2MjUzODUzODUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaW1vbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2ViYThhZWU0ZmQxMTUxMmI3ZTFhMjc5YTE0YWM2NDhlNDQzNDgxYjlmMzcxMzZhNzEwMThkMzg3Mjk0Y2YzIgogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,spawned,inventory,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -698,8 +717,10 @@ npc:
           '0': Congratulations, you have obtained the VPN account secret! Try to enter
             the intranet and scan to see if there are any machines in the network
             segment that can be called.
-          '1': Hint1:I “wanna cry”
-          '2': Hint2:he has smb open, check win7 smb exploit.
+          '1': 'Hint1: I “wanna cry”'
+          '2': 'Hint2: he has smb open, check win7 smb exploit.'
+          '3': 'IP: 192.168.1.31'
+          '4': 'URL: &nhttps://micdex.org/challenges#attack1-40'
       type: PLAYER
       location:
         bodyYaw: -91.9259
@@ -718,7 +739,7 @@ npc:
         updateSkins: false
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -738,8 +759,10 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': The information leak out of here because of overflowing
-          '1': Oh no, the milk is overflowing all over the floor, like ......
+          '0': Oh this is an easiest challenge
+          '1': No tip for you
+          '2': IP:10.1.3.41
+          '3': 'URL: &nhttps://micdex.org/challenges#BOF-42'
       type: PLAYER
       location:
         bodyYaw: 3.1705382
@@ -758,7 +781,8 @@ npc:
         updateSkins: false
         skinName: wxzm
       spawned: true
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -795,7 +819,8 @@ npc:
         skinName: 2b2tpolice
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4Mjc4NCwKICAicHJvZmlsZUlkIiA6ICI3Y2ZjYzkwMTY5NzM0ZTNjODFjOGFmN2RiOGE1YmRhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyYjJ0cG9saWNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk5ZjJlZDZhMDNhOTU4ZWY3NmM1YzFjOTM3M2Y5YWQ2MTg2NmY3MzkxZDM0MTU1NTlhOTQ3YmIyODA1NDU4MzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
-    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -809,12 +834,12 @@ npc:
     traits:
       type: CAT
       location:
-        bodyYaw: 89.792694
+        bodyYaw: 269.9725
         world: world
-        x: '-738.3417'
+        x: '-740.6952'
         y: '36.0'
-        z: '461.4954'
-        yaw: '89.3881'
+        z: '461.5006'
+        yaw: '269.9221'
         pitch: '0.0'
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
@@ -868,7 +893,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,waypoints,age,spawned,mounttrait,location,scoreboardtrait
+    traitnames: spawned,owner,type,mounttrait,scoreboardtrait,location,waypoints,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -887,7 +912,7 @@ npc:
         range: '5.0'
         talkitem: default
         text:
-          '0': Hint:Wait __wakeup()?How can I exec this function?
+          '0': 'Hint: Wait __wakeup()?How can I exec this function?'
       type: BEE
       speech: chat
       location:
@@ -906,7 +931,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,spawned,age,gravity,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,speech,scoreboardtrait,gravity,location,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -931,7 +956,7 @@ npc:
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
       spawned: true
-    traitnames: owner,type,gravity,spawned,mounttrait,location,scoreboardtrait
+    traitnames: spawned,owner,type,mounttrait,gravity,scoreboardtrait,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -955,7 +980,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,age,spawned,mounttrait,location,scoreboardtrait
+    traitnames: spawned,owner,type,mounttrait,scoreboardtrait,location,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -979,7 +1004,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: owner,type,age,spawned,mounttrait,location,scoreboardtrait
+    traitnames: spawned,owner,type,mounttrait,scoreboardtrait,location,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1022,7 +1047,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUwMzAwMTM0MSwKICAicHJvZmlsZUlkIiA6ICJkYjdhMGM2ZjljNWQ0NzkxYWFmODk1YjNjMmYxZjA0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ1NWJmNjUzNjgwZmIwZGZkOGMzZTlkNzAwYjlhOTIyNjFlZWVjNGFjMTAwZTU5M2RiNzBjZWEyODE2YmMxZiIKICAgIH0KICB9Cn0=
         updateSkins: false
       spawned: true
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1044,6 +1069,7 @@ npc:
           '1': Secretly tell you that this is lcsqs, it is a very troublesome algorithm,
             you have to know how long it is.
           '2': lcsqs is a variant of lcs, check the paper, how long is lcsqs?
+          '3': 'URL: &nhttps://micdex.org/challenges#LCSQS-14'
       type: PLAYER
       location:
         bodyYaw: -181.62549
@@ -1063,7 +1089,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MzIzMCwKICAicHJvZmlsZUlkIiA6ICIwYjllOWNjNzY2ZTk0ZDMxODNjODZlMTNkNzUzZjY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb25rZUxlYWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzUxYTUyM2YwMzVhN2I2MDk5YzhmNzdkNmZmNjI3MjllZGQwNDgzZmJlNzgxN2EzMzM5NzE4N2RjODRlOWEzIgogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1089,6 +1115,7 @@ npc:
             it to me.
           '2': A broken flag is like a broken heart, you have to spell the original
             position according to the number.
+          '3': 'URL: &nhttps://micdex.org/challenges#picture%20puzzle-6'
       type: PLAYER
       location:
         bodyYaw: -179.22632
@@ -1107,7 +1134,8 @@ npc:
         signature: nkqjEYOuWsKD+xA+JAts6xOJRL2Zmn/h1UClwHF13weUcvI5KdllSg74oeKnWW6bDO7JZEq4xsCR9k6bVzl0u+q6wBLUzh/WoaeIbKD/dS8E9xq5eQzuI01iLnXra4stlIQhuKin6tE6RmNhT7yd0bj0ylQ0a/rv53aB6UCLOQs0q8FUWARVvRDnhJRbMWwDiBDvVQwBmh3U29TJMTIu+hAMwQbycQLTdjOp/ROM5XVr57BHb04pQZV9bRdMx+stWwuA2Jr17RGXblVUQhFvvOtXF6TN1RjDUfCfOgDI5XY8T3GBVqnzORxRnJym6NMDYC9UNnNFPRO5Y86fXKdv697d40dWBfIkjiccN8pqSjiWhlIYOhCoDBPAj8Fgnbn3B/+LaKMyzQ/SzqEDpU1Bb/YZ466XO6iS+bKUAWDuk604Y/VN6GNeyiqZKKDfG1iSXhlZQ/MkVTSikpzWDQqwVEG70M9zs4PP/wZ/cX9p2eLJvMUfcH85aPXOZKu3ThEEy5jm7B7yfgE3VDno0r/Vj/9a1utevwTjdrNbd2s8hzqQlCFzgaDCOcW7WH5bGItDqGFjJpTAmILfP8HLuA5j79FM5OJEraQ2mFMHnGsxawNI4C6T93IONxReYZIZAMQI+EDDy1eWLTCN8Kdt8wZii2+injCrLcSWlXwaN5bj5Ig=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MDM0NSwKICAicHJvZmlsZUlkIiA6ICI3ZDIxYjUyMDVlZmE0YTdiYWU2ODg4Nzk4NjVhODAxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJodW1tZXI3MnJ1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYWUzN2Y0YzAwYzZiNjUzZDkxODM3MmNlYjc0ZTk0OGVmZjI2OWZhZjM4MzZkMDBhNWM1YzU4ZmJhMjZjMWIzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1131,6 +1159,8 @@ npc:
             something to bypass the login program.
           '1': hmm,its owner took a little precaution, maybe some symbol was forbidden,we
             should try other syntax.
+          '2': 'IP: 10.1.3.37,Port:5000'
+          '3': 'URL: &nhttps://micdex.org/challenges#Simple%20Quality%20Lab-32'
       type: PLAYER
       location:
         bodyYaw: -179.66553
@@ -1150,7 +1180,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTM1OCwKICAicHJvZmlsZUlkIiA6ICJhOGFmN2FlMDUyNTk0ZTRlOTBkNjY1MTFmNTgxZWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseV9HdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4OTBjZGYzNDQxYTdiYWU3ZTk3MjNmMzk4OTYxNGE1ZWIzYmE0MTNjZjUwMGQzYWMzMGNlY2VkZmFhZjk3YSIKICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1172,7 +1202,8 @@ npc:
         text:
           '0': This is Spy Family slot machine.
           '1': 777(All pictures are same) 48763 times, you will get important thing.
-          '2': Hint：Patch or Decode, choose one.
+          '2': 'Hint: Patch or Decode, choose one.'
+          '3': 'URL: &nhttps://micdex.org/challenges#Spy%20x%20Family%20%20Slot%20Machine-20'
       type: PLAYER
       location:
         bodyYaw: -92.33276
@@ -1190,7 +1221,8 @@ npc:
         signature: OL/9CLw2Jfu7TGlSw6tHFACHqQ9Qr2Fij7z9VDMbyOZtPZW1s5xF4oAs7v6Zq6VGddDi9MIERTSlemHw4CYJ+4uF22gCoX2HAl9tuaCGvBc12Ll9Ycj4h5QkEJb/Catf+hZPd8dn59zIDmDKq4Qr3CMgqJlBqAFDdGlylBEfFe3GkWZOigy+rZxiGA7Z/oV1f6laSqU8VrSWjwdRG0T+oquWyUoJju91tp9w9T8IUb1SnPm1+LLSAJvZVnRkrGwa+XjJUxbkQUsmiveZM3hgYOQMkVtFCqa0ODYE+Vow16wQ+PtnnRd+vmaVBP7GOb/gaeEX14eHH6qcAGHUc6t8cYBgAiG2ej35bq6QeLLSMp9U/sQR2zzEK6riL2QGq4LQb8P1ujm/Bn0ZjxbAG+qad91iDMnWKZgsQByEfXHyo/JaJZZeZZgX5xIaMgUdl8qv5QFHzObn3wGPP9Y9tKwU0IEOp3tu9Enw8FWxOpUBBifVisKWmIvqJTHwkzGgVqDOr73+KR7mknB2LbEGrter6/sfmQH2rZLU5Gyh3bz4P4apnCsoCOBemlHAJ6sym+c95Xpc8BWYH34nyGYKQQpcGzIkqo7AABFWESE37AK4Uq4/Codh//6pDjSqFw9sOyMI91ONR9ccjJzSnM+uhUvKfkKQrRt/KhmEG3n4q+qxkJA=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4NDgxMSwKICAicHJvZmlsZUlkIiA6ICJmMGYyZTMwOWFiYzQ0OTc5YjE4ZWYxMTE4YmQ5MjE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW5rIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlNDgxY2FjNDc0MDQxNzg1MDVlYmU5ZjdlY2Y3NTZlMTRkZGI3MjE2MTUxYzRlMmNhNDk3MjViMzQ0YTUxODYiCiAgICB9CiAgfQp9
       spawned: true
-    traitnames: owner,type,skintrait,spawned,inventory,mounttrait,location,scoreboardtrait,text
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1213,8 +1245,10 @@ npc:
           '0': We’ve got the information. There seems to be something hidden in the
             phone. However, what we got was just a image of the system. Find the secret
             and deep into.
-          '1': Hint：It seems to be a file and the network connection information was
-            hidden in it.
+          '1': 'Hint: It seems to be a file and the network connection information
+            was hidden in it.'
+          '2': 'File password: xj4ej0'
+          '3': 'URL: &nhttps://micdex.org/challenges#Image%20Forensics-46'
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
       type: PLAYER
@@ -1233,7 +1267,7 @@ npc:
         pitch: '15.0004'
       spawned: true
       speech: chat
-    traitnames: owner,type,skintrait,inventory,spawned,speech,mounttrait,location,scoreboardtrait,text
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1276,8 +1310,827 @@ npc:
           '0': Find out how the other one is playing, maybe searching for the win7
             machine will help you
           '1': 'Hint1: look for win7, it seems to be hidden.'
-          '2': Hint2:pash the hash
-    traitnames: owner,type,skintrait,inventory,spawned,mounttrait,location,scoreboardtrait,text
+          '2': 'Hint2: pass the hash'
+          '3': 'IP: 192.168.1.11'
+          '4': 'URL: &nhttps://micdex.org/challenges#attack2-41'
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '31':
+    name: West
+    uuid: ffc8395d-e5eb-47b0-a9f9-54fbd5b5576a
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': You want to be root?
+          '1': Show me my message in MACDX
+          '2': 'IP: 10.1.3.41'
+          '3': 'URL: &nhttps://micdex.org/challenges'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: uUe3UGmF/ZfiH+pQgYKxNOvCtRPOMObpWU0jFzG5CltmM65MNphTeCmyXap9cJlAlj54l+4GQ2Rf7d/SzA7WKKI2t5jPeEH6v5xWJ6O/Q6plGXlESNZgcwqrHMm4LHBHC3HhEvSp6ZRg4n51SAQiZCiZqV7hhjfj6NJgUjSA4ZpzZoZVVk89mEJUdct+VS+FE6lBp1rM4jCNiHY21OWYvwXMy2XpJRpm4ib4qPuR46B6jsRSt1VFrb8UD/SCLMg/sISvCiE2NzfXmdf0S7uDe6q8D4OsfoENIG4WQJbN1Io9CMmwMcjlu8WS2JRaEzzCFr5T1bv2Lexdoff6CHEmo1ECrih6fGTbQcBm3OrIBL+uK7X6fZxBAT2GIr3s+0hEbnuEiLCxMMggNlGmu+lWkoW8XqjqL5+ZalKTfW/jw1Uh3OpSYtoNCtsuRWYuWaZsUV14pgMsgs5P8IR2VtDAJnipOfyAdfDaRyVNeBzX8imasNkz2Ybn0uhWjBAMhQwGokDTxRQWw5uHph80a844qz1CIq7CvYopaVU+CmqJSVBdiVmlp+Ec7B5u26Qk6JmLni9MQVcUidwtDJCrKJ+tNrgxGSsDLu7nQQ8qP7aZevzzhfKAHx6MwPre7k085QqhpSrLJ4k8WExyUjmTWQr2PT1pEWf2/b9dezPDYSfGc2E=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjExNDU3MDIwNywKICAicHJvZmlsZUlkIiA6ICI5YzVjMDBiZmUyNjA0YzUwYTNjZDQxNzJjNWRkZjAzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyOTE1MjlkYzBhMzU3Y2JlZjk2NzAwY2M2YTJiNThmZWY4ZDMwMjM0MWFmZTQ5YjcyMDRkYjlmNjY2YmU0MjgiCiAgICB9CiAgfQp9
+      location:
+        bodyYaw: -271.10742
+        world: world
+        x: '-730.7'
+        y: '56.0'
+        z: '472.4139'
+        yaw: '88.8926'
+        pitch: '6.1498'
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 9c5c00bf-e260-4c50-a3cd-4172c5ddf03b
+      cached-skin-uuid-name: west
+  '32':
+    name: JJ
+    uuid: 5657d6b2-3532-4409-9b52-74a71c82ac09
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': This server doesn't seem to be safe?!
+          '1': 'URL: &nhttps://micdex.org/challenges#JAVA%20CVE-38'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: -271.17554
+        world: world
+        x: '-730.7'
+        y: '32.0'
+        z: '472.3938'
+        yaw: '88.8245'
+        pitch: '10.7997'
+      speech: chat
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '35':
+    metadata:
+      cached-skin-uuid: a75ea8dd-efc8-45dd-b724-bac7a9c14d6f
+      cached-skin-uuid-name: leo
+    name: Leo
+    uuid: 86c3f0ef-3963-43e4-ad12-9fba463b7d8d
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 3. What type of attack allows an attacker to use a brute-force approach?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%203-49'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: jRUFSJYgJ6C6lH4tsjLo5WMB1ZFdQ6VtqycDsFBO2bJDcp03F4Z6+H6Rbi38V8RY1suvmtEsdD3p/UzYRPpneUghsmB+ADQ16I0x8vJ1WYpnBJKGim6u+eAdmXDJsum6/wElSjJGNNIAygzZxwkkBkA/fHlAD3ddJ4OrL3YqFj0tscglojm6ikSOTsettu34GO36gZ8wJHIrLg6M4DwlfHesRRhpn2KNP/F5zDkrL4CrUGnmlYI9KatheCcgk545Z4zSNvHhwAcfFCFjMFZd+jDAoMpOFyvCxRx4EV3fT9D+YZUx+bXVArWgtdZoQ6lvnsfVJtvuU7v+F+a8QlWCDfAmL/fMwwhiEJ2XEOjzyKQOoRUBk4Q08c8qsmTWCxsoUrv6DVtM3mLBuz4nvnlgdcpZDyZzu3mlq1DhAchoo+zUt7nT5N+HpwDcVLWfyV4V/vzma/cB0b7C6VfFC+oRNCpbG0yPe4RdmiuqVU6L1zXYxzL1WiWsXhoINKCQpWHNB7bpFJDKFV7B5vXfomzWY8A4FeOHUtROHVCu5ukHZZ27nwHYyZkDunESzdjvQt+ZOppnwoD4FTW9Hikjcg1neFZoKcXyJPHBAhIPJBIwvh7XDbDE9eDj4tIcvR7sfUiHMDFfMsQ+f8GiDdMEqTq6c+nKhGhAWIsIyAQbHiU56GE=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE4NDA3MzY0NCwKICAicHJvZmlsZUlkIiA6ICJhNzVlYThkZGVmYzg0NWRkYjcyNGJhYzdhOWMxNGQ2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0YWY3MTg0NTVkNGFhYjUyOGU3YTYxZjg2ZmEyNWU2YTM2OWQxNzY4ZGNiMTNmN2RmMzE5YTcxM2ViODEwYiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: 66.776886
+        world: world
+        x: '-653.3'
+        y: '17.0'
+        z: '385.3525'
+        yaw: '66.7769'
+        pitch: '25.7995'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '34':
+    name: Oliver
+    uuid: 29b3c8b5-218e-4671-bff8-66e9f4959613
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 2. What tool is used to provide a list of open ports on network devices?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%202-48'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 177.62708
+        world: world
+        x: '-688.6767'
+        y: '17.0625'
+        z: '408.3699'
+        yaw: '177.6271'
+        pitch: '22.4995'
+    traitnames: spawned,text,owner,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    name: Noah
+    uuid: 775a6697-73d5-440d-9cdc-46292b8b95db
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 1. What type of attack uses zombies?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%201-47'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 174.77502
+        world: world
+        x: '-715.4903'
+        y: '22.0'
+        z: '536.5462'
+        yaw: '174.775'
+        pitch: '15.8997'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '46':
+    metadata:
+      cached-skin-uuid: d22f3266-a37b-4a89-84f1-a175759e7c9f
+      cached-skin-uuid-name: lily
+    name: Lily
+    uuid: eb4ca38b-9a2f-4ae6-83af-d2729fb7d211
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 14. What command will you use to display the current processor utilization
+            of a router?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2014-60'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: dMByH9MUmPsX5FRZk+bjt+qq3PZCdSME7OMp7OrIM4tezNrW1PBUyCfJ/9+fRFvNq0x4LfDvsnGSsUiGOoWFr10TGUJmiaQKCHCrAyk29/qPCXZWKn0UzI6m3xZ/HhD9ikmdJ+vqsCFamQjxRUnPgpOGBXal0wI4xD6CUpOUeqfJqIY6NAemGzuNeT8b7Xdbio79RWKbYwGIi5Rn2e9likuod+fiKHrK58tVdZSTzzRWhXNl4FB2fjIku7czv/xYRH4GhlBFByOTCZ7p1dX1RfYJU7nbVcc1diRjDJ5IM/2Jv8hl+CqfRnj9y7m4mzdaVFD24pc82lW2fAfHqg0F9QxHt4VikGRV05b+3yUZVw1f57FJ/7LEhQ3jIG4N94OfvUxEm+zXdbqbtocOMTKhtYemDK44JORLeqZ+29FiKNQShsvzKgznjOww4niirrp8Hk73BtIzc0jbmif6NdXEJBU/ivVZz0rxPVPbBB4X2lli4j32RyY2I+qKUc24GwXy4mzlwKYgrdHNrlZH9Sh+wTqEWVnOGnovwmzacVMFiPLPN0VBO0ntdzYkC9P3WVd85AwLZh5eLkMQ81b0zag52ltHgCUeAY9deqhCMPV0oMUe4Wg+UKxFqAzqm81UMxld+Mbm4rDXJywgxTJIqhlf6Kt0v/FB8WKekloXyb1fx4U=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE4NzI2ODE1MSwKICAicHJvZmlsZUlkIiA6ICJkMjJmMzI2NmEzN2I0YTg5ODRmMWExNzU3NTllN2M5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWx5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1NTc3MDY0YjllZjIzZmU3NzhkYjdmZWQxM2JmYmJiNmMzNzg3YjAzMjYyYjJjNDc1Nzc0ZjNjNjdmZTc3MjUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 15.3272705
+        world: world
+        x: '-464.5607'
+        y: '31.0625'
+        z: '267.845'
+        yaw: '15.3273'
+        pitch: '13.05'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '45':
+    name: Felix
+    uuid: d9cc9ab4-ce2e-404a-b763-93ac110f52dd
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 13. What mode will you use to execute debug command?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2013-59'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 174.18097
+        world: world
+        x: '-610.4739'
+        y: '34.0'
+        z: '337.8625'
+        yaw: '174.181'
+        pitch: '-10.1999'
+    traitnames: spawned,text,owner,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '44':
+    name: Cody
+    uuid: 2dce5d94-5e6c-4377-883c-515420f203c3
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 12. What command will you use to view the statistics for all interfaces?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2012-58'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: -181.47021
+        world: world
+        x: '-782.7588'
+        y: '22.0625'
+        z: '419.7'
+        yaw: '178.5298'
+        pitch: '13.2'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '43':
+    name: Carter
+    uuid: ad62e7ca-e45f-4765-a12f-56debc1c3c48
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 11. What security threat installs on a computer without the knowledge
+            of the user and then monitors computer activity?Which security threat
+            installs on a computer without the knowledge of the user and then monitors
+            computer activity?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2011-57'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: -357.2661
+        world: world
+        x: '-807.4865'
+        y: '23.0'
+        z: '190.1884'
+        yaw: '2.7339'
+        pitch: '0.3001'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '42':
+    metadata:
+      cached-skin-uuid: 3bb76707-5e89-4d00-bdd1-3ba47a23245f
+      cached-skin-uuid-name: ezra
+    name: Ezra
+    uuid: 93fe72d1-9113-4f59-b2cb-04736806650b
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 10. An attacker is using a laptop as a rogue access point to capture
+            all network traffic from a targeted user. What type of attack is this?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2010-56'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        signature: B93EB6roVaj4DFMOwuhar1heeqSLpnorpb11NIWSUnJbeG5WgC9qjH0qvxH2HGfnz4ANdRKer0WoJkIvM6IaPwkOH+XkrTtdyWwf2hMi1lkb+xzGktqteTTijErkGgcxpO8z42TTGw15c0f/wxp5Mg6ap1jrtCHSxGESwzDW1q14TdEXCbcWOowXkM4c/9qLfLhzyTbaURlUcdiDx2OFhva5dJFvWFD/Sw+TZXu+IUfKbGfyioQjxmwcr35eSUqVHWF43c6aR1YM7UI51879TNnJLMjs4tTk0+TpUiHo4AhHFwDhfb3w9BLE4MWHERt9FiJCu/cRlkUA2WH0fVD0ceS1npfd2ndepk20jBFxL+0/ykCPD44M4VqV0xLPaMSTzIC1dM/dW76xyItlqEnzS5VAjp3LRzn2ky4cqDNLWk3b34TQDWtWpHnY9fXR9fZbcDX2MhAd5/QpXbImZfFCYOnn8lGWLu9sasT6xEgvUpgKgi6o6Q/AqAfYv+MBKTE5Js8BlVR69eIvoKrcyCFSfm+oCFvzyKPpjwB5u24H3OHzmMj3pRuvPDf87GwTFDjG8JerUmwrEgDWl7vZCHuph+DCgYP8J/nP8QTkT90zo0QWcZH/ND5T8Jub77aMzSaNgXnksFo8xLR41SCVLB8t9ikBLgMe20FVNdIVnXXRlnA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE4NjAwMjAyMSwKICAicHJvZmlsZUlkIiA6ICIzYmI3NjcwNzVlODk0ZDAwYmRkMTNiYTQ3YTIzMjQ1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFenJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2OThlZDBmMThhNjE2N2ZlYjAzNTJlZGFmMTc1NWViNGU0ZjBhYTNlMGI1OGJiYTRlNWE5MzE1NmYxYTcyMmIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: -1.7623291
+        world: world
+        x: '-683.4447'
+        y: '15.0625'
+        z: '274.059'
+        yaw: '-1.7623'
+        pitch: '-5.2499'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '41':
+    name: Rory
+    uuid: 9c1d19d8-be7e-4f1c-8a3a-4c9b715c2453
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 9. What access attack method involves a software program that attempts
+            to discover a system password by the use of an electronic dictionary?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%209-55'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: -358.15833
+        world: world
+        x: '-556.816'
+        y: '22.5'
+        z: '379.2776'
+        yaw: '1.8417'
+        pitch: '16.9501'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '40':
+    name: Logan
+    uuid: bf7f85c9-47a3-474f-9e9d-155de75068a4
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 8. A company pays a significant sum of money to hackers in order to
+            regain control of an email and data server. What type of security attack
+            was used by the hackers?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%208-54'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 41.891254
+        world: world
+        x: '-387.2111'
+        y: '23.0625'
+        z: '455.7'
+        yaw: '41.8913'
+        pitch: '18.9'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '39':
+    metadata:
+      cached-skin-uuid: 4821bad6-6bc3-44c0-9861-f9fc38e40215
+      cached-skin-uuid-name: max
+    name: Max
+    uuid: 89728ceb-cf58-4dfc-8629-bb5cc204f5f2
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 7. What type of Trojan horse security breach uses the computer of the
+            victim as the source device to launch other attacks?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%207-53'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: WqQLya9Aq4iHR2inFiwC2WXXAZQz0U0uxCJzr9RvlgZUD3l7ZsnIKOH1TGsfo1qnQlUbAo8o/VFgbRKhuZDvWXlnlK7Zy/jzNl3si7fs1Ee+pZ64z8uLmIeQhPkC9vSO5MByzs7hT1bZXEghkWYnT29fbxAbqvi9AvBnruc9u0ZvuRUEi2YScqNH+ETfsGyH6cXpGJt46pt6ZzJeXxiWGspYd4phtxSXpRao1ByVca27HEt0P2v7wCtwf3Uf6ZoZ8KQstEDrbzv54T1QCC2pO7abugvZB+0PyJxSn3Da8rLgucq29ddf5ferfiAkS0MRG90xoLvu+DBAEVCiVWs+H99e0vDbwnWnDwXjHJ4hvxoCda7bnR+IfAZ2KsqlK2ezBHJniArpvj/ktzsmxuLssdSV7QYcrfNDh1zko53KnKfH4Zh6w2PP6+B26RZukUXnMaA6wGlUxwLISQ4WVuGVhrX1YfmH5Dn4C7u5EPuKCLgF8nrzl8LkA8KZ6VC+aDw5wXbLToXYzPy98pH3o41W6Y57PutqCTLdLR3MTbQrryzsYpqNRD3Vq1nchGmYqHz7vpVDrtG9U0imFKOapJsB2Ss/jfi6TXDmhewhzf+KqtmAXe6HDPTyWw64EA1te3oXSZV6SzAZYNLN83Jut8prCmpRc9yEX9SnRqVHGaAfaBw=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE4NTEwODk1MCwKICAicHJvZmlsZUlkIiA6ICI0ODIxYmFkNjZiYzM0NGMwOTg2MWY5ZmMzOGU0MDIxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjhmNzUyOGQ3Y2QwYmQ3NzlhNDFmNTYwMzk3ZTBkNmUwOTRlMDA5OTg2NTVhYjMzZTRiNGZjNmJlNDM3ZGE4YiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: 88.39075
+        world: world
+        x: '-562.3828'
+        y: '19.0625'
+        z: '724.7'
+        yaw: '88.3907'
+        pitch: '3.45'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '38':
+    name: Oscar
+    uuid: eaa19c86-22e6-46e2-8bc5-12c043ea66ec
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 6. What is a network of infected computers that are controlled as a
+            group?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%206-52'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 139.24072
+        world: world
+        x: '-523.4645'
+        y: '22.0'
+        z: '681.2869'
+        yaw: '139.2407'
+        pitch: '15.15'
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '37':
+    name: Arthur
+    uuid: b4842411-1809-45d3-9b95-ad10176b4da7
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 5. What type of malware has the primary objective of spreading across
+            the network?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%205-51'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 0.48461914
+        world: world
+        x: '-466.3336'
+        y: '22.0625'
+        z: '542.9134'
+        yaw: '0.4846'
+        pitch: '12.6'
+    traitnames: spawned,text,owner,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '36':
+    name: Theo
+    uuid: 2e4b5039-c839-41f0-8b5b-49648634123c
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 4. What is used to describe the act of sending an email message in
+            an attempt to divulge sensitive information from someone?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%204-50'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 268.22754
+        world: world
+        x: '-543.7'
+        y: '42.0'
+        z: '485.5829'
+        yaw: '-91.7725'
+        pitch: '4.0495'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '51':
+    metadata:
+      cached-skin-uuid: 7fd1a887-d729-4fc7-8eca-7ae299299e35
+      cached-skin-uuid-name: zara
+    name: Zara
+    uuid: d12313b6-1a73-4fca-8dc2-310cbbb2ac77
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 19. What port number is used by Mysql?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2019-65'
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ZfigxJZp4bbc7Q4f3sjPhA/mlY6tfmesznoDn2qelPbiU/i8TsBHJ3C5S/0z1Fa5Z+NgCEmsHKTuDHhVcUUYj2z9JZY23Wrv8sZNbVbWM9qc36zGA2ek/bnensdw9+107wSXWUXxQHIU65d5wZysw4Q/0L0T72L1pseT25q5qqdczlqRo+uJSPysTeJYuE+ogKYIYU5NVsOMwgjKzoXvDZbmldsl8XVCzFmduuDiguZjGVYxeNcE+O5AB2XIX5AQtGDeJgfcuzZgWws+KFS1R590oCQS78S/CLM68g74U0R0AmfIoL3QqJZ71rBKGn9pg6uTWH6vmA+ETk9v+Bnj2R4Yw8KUdNHqGvPGaOntDmVw1IHfqzt10SNlTySxPcDXj1jZ24JKdqvoOWJm+mmRjW9wF583Ge7VSUKVDO6r74StNur4guYAPvTVVux/eTyqtCLSf+FLuHuWXsE2P+ImHrr4mkRQJF5tQioPvrc7pM0+eImsXuo9nMKh2gCUkr5qdBqFKhnsqi1SB4xF3Pw8fDv96ILPQX8tmDOHTKt2wdin3u07C8dDBRPXDmDNy1ooeSJ/mUEKLSQrRWQI+9PDPiNJHPcSl7eGkaHTjjqj76Bcq7ZqL+dGTvOklf4pOeuhsEEch5tClPY+2gKyBiKN3jDEUuJKyqDqW3JD+q3tU1A=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE5MDM1OTYwMSwKICAicHJvZmlsZUlkIiA6ICI3ZmQxYTg4N2Q3Mjk0ZmM3OGVjYTdhZTI5OTI5OWUzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaYXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiMmNlNTYyNmQ2ZmZiZTNhMzczZTY5MTkxMTVjZjMwNGRkYTRjMzM4YWYwNDVmMTg3OTUyY2E5NDFlODM1MmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 210.90039
+        world: world
+        x: '-622.5482'
+        y: '14.0625'
+        z: '642.7'
+        yaw: '-149.0996'
+        pitch: '12.45'
+    traitnames: spawned,owner,text,type,mounttrait,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '50':
+    name: Emma
+    uuid: 3bb0329c-f7bb-46a6-a8d1-ce06a2f0fca1
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 18. What port number is used by DNS?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2018-64'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 180.89673
+        world: world
+        x: '-633.2896'
+        y: '22.0'
+        z: '560.7'
+        yaw: '-179.1033'
+        pitch: '18.75'
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '49':
+    name: Ava
+    uuid: 3f8b6e20-439c-402f-9eab-f50a5b9582aa
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 17. What is the default subnet mask of a Class C network?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2017-63'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 273.7588
+        world: world
+        x: '-427.7625'
+        y: '17.0625'
+        z: '411.3'
+        yaw: '-86.2412'
+        pitch: '9.6'
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '48':
+    metadata:
+      cached-skin-uuid: 0bafdd7b-db1f-4721-9202-a9a539b9af0b
+      cached-skin-uuid-name: ella
+    name: Ella
+    uuid: f8fc49fe-6bd1-492e-b614-db16259d855a
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 16. What is a reply message by a successful ping command?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2016-62'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        signature: XzQpsvUOUd7ZirXZa0C9fpz8Z1et/ydi4Aa01pol0huRo7pB5FPhGRJ7rB10Q+03E7OjFjClIXF+Ipw6Kg28h8PKq1Tg+xh9aCD/3Yek/q5SzVw//kGItRzx6FENwUn1FkTTcplXQF3bwIqUWDyeyGTrT9DNXHrlE08DQ0f520nP+55nUJWThi/tUqz2hL4V7qRrNzPvTPAI8OfN6Fm2A78uMzWqY2+IcKmoCr3Cf6aazf+alMIMoJ3b8+vXGlc2nxBTcXxP4YT1+88ZdXIEnTyXG+1anSuwfOsulOH0y6qEqqJWISz2bypATflNL1lt5HSl52ApHuf625vX6e7QBY/J0vqe3HMEnUTXlnflS6Bdw/GVTvLtZH8Zpv3wMMPte6e9YdtgH8Y35ZnulDgzjjtDCA1629Edpsqx7KX9UZ9nnQQaBchxWElIEc7VIaOpxHYbNkP4+Su7QPG4UTOXSCC06pU6tio/P5p7oYaPx7oHVVvq8K8mZSXcwPHPeLJdsfSKf+21FkNPHPjd/Oom7pBQ9KQVqmHPOXyxhIHDMfHOd7xIbItXxQZvHzwt2CIkLgfundzDbF7hWkLv09QS9L4Vdlqs7rixHDhQ2o8VyJS/aVCkEir3aFkXQn+iQzRn+hpfGNHiO0VWhzokKb7p7FmJMrC5KfZ3QOC9/yj3nIo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE4OTA5Njk1NCwKICAicHJvZmlsZUlkIiA6ICIwYmFmZGQ3YmRiMWY0NzIxOTIwMmE5YTUzOWI5YWYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlbGxhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmMWY4MTJhYzExNmMwMGI5NDVlNDlhYTQxMjc1MjFiYjU0YjA2OTc4MjVlMzc2MDNhMjhkNWU0NmViYWEyNDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMmU4ZDk3ZWM3OTEwMGU5MGE3NWQzNjlkMWIzYmE4MTI3M2M0ZjgyYmMxYjczN2U5MzRlZWQ0YTg1NGJlMWI2IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 181.2201
+        world: world
+        x: '-460.6443'
+        y: '22.0'
+        z: '325.7'
+        yaw: '-178.7799'
+        pitch: '2.55'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '47':
+    name: Aria
+    uuid: 7998f59a-51f7-46be-a061-6436398e4763
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 15. What will the source and destination hosts exchange first when
+            TCP connection established?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2015-61'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 326.57678
+        world: world
+        x: '-364.777'
+        y: '22.0'
+        z: '193.9433'
+        yaw: '-33.4232'
+        pitch: '13.8'
+    traitnames: spawned,text,owner,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '52':
+    metadata:
+      cached-skin-uuid: 427879c9-71fa-4d4e-9bce-254af00b2608
+      cached-skin-uuid-name: lyra
+    name: Lyra
+    uuid: bb1099b2-8aa2-47b6-9d11-7c77c82ee621
+    traits:
+      spawned: true
+      owner:
+        uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': 20. How many bits are you used to decide a Class A address?
+          '1': 'URL: &nhttps://micdex.org/challenges#Little%20Present%2020-66'
+      type: PLAYER
+      speech: chat
+      skintrait:
+        fetchDefaultSkin: true
+        signature: E/CEEs7QhZNER96aiSnAlenML7+Jw6dryU7m+6DBVNMhX3ZqWNM7iKNLZuuCMynCqnDCuop/j1Ekerencc5RgcRiV2ukBibTcKcOlK3XG+G8I6mUyThOC3KOtdBjBXXBPBGoiPJJCaMfj68mTGU5TrgPASfViVLN7PO1t9BipyH/Nmku8aDlwIaHFq5mY/NivS/QVLXZjXVAYot26RdOwQ/bmMhfBOVG0Bmm+Hmn9ZRnj5RF7cjrG1r4orE6Gj0wmndBEIpjrDdsjdAcdhpGCDO3Byv03Lkcp6a7RZ//TahvQKx0eALmtPej6xWUAlE3U3LV4yfyZhZQh65BTcl/YUh0ESmc+O/fBZQkEQ/1Bv/4H5gBxe7B0O2accfP3ybyEO5A6hwKQq5OS//y6SME++fXQD3m1kv2iB6/ICWACvw1vlo57n6mbaGbp6y4+qWwtxfVIBz5dMxAAzp8nFH15lMOz/O7tmVeniZqm1uH5Xr6SXvslGvo6ytJh2kAFzBHwdp5Ry3MoDVwDLqmZPLCQy5QBzSHtm8mXdxl0BiysO0Hb0KDJnbXxBWoLd27q5AAXKd5ar3HnMZZ+grRD0zUfByts/jJMhoAIWbUDt4W5y6EcYfMogo5fYmBY/rTNMcjI0FJ6GaplzrKnoMdMsdUZhmh8PTgg+mIAIZNlxpXCYQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjE5MDUwMzAyNywKICAicHJvZmlsZUlkIiA6ICI0Mjc4NzljOTcxZmE0ZDRlOWJjZTI1NGFmMDBiMjYwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJseXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxOTFhMTIxNGRmYjgyYWUyM2IyNzFlNzIwMzY4MzNiYTdjMzc2MjY5MzkyMGNlYzZhYjNhNTRiYWY5NDBlYTciCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: 234.3103
+        world: world
+        x: '-626.7'
+        y: '14.0625'
+        z: '695.6976'
+        yaw: '-125.6897'
+        pitch: '18.6001'
+    traitnames: spawned,owner,text,type,mounttrait,speech,skintrait,scoreboardtrait,location,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

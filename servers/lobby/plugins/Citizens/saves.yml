@@ -52,6 +52,7 @@ npc:
         talkitem: default
         text:
           '0': 1. What are the CIA in information security?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%201-18'
     traitnames: location,owner,text,spawned,mounttrait,type,scoreboardtrait,speech
     navigator:
       speedmodifier: '1.0'
@@ -87,6 +88,7 @@ npc:
         talkitem: default
         text:
           '0': 2. The full name of DDoS.
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%202-21'
     traitnames: location,text,owner,gravity,spawned,mounttrait,type,scoreboardtrait,speech
     navigator:
       speedmodifier: '1.0'
@@ -121,6 +123,7 @@ npc:
         text:
           '0': 3. What is called an attack using the lazy personality of human nature
             to try other different login interfaces with a set of passwords?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%203-22'
       speech: chat
     traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
     navigator:
@@ -155,6 +158,7 @@ npc:
         talkitem: default
         text:
           '0': 4. Laws of Computer Crimes.
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%204-23'
     traitnames: location,text,owner,spawned,mounttrait,age,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
@@ -192,6 +196,7 @@ npc:
         talkitem: default
         text:
           '0': 5. OSI model layer from high to low.
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%205-24'
     traitnames: location,owner,text,gravity,spawned,mounttrait,age,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
@@ -230,6 +235,7 @@ npc:
         text:
           '0': 7. An attack against a database that truncates a string by special
             characters is called ?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%207-26'
     traitnames: location,owner,text,gravity,spawned,mounttrait,age,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
@@ -264,6 +270,7 @@ npc:
         talkitem: default
         text:
           '0': 6. Wifi protocol's name.
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%206-25'
     traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
     navigator:
       speedmodifier: '1.0'
@@ -297,6 +304,7 @@ npc:
         talkitem: default
         text:
           '0': 8. What is HTTPS port number?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%208-27'
       speech: chat
     traitnames: location,owner,text,spawned,mounttrait,age,type,scoreboardtrait,speech
     navigator:
@@ -329,6 +337,7 @@ npc:
         talkitem: default
         text:
           '0': 9. What is the 321 principle of backup?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%209-28'
     traitnames: location,owner,text,spawned,mounttrait,type,scoreboardtrait,speech
     navigator:
       speedmodifier: '1.0'
@@ -363,6 +372,7 @@ npc:
         talkitem: default
         text:
           '0': 10. What is the mask for Class C?
+          '1': 'URL: &nhttps://micdex.org/challenges#Mini%20game%2010-29'
       speech: chat
     traitnames: location,owner,text,gravity,spawned,mounttrait,type,scoreboardtrait,speech
     navigator:
