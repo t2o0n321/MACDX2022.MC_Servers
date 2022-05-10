@@ -47,7 +47,7 @@ npc:
             first to find the problem.
           '5': I'm going to a meeting, I wish you a smooth case.
       speech: chat
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -97,7 +97,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0MzI5MzY0MSwKICAicHJvZmlsZUlkIiA6ICIzNDI2NmI4NDRiNWI0NTg5YmQyZWRmODc3MDg0NWMyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWNrMTIzRjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZhY2M4OWY0Y2Y2OWRiOGM5ZjIzZjc5NTYyNDBiZDk3NmJmMjhkZWE2YTE5OTMyZTdkMjYyM2RmYWQ1NWQ1NyIKICAgIH0KICB9Cn0=
         updateSkins: false
       type: PLAYER
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -142,7 +142,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MDU0NTkwODAwMCwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
         updateSkins: false
       type: PLAYER
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -186,7 +186,7 @@ npc:
         updateSkins: false
       type: PLAYER
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -228,7 +228,7 @@ npc:
             you also need his OVPN profile.
           '3': Don't you? Then maybe, you can look it up from the previous clues.
       speech: chat
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -278,7 +278,7 @@ npc:
           '4': 'URL: &nhttps://micdex.org/challenges#Stego-13'
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -328,7 +328,7 @@ npc:
           '6': 'URL: &nhttps://micdex.org/challenges#Audio%20Reverse-17'
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -373,7 +373,7 @@ npc:
           '4': 'URL: &nhttps://micdex.org/challenges#Java%20Interger%20overflow-16'
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -419,7 +419,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -466,7 +466,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTU4NCwKICAicHJvZmlsZUlkIiA6ICJkYzI4M2QyZmIzZTk0YzFkOWE3YjA5NGFmM2U3Njk4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3dGZndW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlMGUzZDdiMGNiNzM5OWQ0NjczZDY1MGQ1ZWYzZGE0YWRmNjgyNjlhNGI0YTdhMjE4OGVkOGIxZTIwZGRlNyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -519,7 +519,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTUxODk0MCwKICAicHJvZmlsZUlkIiA6ICI3NjNkNGI1MDdlNTU0YWIzOTA3MTZlNjU2ZmY0ZjIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbmFkaXhZVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NjM3ZGYwYWQzN2Q5NzcwNmE5N2JkZjVmNWI4YjFiZmNiZGRhOTNjMGMwMGIzZTA2ODQxMjEzZjJhNWM2NTliIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -564,7 +564,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxODI2MiwKICAicHJvZmlsZUlkIiA6ICJiZTZhMjUzODczMTA0YjE3OGZmNTQwNDQ4YzM3Njg1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4S2F0diIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NDBjZTFiYWY3OWM2YjE2MGI3MjRmOTE1YTkwZTUyZWE4ZjQ2ZmI3MzgwMzg2YjA5NTAxZGQyOTI0MzRkZDVkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -606,7 +606,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTk2MTE5MiwKICAicHJvZmlsZUlkIiA6ICIwYzVkYmQ2ZWQ1ZDM0ZDRkODBkMWRjNDRhNGRlZTVjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkNWRhZDQ3MTlmNzI0MDdmZGNmNjlmODg2YWU3M2RlOWNjMDUwMzc3OWVmMGM4MmVhMDdlNWJjYjY5NzgyNmIiCiAgICB9CiAgfQp9
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -649,7 +649,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUzMTYwMjk0OCwKICAicHJvZmlsZUlkIiA6ICI4NGY0MWExNzVkMzg0ZGYyYmM2YjUxMGEzZWE2YzE3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYnZoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhODcyOWQzNjkyM2Q2NWM5ZjkzNzdhZTU0YTg2MWFmOWI4OGU3ZmFkOTA4NjcxODliYTg5NDdiMzBlNjA1ZjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -691,7 +691,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTQ5NjcxNDczNiwKICAicHJvZmlsZUlkIiA6ICJmM2M0ZGZiOTFjN2I0MGFjODFmZDQ2MjUzODUzODUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaW1vbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2ViYThhZWU0ZmQxMTUxMmI3ZTFhMjc5YTE0YWM2NDhlNDQzNDgxYjlmMzcxMzZhNzEwMThkMzg3Mjk0Y2YzIgogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -739,7 +739,7 @@ npc:
         updateSkins: false
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -782,7 +782,7 @@ npc:
         skinName: wxzm
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -801,6 +801,7 @@ npc:
         text:
           '0': It looks like a login web page but not really use to login
           '1': Hint:robot.txt
+          '2': 'IP: 192.168.1.3:8080'
       type: PLAYER
       location:
         bodyYaw: -0.2734375
@@ -820,7 +821,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4Mjc4NCwKICAicHJvZmlsZUlkIiA6ICI3Y2ZjYzkwMTY5NzM0ZTNjODFjOGFmN2RiOGE1YmRhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyYjJ0cG9saWNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk5ZjJlZDZhMDNhOTU4ZWY3NmM1YzFjOTM3M2Y5YWQ2MTg2NmY3MzkxZDM0MTU1NTlhOTQ3YmIyODA1NDU4MzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -834,12 +835,12 @@ npc:
     traits:
       type: CAT
       location:
-        bodyYaw: 269.77383
+        bodyYaw: 276.2364
         world: world
-        x: '-742.4641'
+        x: '-745.9201'
         y: '36.0'
-        z: '467.5042'
-        yaw: '269.7927'
+        z: '467.4776'
+        yaw: '319.8476'
         pitch: '0.0'
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
@@ -893,7 +894,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: location,owner,spawned,type,age,waypoints,mounttrait,scoreboardtrait
+    traitnames: scoreboardtrait,mounttrait,location,spawned,age,owner,waypoints,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -931,7 +932,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: text,location,spawned,owner,type,age,gravity,mounttrait,speech,scoreboardtrait
+    traitnames: scoreboardtrait,mounttrait,speech,gravity,location,spawned,age,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -956,7 +957,7 @@ npc:
       owner:
         uuid: c247b3ab-862e-37ad-825b-66b58e1a3544
       spawned: true
-    traitnames: location,spawned,owner,type,gravity,mounttrait,scoreboardtrait
+    traitnames: scoreboardtrait,mounttrait,gravity,location,spawned,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -980,7 +981,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: location,owner,spawned,type,age,mounttrait,scoreboardtrait
+    traitnames: scoreboardtrait,mounttrait,location,spawned,age,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1004,7 +1005,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: location,owner,spawned,type,age,mounttrait,scoreboardtrait
+    traitnames: scoreboardtrait,mounttrait,location,spawned,age,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1029,6 +1030,7 @@ npc:
           '2': Try clicking public and no public to see if there is a difference.
           '3': He may have leaked the flag because of the lodash version problem.
           '4': Must use the Chrome browser.
+          '5': 'IP: 192.168.1.3:80'
       type: PLAYER
       speech: chat
       location:
@@ -1047,7 +1049,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTUwMzAwMTM0MSwKICAicHJvZmlsZUlkIiA6ICJkYjdhMGM2ZjljNWQ0NzkxYWFmODk1YjNjMmYxZjA0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ1NWJmNjUzNjgwZmIwZGZkOGMzZTlkNzAwYjlhOTIyNjFlZWVjNGFjMTAwZTU5M2RiNzBjZWEyODE2YmMxZiIKICAgIH0KICB9Cn0=
         updateSkins: false
       spawned: true
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1089,7 +1091,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MzIzMCwKICAicHJvZmlsZUlkIiA6ICIwYjllOWNjNzY2ZTk0ZDMxODNjODZlMTNkNzUzZjY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb25rZUxlYWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzUxYTUyM2YwMzVhN2I2MDk5YzhmNzdkNmZmNjI3MjllZGQwNDgzZmJlNzgxN2EzMzM5NzE4N2RjODRlOWEzIgogICAgfQogIH0KfQ==
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1135,7 +1137,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MDM0NSwKICAicHJvZmlsZUlkIiA6ICI3ZDIxYjUyMDVlZmE0YTdiYWU2ODg4Nzk4NjVhODAxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJodW1tZXI3MnJ1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYWUzN2Y0YzAwYzZiNjUzZDkxODM3MmNlYjc0ZTk0OGVmZjI2OWZhZjM4MzZkMDBhNWM1YzU4ZmJhMjZjMWIzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1180,7 +1182,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4MTM1OCwKICAicHJvZmlsZUlkIiA6ICJhOGFmN2FlMDUyNTk0ZTRlOTBkNjY1MTFmNTgxZWJmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWxseV9HdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg4OTBjZGYzNDQxYTdiYWU3ZTk3MjNmMzk4OTYxNGE1ZWIzYmE0MTNjZjUwMGQzYWMzMGNlY2VkZmFhZjk3YSIKICAgIH0KICB9Cn0=
       spawned: true
       speech: chat
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1222,7 +1224,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTU2MTc4NDgxMSwKICAicHJvZmlsZUlkIiA6ICJmMGYyZTMwOWFiYzQ0OTc5YjE4ZWYxMTE4YmQ5MjE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW5rIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlNDgxY2FjNDc0MDQxNzg1MDVlYmU5ZjdlY2Y3NTZlMTRkZGI3MjE2MTUxYzRlMmNhNDk3MjViMzQ0YTUxODYiCiAgICB9CiAgfQp9
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1267,7 +1269,7 @@ npc:
         pitch: '15.0004'
       spawned: true
       speech: chat
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1314,7 +1316,7 @@ npc:
           '3': 'IP: 192.168.1.11'
           '4': 'URL: &nhttps://micdex.org/challenges#attack2-41'
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1353,7 +1355,7 @@ npc:
         yaw: '88.8926'
         pitch: '6.1498'
       speech: chat
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1391,7 +1393,7 @@ npc:
         yaw: '88.8245'
         pitch: '10.7997'
       speech: chat
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1430,7 +1432,7 @@ npc:
         z: '385.3525'
         yaw: '66.7769'
         pitch: '25.7995'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1464,7 +1466,7 @@ npc:
         z: '408.3699'
         yaw: '177.6271'
         pitch: '22.4995'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1499,7 +1501,7 @@ npc:
         z: '536.5462'
         yaw: '174.775'
         pitch: '15.8997'
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1539,7 +1541,7 @@ npc:
         z: '267.845'
         yaw: '15.3273'
         pitch: '13.05'
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1573,7 +1575,7 @@ npc:
         z: '337.8625'
         yaw: '174.181'
         pitch: '-10.1999'
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1607,7 +1609,7 @@ npc:
         z: '419.7'
         yaw: '178.5298'
         pitch: '13.2'
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1645,7 +1647,7 @@ npc:
         z: '190.1884'
         yaw: '2.7339'
         pitch: '0.3001'
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1686,7 +1688,7 @@ npc:
         z: '274.059'
         yaw: '-1.7623'
         pitch: '-5.2499'
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1722,7 +1724,7 @@ npc:
         z: '379.2776'
         yaw: '1.8417'
         pitch: '16.9501'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1759,7 +1761,7 @@ npc:
         z: '455.7'
         yaw: '41.8913'
         pitch: '18.9'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1799,7 +1801,7 @@ npc:
         z: '724.7'
         yaw: '88.3907'
         pitch: '3.45'
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1835,7 +1837,7 @@ npc:
         z: '681.2869'
         yaw: '139.2407'
         pitch: '15.15'
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1870,7 +1872,7 @@ npc:
         z: '542.9134'
         yaw: '0.4846'
         pitch: '12.6'
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1905,7 +1907,7 @@ npc:
         z: '485.5829'
         yaw: '-91.7725'
         pitch: '4.0495'
-    traitnames: text,inventory,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1944,7 +1946,7 @@ npc:
         z: '642.7'
         yaw: '-149.0996'
         pitch: '12.45'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1979,7 +1981,7 @@ npc:
         z: '560.7'
         yaw: '-179.1033'
         pitch: '18.75'
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2014,7 +2016,7 @@ npc:
         z: '411.3'
         yaw: '-86.2412'
         pitch: '9.6'
-    traitnames: inventory,text,location,owner,spawned,type,skintrait,mounttrait,speech,scoreboardtrait
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2054,7 +2056,7 @@ npc:
         z: '325.7'
         yaw: '-178.7799'
         pitch: '2.55'
-    traitnames: text,inventory,location,owner,spawned,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2090,7 +2092,7 @@ npc:
         z: '193.9433'
         yaw: '-33.4232'
         pitch: '13.8'
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -2130,7 +2132,7 @@ npc:
         z: '695.6976'
         yaw: '-125.6897'
         pitch: '18.6001'
-    traitnames: inventory,text,location,spawned,owner,type,skintrait,mounttrait,scoreboardtrait,speech
+    traitnames: skintrait,scoreboardtrait,mounttrait,speech,inventory,location,spawned,owner,type,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
